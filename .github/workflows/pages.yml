@@ -36,7 +36,7 @@ jobs:
           mkdir -p _site/data
           cp index.html styles.css app.js _site/
           cp -r assets _site/
-          base64 --decode assets/og.jpg.b64 > _site/assets/og.jpg
+          base64 --decode --ignore-garbage assets/og.jpg.b64 > _site/assets/og.jpg
           rm _site/assets/og.jpg.b64
           cp data/market.json _site/data/
           if [ -f data/crypto.json ]; then
