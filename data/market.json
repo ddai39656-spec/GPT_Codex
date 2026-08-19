@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-19T22:45:19.788702+00:00",
+  "updated_at": "2026-08-19T23:09:46.258681+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -54,7 +54,7 @@
         "ticker": "^VIX",
         "price": 14.89,
         "d5": 2.34,
-        "ma20": 16.4435,
+        "ma20": 16.3105,
         "above_ma20": false
       },
       {
@@ -71,7 +71,7 @@
     "strong": 1,
     "weak": 12,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -383,7 +383,7 @@
       "d5": 7.49,
       "d20": -3.56,
       "gap": 0.87,
-      "volume": 15078655.0,
+      "volume": 15079066.0,
       "volume_ratio": 2.02,
       "rsi14": 47.6,
       "ma20": 153.8275,
@@ -669,7 +669,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 160.2,
-          "volume": 15078655.0
+          "volume": 15079066.0
         }
       ]
     },
@@ -2177,7 +2177,7 @@
       "d5": 7.21,
       "d20": -6.12,
       "gap": 0.6,
-      "volume": 35316918.0,
+      "volume": 35322838.0,
       "volume_ratio": 0.9,
       "rsi14": 76.6,
       "ma20": 324.3785,
@@ -2463,7 +2463,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 351.12,
-          "volume": 35316918.0
+          "volume": 35322838.0
         }
       ]
     },
@@ -4868,7 +4868,7 @@
       "d5": 0.91,
       "d20": -8.34,
       "gap": 1.61,
-      "volume": 24063480.0,
+      "volume": 24065491.0,
       "volume_ratio": 1.4,
       "rsi14": 64.2,
       "ma20": 93.542,
@@ -5154,7 +5154,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 95.77,
-          "volume": 24063480.0
+          "volume": 24065491.0
         }
       ]
     },
@@ -6064,7 +6064,7 @@
       "d5": 2.43,
       "d20": 40.64,
       "gap": 0.63,
-      "volume": 35885885.0,
+      "volume": 35885884.0,
       "volume_ratio": 0.77,
       "rsi14": 79.5,
       "ma20": 151.894,
@@ -6350,7 +6350,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 175.19,
-          "volume": 35885885.0
+          "volume": 35885884.0
         }
       ]
     },
@@ -6363,7 +6363,7 @@
       "d5": 2.83,
       "d20": -2.33,
       "gap": 1.98,
-      "volume": 25693590.0,
+      "volume": 25693662.0,
       "volume_ratio": 0.62,
       "rsi14": 58.2,
       "ma20": 894.7448,
@@ -6649,7 +6649,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 937.105,
-          "volume": 25693590.0
+          "volume": 25693662.0
         }
       ]
     },
@@ -11152,7 +11152,7 @@
       "rsi14": 60.1,
       "ma20": 1729.008,
       "ma50": 1781.4952,
-      "atr14": 64.1679,
+      "atr14": 64.17,
       "atr_pct": 3.66,
       "extension_ma20": 1.31,
       "rs5_spy": -2.78,
@@ -11203,9 +11203,9 @@
       "score": -5.47,
       "plan": {
         "trigger": 1804.27,
-        "stop": 1708.0181,
-        "target1": 1996.7737,
-        "target2": 2093.0255,
+        "stop": 1708.015,
+        "target1": 1996.78,
+        "target2": 2093.035,
         "rr_target1": 2.0,
         "note": "需盘中价格与成交确认后执行"
       },
@@ -11446,7 +11446,7 @@
       "d5": -6.18,
       "d20": 14.28,
       "gap": -0.07,
-      "volume": 23788722.0,
+      "volume": 23788822.0,
       "volume_ratio": 0.77,
       "rsi14": 63.8,
       "ma20": 138.1165,
@@ -11732,7 +11732,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 143.81,
-          "volume": 23788722.0
+          "volume": 23788822.0
         }
       ]
     },
@@ -12642,7 +12642,7 @@
       "d5": -3.07,
       "d20": -4.98,
       "gap": 0.03,
-      "volume": 4239671.0,
+      "volume": 4243312.0,
       "volume_ratio": 0.8,
       "rsi14": 39.5,
       "ma20": 254.2935,
@@ -12928,7 +12928,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 233.52,
-          "volume": 4239671.0
+          "volume": 4243312.0
         }
       ]
     },
@@ -13838,7 +13838,7 @@
       "d5": -9.09,
       "d20": 7.01,
       "gap": 0.22,
-      "volume": 10270757.0,
+      "volume": 10275349.0,
       "volume_ratio": 1.4,
       "rsi14": 60.4,
       "ma20": 203.4635,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 201.63,
-          "volume": 10270757.0
+          "volume": 10275349.0
         }
       ]
     },
@@ -14438,12 +14438,63 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T22:32:01+00:00",
+      "time": "2026-08-19T23:08:04+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "If you invested $1,000 in NVIDIA, Apple or Bitcoin in 2015, which one made you richer?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T22:59:07+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/8e6dce85-74c2-35d2-8633-b5f179d451ea/if-you-invested-%241%2C000-in.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
+      "title": "HYPE Jumps 17% After Trump Backs CFTC Path for Hyperliquid in U.S.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T22:57:00+00:00",
+      "source": "CryptoProwl",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e5a92d0f-e174-3a91-adee-b0e28f0e883d/hype-jumps-17%25-after-trump.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Oil Is Up 36% and the Strait of Hormuz Is Still Closed. The QQQI Family Runs a 14.75% Energy Fund",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T22:35:11+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/bad5e918-3c7c-353a-9ff4-b4f5eb44b2cd/oil-is-up-36%25-and-the-strait.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14635,23 +14686,6 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "Stifel Has Message For Nvidia Investors Before Earnings",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:51:14+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MRVL",
       "title": "Broadcom (AVGO) Is Down More Than 20%—Why TD Cowen Still Sees 27% Upside",
       "bias": "中性待确认",
@@ -14699,23 +14733,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/virtuix-reports-first-quarter-fiscal-213400259.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "A Bullish Signal Could Point to Gains Ahead for These Big Tech Stocks",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:31:49+00:00",
-      "source": "Investopedia",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/1e1b0f4c-c3f5-3cf6-aab1-4861fec1f358/a-bullish-signal-could-point.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15077,23 +15094,6 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
-      "title": "The White House Summit Isn’t a Photo Op. It’s the Regulatory Architecture.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T20:04:22+00:00",
-      "source": "Forkast News",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/white-house-summit-isn-t-200422934.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSFT",
       "title": "IBM Stock Is Out Of Favor, But The Margin Commitment Never Came Down",
       "bias": "中性待确认",
@@ -15400,23 +15400,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Ross Gerber Says 'Now Is a Good Time' to Buy iPhone 17 as Apple Prepares for Potential Price Hike With Next Model: 'If You're Looking…'",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T18:01:07+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-says-now-good-180107771.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSLA",
       "title": "Apple stock stands out among Magnificent Seven on low AI spending",
       "bias": "中性待确认",
@@ -15481,23 +15464,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/uipath-stock-rises-44-6-171800149.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSTR",
-      "title": "Bitcoin Rises Above $68,000, Crypto Stocks Surge",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：surge",
-      "time": "2026-08-19T16:53:38+00:00",
-      "source": "The Wall Street Journal",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/53395af6-0607-3603-969c-5d339d51aebf/bitcoin-rises-above-%2468%2C000%2C.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15787,6 +15753,40 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/fa6723cc-4ad3-3d64-bbf0-0e72f981cabd/rain-forms-agentic-payments.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MA",
+      "title": "Stable Growth Trajectory Positions Mastercard (MA) for Strong Returns",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-08-19T11:48:03+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stable-growth-trajectory-positions-mastercard-114803769.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NFLX",
+      "title": "Global Freemium OTT Market to Reach $42.57 Billion by 2031 as Ad-Supported Streaming Gains Momentum",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T10:43:00+00:00",
+      "source": "GlobeNewswire",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/media-advertising/articles/global-freemium-ott-market-reach-104300673.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
