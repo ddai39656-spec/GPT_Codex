@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-19T21:44:14.406002+00:00",
+  "updated_at": "2026-08-19T22:05:55.932160+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -61,7 +61,7 @@
         "ticker": "^TNX",
         "price": 4.653,
         "d5": -0.62,
-        "ma20": 4.6701,
+        "ma20": 4.6662,
         "above_ma20": false
       }
     ]
@@ -383,7 +383,7 @@
       "d5": 7.49,
       "d20": -3.56,
       "gap": 0.87,
-      "volume": 15079066.0,
+      "volume": 15078655.0,
       "volume_ratio": 2.02,
       "rsi14": 47.6,
       "ma20": 153.8275,
@@ -669,7 +669,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 160.2,
-          "volume": 15079066.0
+          "volume": 15078655.0
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       "d5": 0.1,
       "d20": -22.24,
       "gap": -0.61,
-      "volume": 66059644.0,
+      "volume": 66123408.0,
       "volume_ratio": 1.54,
       "rsi14": 30.9,
       "ma20": 10.6165,
@@ -3958,7 +3958,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 9.65,
-          "volume": 66059644.0
+          "volume": 66123408.0
         }
       ]
     },
@@ -11749,7 +11749,7 @@
       "volume_ratio": 0.77,
       "rsi14": 53.1,
       "ma20": 291.2265,
-      "ma50": 265.6888,
+      "ma50": 265.1984,
       "atr14": 18.2227,
       "atr_pct": 6.24,
       "extension_ma20": 0.22,
@@ -11808,6 +11808,11 @@
         "note": "需盘中价格与成交确认后执行"
       },
       "history": [
+        {
+          "time": "2026-06-15T13:30:00+00:00",
+          "close": 235.71,
+          "volume": 3359300.0
+        },
         {
           "time": "2026-06-16T13:30:00+00:00",
           "close": 230.97,
@@ -11922,11 +11927,6 @@
           "time": "2026-07-20T13:30:00+00:00",
           "close": 272.42,
           "volume": 3113000.0
-        },
-        {
-          "time": "2026-07-21T13:30:00+00:00",
-          "close": 272.31,
-          "volume": 3715300.0
         },
         {
           "time": "2026-07-22T13:30:00+00:00",
@@ -13838,7 +13838,7 @@
       "d5": -9.09,
       "d20": 7.01,
       "gap": 0.22,
-      "volume": 10275349.0,
+      "volume": 10270757.0,
       "volume_ratio": 1.4,
       "rsi14": 60.4,
       "ma20": 203.4635,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 201.63,
-          "volume": 10275349.0
+          "volume": 10270757.0
         }
       ]
     },
@@ -14431,6 +14431,74 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "XOM",
+      "title": "Exxon Stock Rises as Oil Nears $92 on Hormuz Risk",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:54:35+00:00",
+      "source": "GuruFocus.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/exxon-stock-rises-oil-nears-215435932.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:52:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f6a7330b-1765-3d7b-b063-3e008718de86/billionaire-stanley.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Stifel Has Message For Nvidia Investors Before Earnings",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:51:14+00:00",
+      "source": "GuruFocus.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MRVL",
+      "title": "Broadcom (AVGO) Is Down More Than 20%—Why TD Cowen Still Sees 27% Upside",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:49:54+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-down-more-20-214954022.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "Virtuix Reports First Quarter Fiscal Year 2027 Results as Omni One Orders Increase 150% Following Meta Launch",
       "bias": "偏利多",
@@ -14478,6 +14546,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/019c6c25-ea6b-3ea0-9bb3-1470aa97159c/the-fed%27s-july-meeting.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
+      "title": "Advanced Micro Devices vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:24:50+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/506cbab3-72dd-398e-9ecf-61d267b4c6eb/advanced-micro-devices-vs..html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14550,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "LLY",
+      "symbol": "NVDA",
       "title": "Could Eli Lilly Be Worth More Than SpaceX by the End of 2026?",
       "bias": "中性待确认",
       "impact": "中",
@@ -14567,7 +14652,7 @@
     },
     {
       "market": "美股",
-      "symbol": "LLY",
+      "symbol": "AAPL",
       "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
       "bias": "中性待确认",
       "impact": "中",
@@ -14580,6 +14665,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
+      "title": "Eli Lilly Price Forecast: The Next Big Stock After Weight-Loss Drug Breakthrough?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T21:06:40+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/51744405-a678-31da-933c-142018c3234a/eli-lilly-price-forecast%3A-the.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14601,41 +14703,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "NVIDIA (NVDA): What Foxconn and Super Micro Are Telling Us about the AI Boom",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:01:52+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-foxconn-super-micro-210152728.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Marti Technologies, Inc. Q2 2026 Earnings Call Summary",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:01:29+00:00",
-      "source": "Moby",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0c0b4d2d-2f33-376e-9dbd-fca7c1548d33/marti-technologies%2C-inc.-q2.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
+      "symbol": "NFLX",
       "title": "Alphabet Stock Surged When Its AI Spending Found Customers",
       "bias": "偏利多",
       "impact": "中",
@@ -14703,7 +14771,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stock Market Today: Dow Breaks Losing Streak As Moderna Catapults On Its Cancer Vaccine Win (Live Coverage)",
       "bias": "中性待确认",
       "impact": "中",
@@ -14737,7 +14805,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Strategy, Coinbase, Circle, Robinhood stocks rally after Treasury news",
       "bias": "中性待确认",
       "impact": "中",
@@ -15077,7 +15145,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
+      "symbol": "MSFT",
       "title": "Marvell Technology Shares Jump on AI Chip Deal With Google",
       "bias": "中性待确认",
       "impact": "中",
@@ -15400,23 +15468,6 @@
     },
     {
       "market": "美股",
-      "symbol": "LLY",
-      "title": "Novo Nordisk (CPSE:NOVO B) Stock Still Looks Undervalued After Dutch Court Win",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T17:08:51+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/novo-nordisk-cpse-novo-b-170851709.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "UBER",
       "title": "Will Arpalus Strengthen Maplebear's Inventory Intelligence Advantage?",
       "bias": "中性待确认",
@@ -15587,19 +15638,19 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
-      "title": "Stocks Supported by Lower Bond Yields",
+      "symbol": "NOW",
+      "title": "“The Selling Goes Too Far”: Jim Cramer Defends ServiceNow, Salesforce, and Other Software Giants Against Extinction Fears",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T15:15:08+00:00",
-      "source": "Barchart",
+      "time": "2026-08-19T14:55:06+00:00",
+      "source": "24/7 Wall St.",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/1d5b33df-3ecb-3fde-8811-b24e071b38fe/stocks-supported-by-lower.html",
+      "url": "https://finance.yahoo.com/m/e9954ebb-19b5-380f-9d01-e7738687eee0/%E2%80%9Cthe-selling-goes-too-far%E2%80%9D%3A.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15689,23 +15740,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "Company News for Aug 19, 2026",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T13:22:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-aug-19-2026-132200986.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MA",
       "title": "1 Growth Stock to Add to Your Roster and 2 We Ignore",
       "bias": "偏利多",
@@ -15753,40 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002040.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Rain forms agentic payments alliance with Visa, Mastercard and other players",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T11:59:13+00:00",
-      "source": "Electronic Payments",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/fa6723cc-4ad3-3d64-bbf0-0e72f981cabd/rain-forms-agentic-payments.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Stable Growth Trajectory Positions Mastercard (MA) for Strong Returns",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-08-19T11:48:03+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stable-growth-trajectory-positions-mastercard-114803769.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
