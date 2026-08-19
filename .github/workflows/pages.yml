@@ -1,8 +1,14 @@
-name: Deploy dashboard to GitHub Pages
+name: Deploy terminal code to GitHub Pages
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - "index.html"
+      - "styles.css"
+      - "app.js"
+      - "assets/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -17,6 +23,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,14 +31,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Prepare deployment artifact
+        run: |
+          mkdir -p _site/data
+          cp index.html styles.css app.js _site/
+          cp -r assets _site/
+          base64 --decode assets/og.jpg.b64 > _site/assets/og.jpg
+          rm _site/assets/og.jpg.b64
+          cp data/market.json _site/data/
+          if [ -f data/crypto.json ]; then
+            cp data/crypto.json _site/data/
+          else
+            echo '{"schema_version":2,"updated_at":"1970-01-01T00:00:00Z","summary":{"discovered":0,"pools":0,"actionable":0,"near":0,"denied":0},"sources":[],"candidates":[],"events":[]}' > _site/data/crypto.json
+          fi
+          touch _site/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
