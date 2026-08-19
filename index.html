@@ -1,67 +1,225 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>加密币与美股交易雷达</title>
-<style>
-:root{--bg:#08111f;--panel:#101a2d;--panel2:#0c1526;--muted:#8da0bc;--text:#eff5ff;--line:#26344f;--good:#2dd4bf;--bad:#fb7185;--warn:#fbbf24;--blue:#60a5fa;--purple:#a78bfa}
-*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#07101d,#0b1322 45%,#08101c);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{max-width:1580px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center}.title{font-size:27px;font-weight:850}.sub,.meta{color:var(--muted);font-size:12px}.tabs,.toolbar,.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.tabs{margin:18px 0}.tab,.btn,.select,.input{border:1px solid var(--line);background:#0c1629;color:var(--text);padding:9px 12px;border-radius:10px}.tab,.btn{cursor:pointer}.tab.active{border-color:var(--blue);background:#17284a}.btn:hover{border-color:#46618f}.btn.primary{background:#1d4ed8;border-color:#3b82f6}.btn.good{background:#073d39;border-color:#0f766e}.input{min-width:220px}.select{min-width:130px}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0}.card,.panel{background:rgba(16,26,45,.96);border:1px solid var(--line);border-radius:14px}.card{padding:12px}.card b{display:block;font-size:19px;margin-top:5px}.panel{padding:14px}.grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(340px,.75fr);gap:14px}.scroll{overflow:auto;max-height:70vh}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;border-bottom:1px solid #202e49;white-space:nowrap;text-align:left}th{position:sticky;top:0;background:#101a2d;color:var(--muted);z-index:2}.clickable{cursor:pointer}.clickable:hover{background:#14223a}.good{color:var(--good)}.bad{color:var(--bad)}.warn{color:var(--warn)}.muted{color:var(--muted)}.pill{display:inline-block;padding:3px 7px;border-radius:999px;border:1px solid var(--line);font-size:11px}.status{padding:12px;border-radius:12px;border:1px solid var(--line);font-weight:800}.status.silent{color:var(--warn)}.status.ok{color:var(--good);border-color:var(--good)}.detail{display:grid;gap:9px}.kv{display:grid;grid-template-columns:130px 1fr;gap:8px;padding:7px 0;border-bottom:1px dashed #293651}.checks{display:grid;gap:7px;margin-top:10px}.check{padding:8px 9px;border:1px solid var(--line);border-radius:9px}.events{display:grid;gap:9px}.event{padding:11px;border:1px solid var(--line);border-radius:11px;background:#0c1628}.event a{color:#93c5fd;text-decoration:none}.event a:hover{text-decoration:underline}.star{font-size:18px;cursor:pointer}.star.on{color:#fbbf24}.empty{padding:30px;text-align:center;color:var(--muted)}.modal{position:fixed;inset:0;background:#0009;display:none;align-items:center;justify-content:center;padding:16px;z-index:50}.modal.open{display:flex}.modalbox{width:min(820px,100%);max-height:90vh;overflow:auto;background:#0e192c;border:1px solid #334666;border-radius:16px;padding:18px}.modalhead{display:flex;justify-content:space-between;gap:10px}.close{font-size:22px;cursor:pointer}.hint{font-size:12px;color:var(--muted);margin-top:6px}.tagrow{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}@media(max-width:1050px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071019">
+  <meta name="description" content="面向加密币与美股的严格硬条件交易决策终端。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Edge Terminal V2">
+  <meta property="og:description" content="证据优先、未知即否决的加密币与美股交易决策终端。">
+  <meta property="og:url" content="https://ddai39656-spec.github.io/GPT_Codex/">
+  <meta property="og:image" content="https://ddai39656-spec.github.io/GPT_Codex/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edge Terminal V2">
+  <meta name="twitter:description" content="Evidence first. Unknown = no trade.">
+  <meta name="twitter:image" content="https://ddai39656-spec.github.io/GPT_Codex/assets/og.png">
+  <title>Edge Terminal · 加密币与美股交易终端</title>
+  <link rel="preconnect" href="https://api.dexscreener.com">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body><div class="wrap">
-<div class="top"><div><div class="title">加密币与美股交易雷达</div><div class="sub">Crypto · 美股 · 事件驱动 · 严格执行策略</div></div><div><button class="btn primary" id="refreshAll">⟳ 全部刷新</button><div class="meta" id="updated">等待数据…</div></div></div>
-<div class="tabs"><button class="tab active" data-tab="crypto">🪙 加密币</button><button class="tab" data-tab="us">🇺🇸 美股</button><button class="tab" data-tab="events">🧭 事件雷达</button><button class="tab" data-tab="watch">⭐ 我的自选</button></div>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true">E</div>
+        <div>
+          <div class="brand">EDGE TERMINAL <span>V2</span></div>
+          <div class="brand-sub">严格硬条件 · 证据优先 · 未知即否决</div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <div class="freshness" id="freshnessBadge"><i></i><span>正在核验数据</span></div>
+        <div class="updated" id="updatedAt">等待数据…</div>
+        <button class="button primary" id="refreshAll" type="button">立即刷新</button>
+      </div>
+    </header>
 
-<section id="crypto" class="section">
-<div class="toolbar"><input id="cryptoSearch" class="input" placeholder="输入币名 / Ticker / CA 搜索"><select id="chainFilter" class="select"><option value="all">全部链</option><option value="solana">Solana</option><option value="base">Base</option><option value="ethereum">Ethereum</option></select><select id="liqFilter" class="select"><option value="0">全部流动性</option><option value="50000">≥ $50K</option><option value="80000">≥ $80K</option><option value="200000">≥ $200K</option></select><select id="sortCrypto" class="select"><option value="liq">按流动性</option><option value="h1">按1h涨幅</option><option value="vol">按24h成交量</option><option value="fdv">按FDV</option></select><button class="btn" id="scanCrypto">立即扫描</button></div>
-<div class="cards"><div class="card">扫描链<b>Solana / Base / ETH</b></div><div class="card">严格策略<b id="cryptoStatus">静默模式</b></div><div class="card">当前展示<b id="cryptoCount">0</b></div><div class="card">原始扫描<b id="cryptoRaw">0</b></div><div class="card">自动刷新<b>30 秒</b></div></div>
-<div class="grid"><div class="panel"><div class="scroll"><table><thead><tr><th>自选</th><th>币</th><th>链</th><th>价格</th><th>FDV</th><th>流动性</th><th>5m</th><th>1h</th><th>24h量</th><th>1h买/卖</th><th>操作</th></tr></thead><tbody id="cryptoRows"></tbody></table></div></div>
-<div class="panel"><h3>策略判定</h3><div id="hardStatus" class="status silent">选择一个币查看判定</div><div id="cryptoDetail" class="detail"><div class="empty">点击左侧任意币种的“详情”</div></div></div></div>
-</section>
+    <nav class="main-nav" aria-label="主要功能">
+      <button class="nav-item active" data-tab="overview" type="button"><span>总览</span><small>Command</small></button>
+      <button class="nav-item" data-tab="crypto" type="button"><span>加密币</span><small>Crypto</small></button>
+      <button class="nav-item" data-tab="stocks" type="button"><span>美股</span><small>US Stocks</small></button>
+      <button class="nav-item" data-tab="events" type="button"><span>事件雷达</span><small>Catalysts</small></button>
+      <button class="nav-item" data-tab="journal" type="button"><span>风险与复盘</span><small>Risk Lab</small></button>
+    </nav>
 
-<section id="us" class="section" hidden>
-<div class="toolbar"><input id="usSearch" class="input" placeholder="搜索 Ticker / 公司"><select id="usSort" class="select"><option value="score">按活跃度</option><option value="d1">按1日涨幅</option><option value="d5">按5日涨幅</option><option value="vr">按量比</option><option value="rsi">按RSI</option></select><button class="btn" id="refreshUs">刷新美股</button></div>
-<div class="cards"><div class="card">标的池<b id="usCount">0</b></div><div class="card">强势数量<b id="usStrong">0</b></div><div class="card">弱势数量<b id="usWeak">0</b></div><div class="card">事件覆盖<b id="usEvents">0</b></div><div class="card">更新节奏<b>约30分钟</b></div></div>
-<div class="panel"><div class="scroll"><table><thead><tr><th>自选</th><th>Ticker</th><th>公司</th><th>价格</th><th>1日</th><th>5日</th><th>量比</th><th>RSI14</th><th>MA20</th><th>状态</th><th>操作</th></tr></thead><tbody id="usRows"></tbody></table></div></div>
-</section>
+    <main>
+      <section class="view active" id="overviewView" data-view="overview">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">DECISION FIRST</div>
+            <h1>先看现在能不能做，再看涨了多少</h1>
+            <p>绿色只代表全部硬条件通过；黄色只允许观察；任何关键数据未知都不会生成买入信号。</p>
+          </div>
+          <div class="policy-chip">提醒策略：仅通知“全部硬条件通过”</div>
+        </div>
 
-<section id="events" class="section" hidden>
-<div class="toolbar"><select id="eventMarket" class="select"><option value="all">全部市场</option><option value="加密币">加密币</option><option value="美股">美股</option></select><select id="eventBias" class="select"><option value="all">全部方向</option><option value="偏利多">偏利多</option><option value="偏利空">偏利空</option><option value="中性待确认">中性待确认</option></select><select id="eventImpact" class="select"><option value="all">全部影响</option><option value="高">高影响</option><option value="中">中影响</option></select><button class="btn" id="refreshEvents">刷新事件</button></div>
-<div class="panel"><div class="events" id="eventRows"></div></div>
-</section>
+        <div class="metric-grid" id="overviewMetrics"></div>
 
-<section id="watch" class="section" hidden><div class="grid"><div class="panel"><h3>加密币自选</h3><div id="watchCrypto"></div></div><div class="panel"><h3>美股自选</h3><div id="watchUs"></div></div></div></section>
-</div>
+        <div class="overview-grid">
+          <article class="panel regime-panel">
+            <div class="panel-head">
+              <div><span class="panel-kicker">MARKET REGIME</span><h2>市场环境</h2></div>
+              <span class="state-pill neutral" id="regimeLabel">等待数据</span>
+            </div>
+            <p class="regime-note" id="regimeNote">正在计算指数趋势、波动率与风险偏好。</p>
+            <div class="benchmark-grid" id="benchmarkGrid"></div>
+          </article>
 
-<div class="modal" id="modal"><div class="modalbox"><div class="modalhead"><div><h2 id="modalTitle" style="margin:0"></h2><div id="modalSub" class="meta"></div></div><div class="close" id="modalClose">×</div></div><div id="modalBody"></div></div></div>
+          <article class="panel health-panel">
+            <div class="panel-head">
+              <div><span class="panel-kicker">DATA HEALTH</span><h2>数据可信度</h2></div>
+              <span class="state-pill" id="healthSummary">核验中</span>
+            </div>
+            <div class="health-list" id="sourceHealth"></div>
+          </article>
+        </div>
 
-<script>
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-let market={us:[],events:[]}, crypto=[], selectedCrypto=null;
-const watch=JSON.parse(localStorage.getItem('tradeWatch')||'{"crypto":[],"us":[]}');
-const saveWatch=()=>localStorage.setItem('tradeWatch',JSON.stringify(watch));
-const fmt=n=>{n=Number(n);if(!Number.isFinite(n))return'-';if(Math.abs(n)>=1e9)return(n/1e9).toFixed(2)+'B';if(Math.abs(n)>=1e6)return(n/1e6).toFixed(2)+'M';if(Math.abs(n)>=1e3)return(n/1e3).toFixed(1)+'K';return n<0.01?n.toPrecision(4):n.toLocaleString(undefined,{maximumFractionDigits:4})};
-const pct=n=>{n=Number(n||0);return`${n>=0?'+':''}${n.toFixed(2)}%`};
-const cls=n=>Number(n||0)>=0?'good':'bad';
-const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-function switchTab(id){$$('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===id));$$('.section').forEach(x=>x.hidden=x.id!==id);if(id==='watch')renderWatch()}
-$$('.tab').forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
-function toggleWatch(type,key){const a=watch[type];const i=a.indexOf(key);i>=0?a.splice(i,1):a.push(key);saveWatch();type==='crypto'?renderCrypto():renderUs();renderWatch()}
-function star(type,key){return `<span class="star ${watch[type].includes(key)?'on':''}" onclick="event.stopPropagation();toggleWatch('${type}','${esc(key)}')">★</span>`}
-async function loadStatic(){try{const r=await fetch('data/market.json?'+Date.now(),{cache:'no-store'});market=await r.json();$('#updated').textContent='数据更新时间：'+new Date(market.updated_at).toLocaleString();renderUs();renderEvents();renderWatch()}catch(e){$('#updated').textContent='市场数据加载失败';console.error(e)}}
-async function fetchPair(chain,ca){const u=`https://api.dexscreener.com/token-pairs/v1/${chain}/${ca}`;const r=await fetch(u);const j=await r.json();if(!Array.isArray(j))return null;return j.sort((a,b)=>(b.liquidity?.usd||0)-(a.liquidity?.usd||0))[0]||null}
-async function loadCrypto(){const btn=$('#scanCrypto');btn.disabled=true;btn.textContent='扫描中…';try{const r=await fetch('https://api.dexscreener.com/token-boosts/top/v1');const boosts=await r.json();const sel=(boosts||[]).filter(x=>['solana','base','ethereum'].includes(x.chainId)).slice(0,24);const pairs=await Promise.all(sel.map(x=>fetchPair(x.chainId,x.tokenAddress).catch(()=>null)));crypto=pairs.filter(Boolean).filter((p,i,a)=>a.findIndex(x=>x.pairAddress===p.pairAddress)===i);$('#cryptoRaw').textContent=crypto.length;renderCrypto();renderWatch()}catch(e){$('#cryptoRows').innerHTML='<tr><td colspan="11" class="empty">DEX 数据暂不可用</td></tr>';console.error(e)}finally{btn.disabled=false;btn.textContent='立即扫描'}}
-function cryptoFiltered(){let a=[...crypto],q=$('#cryptoSearch').value.trim().toLowerCase(),chain=$('#chainFilter').value,liq=Number($('#liqFilter').value),sort=$('#sortCrypto').value;if(q)a=a.filter(p=>[p.baseToken?.symbol,p.baseToken?.name,p.baseToken?.address,p.pairAddress].some(v=>String(v||'').toLowerCase().includes(q)));if(chain!=='all')a=a.filter(p=>p.chainId===chain);a=a.filter(p=>(p.liquidity?.usd||0)>=liq);a.sort((x,y)=>{if(sort==='h1')return(y.priceChange?.h1||0)-(x.priceChange?.h1||0);if(sort==='vol')return(y.volume?.h24||0)-(x.volume?.h24||0);if(sort==='fdv')return(y.fdv||0)-(x.fdv||0);return(y.liquidity?.usd||0)-(x.liquidity?.usd||0)});return a}
-function renderCrypto(){const a=cryptoFiltered();$('#cryptoCount').textContent=a.length;$('#cryptoRows').innerHTML=a.map((p,i)=>{const tx=p.txns?.h1||{};return `<tr class="clickable" onclick="selectCrypto('${esc(p.pairAddress)}')"><td>${star('crypto',p.baseToken?.address||p.pairAddress)}</td><td><b>${esc(p.baseToken?.symbol||'-')}</b><div class="meta">${esc(p.baseToken?.name||'')}</div></td><td>${p.chainId}</td><td>$${fmt(p.priceUsd)}</td><td>$${fmt(p.fdv)}</td><td>$${fmt(p.liquidity?.usd)}</td><td class="${cls(p.priceChange?.m5)}">${pct(p.priceChange?.m5)}</td><td class="${cls(p.priceChange?.h1)}">${pct(p.priceChange?.h1)}</td><td>$${fmt(p.volume?.h24)}</td><td>${tx.buys||0}/${tx.sells||0}</td><td><button class="btn" onclick="event.stopPropagation();selectCrypto('${esc(p.pairAddress)}')">详情</button></td></tr>`}).join('')||'<tr><td colspan="11" class="empty">没有符合当前筛选条件的币</td></tr>'}
-function strategy(p){const liq=p.liquidity?.usd||0,fdv=p.fdv||0,m5=p.priceChange?.m5||0,h1=p.priceChange?.h1||0,tx=p.txns?.h1||{},vol1=p.volume?.h1||0;const checks=[['CA 与主池已识别',!!p.baseToken?.address&&!!p.pairAddress,'DEX已返回完整地址'],['流动性 ≥ $80K',liq>=80000,`当前 $${fmt(liq)}`],['短线价格未明显走弱',m5>=0,`5m ${pct(m5)}`],['1h资金结构偏改善',h1>=0&&(tx.buys||0)>=(tx.sells||0),`1h ${pct(h1)}，买/卖 ${tx.buys||0}/${tx.sells||0}`],['1h成交活跃',vol1>=50000,`1h成交 $${fmt(vol1)}`],['FDV仍处早期区间',fdv>0&&fdv<=5000000,`FDV $${fmt(fdv)}`],['可卖出 / Honeypot',false,'前端数据不足，尚未核验'],['LP锁定/烧毁',false,'前端数据不足，尚未核验'],['5m与15m美元净买同步增强',false,'当前数据源不足，尚未核验'],['价格结构确认与2×空间',false,'需要更完整K线/估值数据']];const all=checks.every(x=>x[1]);return{checks,all}}
-function selectCrypto(pair){const p=crypto.find(x=>x.pairAddress===pair);if(!p)return;selectedCrypto=p;const s=strategy(p);$('#hardStatus').className='status '+(s.all?'ok':'silent');$('#hardStatus').textContent=s.all?'【必须买｜可立即执行】全部条件通过':'【静默】硬条件未全部核验/通过';$('#cryptoDetail').innerHTML=`<div class="kv"><b>币名</b><span>${esc(p.baseToken?.name)} (${esc(p.baseToken?.symbol)})</span></div><div class="kv"><b>链</b><span>${p.chainId}</span></div><div class="kv"><b>完整 CA</b><span style="word-break:break-all">${esc(p.baseToken?.address)}</span></div><div class="kv"><b>完整主池</b><span style="word-break:break-all">${esc(p.pairAddress)}</span></div><div class="kv"><b>DEX</b><span>${esc(p.dexId)}</span></div><div class="kv"><b>价格 / FDV</b><span>$${fmt(p.priceUsd)} / $${fmt(p.fdv)}</span></div><div class="kv"><b>流动性</b><span>$${fmt(p.liquidity?.usd)}</span></div><div class="kv"><b>成交量</b><span>5m $${fmt(p.volume?.m5)} · 1h $${fmt(p.volume?.h1)} · 24h $${fmt(p.volume?.h24)}</span></div><div class="checks">${s.checks.map(c=>`<div class="check ${c[1]?'good':'warn'}">${c[1]?'✓':'○'} <b>${c[0]}</b><div class="meta">${c[2]}</div></div>`).join('')}</div><div class="tagrow"><a class="btn" target="_blank" href="${esc(p.url||'#')}">打开 DEX 页面</a><button class="btn" onclick="toggleWatch('crypto','${esc(p.baseToken?.address||p.pairAddress)}')">加入/移除自选</button></div>`}
-function usFiltered(){let a=[...(market.us||[])],q=$('#usSearch').value.trim().toLowerCase(),s=$('#usSort').value;if(q)a=a.filter(x=>`${x.ticker} ${x.name}`.toLowerCase().includes(q));a.sort((x,y)=>{if(s==='d1')return(y.d1||0)-(x.d1||0);if(s==='d5')return(y.d5||0)-(x.d5||0);if(s==='vr')return(y.volume_ratio||0)-(x.volume_ratio||0);if(s==='rsi')return(y.rsi14||0)-(x.rsi14||0);return(y.score||0)-(x.score||0)});return a}
-function renderUs(){const a=usFiltered();$('#usCount').textContent=a.length;$('#usStrong').textContent=a.filter(x=>/强势|多头/.test(x.signal||'')).length;$('#usWeak').textContent=a.filter(x=>/弱势|回避/.test(x.signal||'')).length;$('#usEvents').textContent=(market.events||[]).filter(e=>e.market==='美股').length;$('#usRows').innerHTML=a.map(x=>`<tr class="clickable" onclick="openStock('${x.ticker}')"><td>${star('us',x.ticker)}</td><td><b>${x.ticker}</b></td><td>${esc(x.name)}</td><td>$${fmt(x.price)}</td><td class="${cls(x.d1)}">${pct(x.d1)}</td><td class="${cls(x.d5)}">${pct(x.d5)}</td><td>${x.volume_ratio??'-'}</td><td>${x.rsi14??'-'}</td><td>$${fmt(x.ma20)}</td><td>${esc(x.signal)}</td><td><button class="btn" onclick="event.stopPropagation();openStock('${x.ticker}')">详情</button></td></tr>`).join('')||'<tr><td colspan="11" class="empty">美股数据尚未生成，稍后点击“刷新美股”</td></tr>'}
-function openStock(t){const x=(market.us||[]).find(y=>y.ticker===t);if(!x)return;const ev=(market.events||[]).filter(e=>e.market==='美股'&&e.symbol===t).slice(0,8);$('#modalTitle').textContent=`${t} · ${x.name}`;$('#modalSub').textContent='美股详情与近期催化';$('#modalBody').innerHTML=`<div class="cards" style="grid-template-columns:repeat(4,1fr)"><div class="card">价格<b>$${fmt(x.price)}</b></div><div class="card">1日<b class="${cls(x.d1)}">${pct(x.d1)}</b></div><div class="card">量比<b>${x.volume_ratio??'-'}</b></div><div class="card">RSI14<b>${x.rsi14??'-'}</b></div></div><div class="panel"><div class="kv"><b>5日涨跌</b><span class="${cls(x.d5)}">${pct(x.d5)}</span></div><div class="kv"><b>MA20</b><span>$${fmt(x.ma20)}</span></div><div class="kv"><b>技术状态</b><span>${esc(x.signal)}</span></div></div><h3>近期相关事件</h3><div class="events">${ev.length?ev.map(eventHtml).join(''):'<div class="empty">暂无抓取到的相关新闻</div>'}</div>`;$('#modal').classList.add('open')}
-function eventHtml(e){const c=e.bias==='偏利多'?'good':e.bias==='偏利空'?'bad':'warn';return `<div class="event"><span class="pill ${c}">${esc(e.bias)}</span> <span class="pill">${esc(e.impact||'')}</span> <b>${esc(e.symbol||'')} ${esc(e.title||'')}</b><div class="meta">${esc(e.market||'')} · ${esc(e.horizon||'')} · ${e.time?new Date(e.time).toLocaleString():''} · ${esc(e.source||'')}</div><div style="margin-top:6px">${esc(e.reason||'')}</div>${e.url?`<div style="margin-top:7px"><a href="${esc(e.url)}" target="_blank">查看原始来源 ↗</a></div>`:''}</div>`}
-function renderEvents(){let a=[...(market.events||[])],m=$('#eventMarket').value,b=$('#eventBias').value,i=$('#eventImpact').value;if(m!=='all')a=a.filter(e=>e.market===m);if(b!=='all')a=a.filter(e=>e.bias===b);if(i!=='all')a=a.filter(e=>e.impact===i);$('#eventRows').innerHTML=a.map(eventHtml).join('')||'<div class="empty">当前筛选下暂无事件。若整个页面为空，说明后台市场数据尚未完成第一次生成。</div>'}
-function renderWatch(){const cs=crypto.filter(p=>watch.crypto.includes(p.baseToken?.address||p.pairAddress)),us=(market.us||[]).filter(x=>watch.us.includes(x.ticker));$('#watchCrypto').innerHTML=cs.length?cs.map(p=>`<div class="event clickable" onclick="switchTab('crypto');selectCrypto('${esc(p.pairAddress)}')"><b>${esc(p.baseToken?.symbol)}</b> · ${p.chainId} · $${fmt(p.priceUsd)} <span class="${cls(p.priceChange?.h1)}">${pct(p.priceChange?.h1)}</span></div>`).join(''):'<div class="empty">还没有加密币自选</div>';$('#watchUs').innerHTML=us.length?us.map(x=>`<div class="event clickable" onclick="openStock('${x.ticker}')"><b>${x.ticker}</b> ${esc(x.name)} · $${fmt(x.price)} <span class="${cls(x.d1)}">${pct(x.d1)}</span></div>`).join(''):'<div class="empty">还没有美股自选</div>'}
-['cryptoSearch','chainFilter','liqFilter','sortCrypto'].forEach(id=>$('#'+id).addEventListener('input',renderCrypto));['usSearch','usSort'].forEach(id=>$('#'+id).addEventListener('input',renderUs));['eventMarket','eventBias','eventImpact'].forEach(id=>$('#'+id).addEventListener('input',renderEvents));$('#scanCrypto').onclick=loadCrypto;$('#refreshUs').onclick=loadStatic;$('#refreshEvents').onclick=loadStatic;$('#refreshAll').onclick=()=>{loadStatic();loadCrypto()};$('#modalClose').onclick=()=>$('#modal').classList.remove('open');$('#modal').onclick=e=>{if(e.target.id==='modal')$('#modal').classList.remove('open')};
-loadStatic();loadCrypto();setInterval(loadCrypto,30000);setInterval(loadStatic,300000);
-</script></body></html>
+        <div class="overview-grid lower">
+          <article class="panel">
+            <div class="panel-head">
+              <div><span class="panel-kicker">OPPORTUNITY QUEUE</span><h2>最接近触发</h2></div>
+              <button class="text-button" data-go="crypto" type="button">打开扫描器 →</button>
+            </div>
+            <div class="compact-list" id="opportunityQueue"></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head">
+              <div><span class="panel-kicker">HIGH IMPACT</span><h2>高影响事件</h2></div>
+              <button class="text-button" data-go="events" type="button">查看全部 →</button>
+            </div>
+            <div class="compact-list" id="highImpactEvents"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="cryptoView" data-view="crypto">
+        <div class="workspace crypto-workspace">
+          <aside class="scanner-panel">
+            <div class="scanner-head">
+              <div><span class="panel-kicker">CRYPTO SCANNER</span><h2>机会扫描器</h2></div>
+              <span class="count" id="cryptoCount">0</span>
+            </div>
+            <div class="filter-stack">
+              <input class="field" id="cryptoSearch" type="search" placeholder="搜索币名 / Ticker / CA" aria-label="搜索加密币">
+              <div class="filter-row">
+                <select class="field" id="chainFilter" aria-label="链筛选">
+                  <option value="all">全部链</option><option value="solana">Solana</option>
+                  <option value="base">Base</option><option value="ethereum">Ethereum</option>
+                </select>
+                <select class="field" id="cryptoStateFilter" aria-label="状态筛选">
+                  <option value="all">全部状态</option><option value="actionable">可执行</option>
+                  <option value="near">接近触发</option><option value="risk">风险否决</option>
+                  <option value="watch">仅自选</option>
+                </select>
+              </div>
+              <div class="filter-row">
+                <select class="field" id="cryptoLiquidity" aria-label="流动性筛选">
+                  <option value="0">全部流动性</option><option value="50000">≥ $50K</option>
+                  <option value="80000">≥ $80K</option><option value="150000">≥ $150K</option>
+                  <option value="500000">≥ $500K</option>
+                </select>
+                <select class="field" id="cryptoSort" aria-label="加密币排序">
+                  <option value="score">按证据强度</option><option value="liquidity">按流动性</option>
+                  <option value="volume">按1h成交</option><option value="change">按1h涨幅</option>
+                  <option value="age">按池子年龄</option>
+                </select>
+              </div>
+            </div>
+            <div class="scanner-list" id="cryptoList"></div>
+          </aside>
+
+          <section class="evidence-panel" id="cryptoEvidence">
+            <div class="empty-state"><b>选择一个币查看证据链</b><span>这里不会用涨幅代替安全与资金核验。</span></div>
+          </section>
+
+          <aside class="decision-panel" id="cryptoDecision">
+            <div class="empty-state"><b>严格策略引擎</b><span>所有关键条件必须同时通过。</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="stocksView" data-view="stocks">
+        <div class="workspace stock-workspace">
+          <aside class="scanner-panel">
+            <div class="scanner-head">
+              <div><span class="panel-kicker">US STOCK SCANNER</span><h2>美股扫描器</h2></div>
+              <span class="count" id="stockCount">0</span>
+            </div>
+            <div class="filter-stack">
+              <input class="field" id="stockSearch" type="search" placeholder="搜索 Ticker / 公司 / 行业" aria-label="搜索美股">
+              <div class="filter-row">
+                <select class="field" id="stockSetupFilter" aria-label="美股结构筛选">
+                  <option value="all">全部结构</option><option value="强势候选">强势候选</option>
+                  <option value="等待触发">等待触发</option><option value="回避">弱势回避</option>
+                  <option value="watch">仅自选</option>
+                </select>
+                <select class="field" id="stockSort" aria-label="美股排序">
+                  <option value="score">按趋势证据</option><option value="d1">按1日涨幅</option>
+                  <option value="d5">按5日涨幅</option><option value="volume">按量比</option>
+                  <option value="rs">按相对强度</option>
+                </select>
+              </div>
+            </div>
+            <div class="scanner-list" id="stockList"></div>
+          </aside>
+
+          <section class="evidence-panel" id="stockEvidence">
+            <div class="empty-state"><b>选择一只股票</b><span>查看趋势、相对强度、成交参与和事件。</span></div>
+          </section>
+
+          <aside class="decision-panel" id="stockDecision">
+            <div class="empty-state"><b>交易计划</b><span>只有结构、市场和成交共同确认才计算仓位。</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="eventsView" data-view="events">
+        <div class="section-heading compact">
+          <div><div class="eyebrow">CATALYST RADAR</div><h1>事件不是信号，而是需要价格确认的催化剂</h1></div>
+        </div>
+        <div class="event-toolbar panel">
+          <input class="field" id="eventSearch" type="search" placeholder="搜索标的、标题或来源" aria-label="搜索事件">
+          <select class="field" id="eventMarket"><option value="all">全部市场</option><option value="加密币">加密币</option><option value="美股">美股</option></select>
+          <select class="field" id="eventBias"><option value="all">全部方向</option><option value="偏利多">偏利多</option><option value="偏利空">偏利空</option><option value="中性待确认">中性待确认</option></select>
+          <select class="field" id="eventImpact"><option value="all">全部影响</option><option value="高">高影响</option><option value="中">中影响</option></select>
+        </div>
+        <div class="event-grid" id="eventGrid"></div>
+      </section>
+
+      <section class="view" id="journalView" data-view="journal">
+        <div class="section-heading compact">
+          <div><div class="eyebrow">RISK BEFORE RETURN</div><h1>先限定能亏多少，再计算可以买多少</h1><p>设置只保存在你的浏览器中，不会上传账户资金信息。</p></div>
+        </div>
+        <div class="risk-grid">
+          <article class="panel settings-panel">
+            <div class="panel-head"><div><span class="panel-kicker">RISK SETTINGS</span><h2>风险参数</h2></div></div>
+            <label class="form-label">交易资金（USDT / USD）<input class="field" id="accountCapital" type="number" min="0" step="100" inputmode="decimal"></label>
+            <label class="form-label">单笔最大风险（%）<input class="field" id="riskPercent" type="number" min="0.1" max="5" step="0.1" inputmode="decimal"></label>
+            <label class="form-label">同时持仓最大风险（%）<input class="field" id="portfolioRisk" type="number" min="0.5" max="15" step="0.5" inputmode="decimal"></label>
+            <button class="button primary full" id="saveSettings" type="button">保存风险设置</button>
+            <div class="risk-rule" id="riskRuleText"></div>
+          </article>
+
+          <article class="panel journal-panel">
+            <div class="panel-head">
+              <div><span class="panel-kicker">TRADE JOURNAL</span><h2>交易记录</h2></div>
+              <button class="text-button" id="exportJournal" type="button">导出记录</button>
+            </div>
+            <div class="journal-list" id="journalList"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>研究与决策辅助工具，不承诺收益。数据过期、缺失或冲突时，系统自动禁止执行。</span>
+      <span id="footerVersion">Schema V2</span>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
