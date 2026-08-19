@@ -8,6 +8,7 @@ on:
     branches: ["main"]
     paths:
       - "scripts/update_market.py"
+      - "requirements.txt"
       - ".github/workflows/update-market.yml"
 
 permissions:
@@ -31,9 +32,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: pip install --upgrade yfinance pandas requests
+        run: pip install -r requirements.txt
 
       - name: Generate market data
         run: python scripts/update_market.py
@@ -47,5 +49,6 @@ jobs:
             echo "No market data changes"
           else
             git commit -m "Update market data"
+            git pull --rebase origin main
             git push
           fi
