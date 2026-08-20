@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T01:47:49.982847+00:00",
+  "updated_at": "2026-08-20T02:45:16.158336+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -54,7 +54,7 @@
         "ticker": "^VIX",
         "price": 14.89,
         "d5": 2.34,
-        "ma20": 16.4435,
+        "ma20": 16.3105,
         "above_ma20": false
       },
       {
@@ -2177,7 +2177,7 @@
       "d5": 7.21,
       "d20": -6.12,
       "gap": 0.6,
-      "volume": 35316918.0,
+      "volume": 35322838.0,
       "volume_ratio": 0.9,
       "rsi14": 76.6,
       "ma20": 324.3785,
@@ -2463,7 +2463,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 351.12,
-          "volume": 35316918.0
+          "volume": 35322838.0
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       "d5": 0.1,
       "d20": -22.24,
       "gap": -0.61,
-      "volume": 66059644.0,
+      "volume": 66123408.0,
       "volume_ratio": 1.54,
       "rsi14": 30.9,
       "ma20": 10.6165,
@@ -3958,7 +3958,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 9.65,
-          "volume": 66059644.0
+          "volume": 66123408.0
         }
       ]
     },
@@ -4868,7 +4868,7 @@
       "d5": 0.91,
       "d20": -8.34,
       "gap": 1.61,
-      "volume": 24063480.0,
+      "volume": 24065491.0,
       "volume_ratio": 1.4,
       "rsi14": 64.2,
       "ma20": 93.542,
@@ -5154,7 +5154,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 95.77,
-          "volume": 24063480.0
+          "volume": 24065491.0
         }
       ]
     },
@@ -6064,7 +6064,7 @@
       "d5": 2.43,
       "d20": 40.64,
       "gap": 0.63,
-      "volume": 35885885.0,
+      "volume": 35885884.0,
       "volume_ratio": 0.77,
       "rsi14": 79.5,
       "ma20": 151.894,
@@ -6350,7 +6350,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 175.19,
-          "volume": 35885885.0
+          "volume": 35885884.0
         }
       ]
     },
@@ -6363,7 +6363,7 @@
       "d5": 2.83,
       "d20": -2.33,
       "gap": 1.98,
-      "volume": 25693590.0,
+      "volume": 25693662.0,
       "volume_ratio": 0.62,
       "rsi14": 58.2,
       "ma20": 894.7448,
@@ -6649,7 +6649,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 937.105,
-          "volume": 25693590.0
+          "volume": 25693662.0
         }
       ]
     },
@@ -11152,7 +11152,7 @@
       "rsi14": 60.1,
       "ma20": 1729.008,
       "ma50": 1781.4952,
-      "atr14": 64.1679,
+      "atr14": 64.17,
       "atr_pct": 3.66,
       "extension_ma20": 1.31,
       "rs5_spy": -2.78,
@@ -11203,9 +11203,9 @@
       "score": -5.47,
       "plan": {
         "trigger": 1804.27,
-        "stop": 1708.0181,
-        "target1": 1996.7737,
-        "target2": 2093.0255,
+        "stop": 1708.015,
+        "target1": 1996.78,
+        "target2": 2093.035,
         "rr_target1": 2.0,
         "note": "需盘中价格与成交确认后执行"
       },
@@ -11446,7 +11446,7 @@
       "d5": -6.18,
       "d20": 14.28,
       "gap": -0.07,
-      "volume": 23788722.0,
+      "volume": 23788822.0,
       "volume_ratio": 0.77,
       "rsi14": 63.8,
       "ma20": 138.1165,
@@ -11732,7 +11732,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 143.81,
-          "volume": 23788722.0
+          "volume": 23788822.0
         }
       ]
     },
@@ -11749,7 +11749,7 @@
       "volume_ratio": 0.77,
       "rsi14": 53.1,
       "ma20": 291.2265,
-      "ma50": 265.1984,
+      "ma50": 265.6888,
       "atr14": 18.2227,
       "atr_pct": 6.24,
       "extension_ma20": 0.22,
@@ -11808,11 +11808,6 @@
         "note": "需盘中价格与成交确认后执行"
       },
       "history": [
-        {
-          "time": "2026-06-15T13:30:00+00:00",
-          "close": 235.71,
-          "volume": 3359300.0
-        },
         {
           "time": "2026-06-16T13:30:00+00:00",
           "close": 230.97,
@@ -11927,6 +11922,11 @@
           "time": "2026-07-20T13:30:00+00:00",
           "close": 272.42,
           "volume": 3113000.0
+        },
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 272.31,
+          "volume": 3715300.0
         },
         {
           "time": "2026-07-22T13:30:00+00:00",
@@ -12642,7 +12642,7 @@
       "d5": -3.07,
       "d20": -4.98,
       "gap": 0.03,
-      "volume": 4239671.0,
+      "volume": 4243312.0,
       "volume_ratio": 0.8,
       "rsi14": 39.5,
       "ma20": 254.2935,
@@ -12928,7 +12928,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 233.52,
-          "volume": 4239671.0
+          "volume": 4243312.0
         }
       ]
     },
@@ -13838,7 +13838,7 @@
       "d5": -9.09,
       "d20": 7.01,
       "gap": 0.22,
-      "volume": 10270757.0,
+      "volume": 10275349.0,
       "volume_ratio": 1.4,
       "rsi14": 60.4,
       "ma20": 203.4635,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 201.63,
-          "volume": 10270757.0
+          "volume": 10275349.0
         }
       ]
     },
@@ -14431,6 +14431,142 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "LLY",
+      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:35:55+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "UWM Suspended Its Dividend and Raised $2.05 Billion From Oaktree After a $451.9 Million Quarterly Loss",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：raised",
+      "time": "2026-08-20T02:35:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/ba38551c-3a59-3f98-926a-8b66e6794b56/uwm-suspended-its-dividend.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "Longtime fast-food chain quietly exits an entire state after 50 years",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:33:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/b02aa923-e487-3e13-b75d-10a0d3f0a772/longtime-fast-food-chain.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "Asahi Kasei Develops Novel Lithium Pre-doping Technology to Raise Energy Density and Lower Cost of Silicon-rich Lithium-ion Batteries",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:30:00+00:00",
+      "source": "Business Wire",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/asahi-kasei-develops-novel-lithium-023000004.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "Amazon is selling a desktop organizer with 4 tiers and 9 drawers for $29",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:30:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a7b7934d-3abd-3490-866b-c7e655ec41f6/amazon-is-selling-a-desktop.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "Prince Harry and Meghan moving back to UK: British press",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:29:32+00:00",
+      "source": "AFP",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/01c2aa91-5be3-3d67-876c-cfbf1fc9be67/prince-harry-and-meghan.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Louis Navellier sets eye-opening Nvidia stock price target for rest of this year",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "评级变化",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T02:03:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0da528c7-3ad1-32ee-ae61-f8730bdf0d4a/louis-navellier-sets.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "Meta ran ads for an app that only needs one photo and no consent",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T01:47:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/322a06cb-703a-359d-a306-1789030bf26d/meta-ran-ads-for-an-app-that.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Big Tech Is on Pace to Spend $735 Billion on AI Data Centers in 2026. These 3 Industrial Stocks Collect the Checks.",
       "bias": "中性待确认",
@@ -14444,23 +14580,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/92bd639e-3780-3e20-a195-62dc22759a32/big-tech-is-on-pace-to-spend.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T01:19:54+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14614,23 +14733,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/why-strategy-mstr-stock-soaring-232602408.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Stock-Split Watch: Is Lockheed Martin Next?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T23:25:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f53d6919-51d9-350f-bd38-25a51df10ac9/stock-split-watch%3A-is.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14924,23 +15026,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "Exxon Stock Rises as Oil Nears $92 on Hormuz Risk",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:54:35+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/exxon-stock-rises-oil-nears-215435932.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "UBER",
       "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
       "bias": "中性待确认",
@@ -15111,7 +15196,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NFLX",
+      "symbol": "AAPL",
       "title": "Alphabet Stock Surged When Its AI Spending Found Customers",
       "bias": "偏利多",
       "impact": "中",
@@ -15383,23 +15468,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Higher Fees, Better Returns: The Case for Equal-Weighted ETFs",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T19:00:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5118b7e2-0b2c-37cf-9421-1a89ff5581c5/higher-fees%2C-better-returns%3A.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "CVX",
       "title": "This \"Boring\" Energy Stock Pays a 3.5% Dividend and Keeps Raising It",
       "bias": "中性待确认",
@@ -15587,23 +15655,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "What’s Going On With Exxon Stock on Wednesday?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T16:47:45+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/going-exxon-stock-wednesday-164745964.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "SOFI",
       "title": "SoFi Climbs 6%, Upstart Jumps 8%, Affirm Rises 7% as Fintech Names Rebound With Bond Market Catalyst",
       "bias": "中性待确认",
@@ -15651,23 +15702,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/strong-ai-adoption-help-atlassian-153700155.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "XOM",
-      "title": "Targa Resources' Stock Near 52-Week High: Time to Lock in Gains?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T15:16:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/targa-resources-stock-near-52-151600478.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15723,23 +15757,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "Morgan Stanley Adjusts Price Target on Exxon Mobil to $177 From $168, Maintains Overweight Rating",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T14:03:39+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-140339224.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MA",
       "title": "1 Growth Stock to Add to Your Roster and 2 We Ignore",
       "bias": "偏利多",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/media-advertising/articles/nflxs-ad-business-focus-support-131600717.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Here's How Much You'd Have If You Invested $1000 in MasterCard a Decade Ago",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T12:30:02+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002040.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
