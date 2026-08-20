@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:12:51.956912+00:00",
+  "updated_at": "2026-08-20T23:43:42.559764+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -54,7 +54,7 @@
         "ticker": "^VIX",
         "price": 16.01,
         "d5": 9.43,
-        "ma20": 16.3115,
+        "ma20": 16.176,
         "above_ma20": false
       },
       {
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 16,
     "events": 80,
-    "high_impact_events": 9,
+    "high_impact_events": 8,
     "failed_symbols": []
   },
   "us": [
@@ -13543,7 +13543,7 @@
       "volume_ratio": 0.76,
       "rsi14": 50.0,
       "ma20": 292.056,
-      "ma50": 265.8208,
+      "ma50": 266.5444,
       "atr14": 17.9284,
       "atr_pct": 6.43,
       "extension_ma20": -4.5,
@@ -13602,11 +13602,6 @@
         "note": "需盘中价格与成交确认后执行"
       },
       "history": [
-        {
-          "time": "2026-06-16T13:30:00+00:00",
-          "close": 230.97,
-          "volume": 2690600.0
-        },
         {
           "time": "2026-06-17T13:30:00+00:00",
           "close": 226.87,
@@ -13716,6 +13711,11 @@
           "time": "2026-07-20T13:30:00+00:00",
           "close": 272.42,
           "volume": 3113000.0
+        },
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 272.31,
+          "volume": 3715300.0
         },
         {
           "time": "2026-07-22T13:30:00+00:00",
@@ -14438,12 +14438,80 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T22:55:21+00:00",
+      "time": "2026-08-20T23:20:29+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures%3A-market.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "UBER",
+      "title": "BetterInvesting™ Magazine Update on Uber Technologies and American Eagle Outfitters",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T23:18:00+00:00",
+      "source": "PR Newswire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/betterinvesting-magazine-uber-technologies-american-231800729.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "Apple Inc. (AAPL) Wants to Pay Publishers to Fix Siri. What’s the Catch?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T23:14:02+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-inc-aapl-wants-pay-231402505.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NFLX",
+      "title": "Netflix (NFLX) Faces Fresh Creator Pressure As Rivals Offer Exclusive Incentives",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T23:13:50+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/media-advertising/articles/netflix-nflx-faces-fresh-creator-231350393.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MRVL",
+      "title": "What Is Alphabet (GOOGL) Signaling With Its New AI Chip Stake Option?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T23:12:21+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-signaling-ai-chip-231221134.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14529,6 +14597,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/18c6aca7-42f6-3872-ab64-acb1737b527e/history-of-tsmc-%26-its-stock%3A.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Stocks to Watch Thursday Recap: Strategy, Moderna, Walmart",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T21:49:03+00:00",
+      "source": "The Wall Street Journal",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/84b77662-f498-38e9-9692-38ddf62b3bb3/stocks-to-watch-thursday.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14703,6 +14788,23 @@
     },
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Airwallex expands from cross-border payments to autonomous finance—though president Lucy Liu says it’s still ‘not the best time’ for an IPO",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T21:00:00+00:00",
+      "source": "Fortune",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/airwallex-expands-cross-border-payments-210000767.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "CVX",
       "title": "Chevron Insider Sold Shares Worth $506,619, According to a Recent SEC Filing",
       "bias": "中性待确认",
@@ -14788,7 +14890,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "The SEC Hands Crypto Projects a $75 Million Shortcut",
       "bias": "偏利空",
       "impact": "高",
@@ -15026,23 +15128,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Kestra Financial Taps BlackRock Veteran to Head Wealth Management",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T19:59:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/43af0eff-1170-31c2-aba3-4b3f0191d9eb/kestra-financial-taps.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MRVL",
       "title": "The Line In The Sand For AVGO Stock",
       "bias": "中性待确认",
@@ -15145,23 +15230,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
-      "title": "AMD Falls as Google Expands Its $120 Billion Custom-Chip Push",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T19:21:01+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/amd-falls-google-expands-120-192101116.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "Stocks to Watch: Strategy, Moderna, Walmart",
       "bias": "中性待确认",
@@ -15226,23 +15294,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-undervalued-uk-190952953.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Ford Drops 4% as Bronco Pickup Rally Fades, Tesla Slips, General Motors Inches Higher: What’s Behind the Auto Stock Differential?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T18:34:19+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/fac3806a-50d3-3a39-88eb-8991fd68296a/ford-drops-4%25-as-bronco.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15736,57 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143019148.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Can Awiqli Help Novo Nordisk Build a New Growth Engine Beyond GLP-1s?",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-08-20T14:19:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/healthcare/articles/awiqli-help-novo-nordisk-build-141900902.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NOW",
-      "title": "Tech Mahindra and ServiceNow Expand Partnership to Deliver Production-Ready Enterprise AI at Scale",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "并购/合作",
-      "reason": "标题包含方向词：partnership",
-      "time": "2026-08-20T14:00:00+00:00",
-      "source": "PR Newswire",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/tech-mahindra-servicenow-expand-partnership-140000979.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "UBER",
-      "title": "Uber Sells $472 Million of Aurora Stock",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T13:54:25+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-sells-472-million-aurora-135425689.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
