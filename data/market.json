@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T05:49:45.051973+00:00",
+  "updated_at": "2026-08-20T06:59:28.457624+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -54,14 +54,14 @@
         "ticker": "^VIX",
         "price": 14.89,
         "d5": 2.34,
-        "ma20": 16.4435,
+        "ma20": 16.3105,
         "above_ma20": false
       },
       {
         "ticker": "^TNX",
         "price": 4.653,
         "d5": -0.62,
-        "ma20": 4.6662,
+        "ma20": 4.6701,
         "above_ma20": false
       }
     ]
@@ -71,7 +71,7 @@
     "strong": 1,
     "weak": 12,
     "events": 80,
-    "high_impact_events": 9,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -11749,7 +11749,7 @@
       "volume_ratio": 0.77,
       "rsi14": 53.1,
       "ma20": 291.2265,
-      "ma50": 265.1984,
+      "ma50": 265.6888,
       "atr14": 18.2227,
       "atr_pct": 6.24,
       "extension_ma20": 0.22,
@@ -11808,11 +11808,6 @@
         "note": "需盘中价格与成交确认后执行"
       },
       "history": [
-        {
-          "time": "2026-06-15T13:30:00+00:00",
-          "close": 235.71,
-          "volume": 3359300.0
-        },
         {
           "time": "2026-06-16T13:30:00+00:00",
           "close": 230.97,
@@ -11927,6 +11922,11 @@
           "time": "2026-07-20T13:30:00+00:00",
           "close": 272.42,
           "volume": 3113000.0
+        },
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 272.31,
+          "volume": 3715300.0
         },
         {
           "time": "2026-07-22T13:30:00+00:00",
@@ -14431,6 +14431,74 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "NVDA",
+      "title": "Stripe agrees to acquire AI model router OpenRouter",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T06:44:52+00:00",
+      "source": "Electronic Payments",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/482f5e8b-7ff9-3cc0-875f-13d7653a234a/stripe-agrees-to-acquire-ai.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "UBER",
+      "title": "Baidu's Apollo Go Goes Live on Uber in Dubai, Offering a New Way for Users to Hail Fully Driverless Rides",
+      "bias": "偏利空",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "融资/稀释",
+      "reason": "标题包含方向词：offering",
+      "time": "2026-08-20T06:30:00+00:00",
+      "source": "PR Newswire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/baidus-apollo-goes-live-uber-063000554.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "UBER",
+      "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-20T06:30:00+00:00",
+      "source": "Business Wire",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/uber-launches-baidu-fully-driverless-063000807.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Nvidia Chip-Filled Data Centers Need More Power Than Any Utility Can Promise. Here's Who Actually Wins.",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：wins",
+      "time": "2026-08-20T06:25:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/1e131053-b89d-3784-af98-16113f80f2ad/nvidia-chip-filled-data.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "Tesla Stock Revs Up On Cybercab Buzz: Analyst Sees ‘Good Entry Point’ As Robotaxis Drive 30% Of Bull Case",
       "bias": "中性待确认",
@@ -14699,23 +14767,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/energy/articles/morgan-stanley-expects-chevron-cvx-011459456.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Nvidia Guided to $91 Billion. Wall Street Penciled In $92 Billion.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T00:57:01+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/c7f2e5e4-dedc-303e-9acf-50fafa5c78fe/nvidia-guided-to-%2491-billion..html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15349,23 +15400,6 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
-      "title": "Uber Launches First Autonomous Rides in Europe Via App in Zagreb, Croatia",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：launch",
-      "time": "2026-08-19T19:55:07+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/uber-launches-first-autonomous-rides-195507955.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "SOFI",
       "title": "Cramer Warns Fintech Bulls: These Three Stocks Are Priced for Perfection",
       "bias": "中性待确认",
@@ -15434,23 +15468,6 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
-      "title": "Temporal Wants $12 Billion to Keep Your Agents From Crashing Mid-Task",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T18:43:50+00:00",
-      "source": "Forkast News",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/temporal-wants-12-billion-keep-184350609.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "NOW",
       "title": "Why ServiceNow Stock Rallied Today",
       "bias": "中性待确认",
@@ -15485,7 +15502,7 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
+      "symbol": "CVX",
       "title": "ExxonMobil's Return Comes From Somewhere The Index Does Not Go",
       "bias": "中性待确认",
       "impact": "中",
@@ -15672,7 +15689,7 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
+      "symbol": "CVX",
       "title": "Cenovus Energy is Undervalued: Should You Bet on the Stock Now?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002040.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Rain forms agentic payments alliance with Visa, Mastercard and other players",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T11:59:13+00:00",
-      "source": "Electronic Payments",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/fa6723cc-4ad3-3d64-bbf0-0e72f981cabd/rain-forms-agentic-payments.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
