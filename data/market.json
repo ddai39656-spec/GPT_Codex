@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T06:59:28.457624+00:00",
+  "updated_at": "2026-08-20T07:50:22.046524+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,9 +52,9 @@
       },
       {
         "ticker": "^VIX",
-        "price": 14.89,
-        "d5": 2.34,
-        "ma20": 16.3105,
+        "price": 14.97,
+        "d5": 2.32,
+        "ma20": 16.124,
         "above_ma20": false
       },
       {
@@ -71,7 +71,7 @@
     "strong": 1,
     "weak": 12,
     "events": 80,
-    "high_impact_events": 10,
+    "high_impact_events": 11,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "UBER",
+      "title": "Uber Launches Baidu's Fully Driverless Robotaxis in Dubai",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-20T07:34:04+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/uber-launches-baidu-apos-fully-073404158.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
+      "title": "S&P 500 Could Hit 8,000 Soon, Morningstar Says — CRM, NOW, WDAY And MSFT Lead The August Rebound",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T06:52:49+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/c1e5029d-ccf8-3c95-ad71-90b356c61d81/s%26p-500-could-hit-8%2C000-soon%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "NVDA",
       "title": "Stripe agrees to acquire AI model router OpenRouter",
       "bias": "中性待确认",
@@ -14495,6 +14529,57 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/1e131053-b89d-3784-af98-16113f80f2ad/nvidia-chip-filled-data.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Nebius Increases Debt Raise Plan To $5B: Neocloud Operator Reportedly Bids For Decart AI Buyout Eyed by Anthropic",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T05:47:26+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6040a864-20a4-35cb-a888-a664ec7ae97b/nebius-increases-debt-raise.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
+      "title": "7 Growth Stocks Holding Up in a Tough Market",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-08-20T05:46:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f44aa74f-6eea-3ebc-b176-c8c7b936f55d/7-growth-stocks-holding-up-in.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Own Too Much Nvidia? How to Deal With Capital Gains.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T05:30:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/2b7683a5-2d20-3474-8995-407edc64e6f5/own-too-much-nvidia%3F-how-to.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14669,23 +14754,6 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "Louis Navellier sets eye-opening Nvidia stock price target for rest of this year",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T02:03:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0da528c7-3ad1-32ee-ae61-f8730bdf0d4a/louis-navellier-sets.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "MSTR Stock Climbs As Bitcoin Surges Past $69K For First Time Since June: Trump Urges Congress To Pass CLARITY Act",
       "bias": "偏利多",
@@ -14788,7 +14856,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "SOFI",
       "title": "The Options Market Puts PayPal Stock Between The High Forties And The High Seventies",
       "bias": "中性待确认",
       "impact": "中",
@@ -15349,23 +15417,6 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
-      "title": "Uber CEO to Participate in Fireside Chat Hosted by Goldman Sachs",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T20:30:00+00:00",
-      "source": "Business Wire",
-      "credibility": "高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-ceo-participate-fireside-chat-203000450.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "CRM",
       "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
       "bias": "偏利多",
@@ -15379,23 +15430,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/rillet-raises-100m-series-c-201233241.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Johnson & Johnson Stock Runs On A Calendar The Market Does Not Set",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T20:08:16+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/247369ea-4243-3fd4-84b0-59de578ee274/johnson-%26-johnson-stock-runs.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15638,7 +15672,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "NOW",
       "title": "Can Strong AI Adoption Help Atlassian Challenge CRM & NOW?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15668,23 +15702,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/targa-resources-stock-near-52-151600478.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NOW",
-      "title": "“The Selling Goes Too Far”: Jim Cramer Defends ServiceNow, Salesforce, and Other Software Giants Against Extinction Fears",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T14:55:06+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/e9954ebb-19b5-380f-9d01-e7738687eee0/%E2%80%9Cthe-selling-goes-too-far%E2%80%9D%3A.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/media-advertising/articles/nflxs-ad-business-focus-support-131600717.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Here's How Much You'd Have If You Invested $1000 in MasterCard a Decade Ago",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T12:30:02+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002040.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
