@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-19T23:41:16.815981+00:00",
+  "updated_at": "2026-08-20T00:01:45.464988+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -54,14 +54,14 @@
         "ticker": "^VIX",
         "price": 14.89,
         "d5": 2.34,
-        "ma20": 16.4435,
+        "ma20": 16.3105,
         "above_ma20": false
       },
       {
         "ticker": "^TNX",
         "price": 4.653,
         "d5": -0.62,
-        "ma20": 4.6662,
+        "ma20": 4.6701,
         "above_ma20": false
       }
     ]
@@ -71,7 +71,7 @@
     "strong": 1,
     "weak": 12,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -383,7 +383,7 @@
       "d5": 7.49,
       "d20": -3.56,
       "gap": 0.87,
-      "volume": 15078655.0,
+      "volume": 15079066.0,
       "volume_ratio": 2.02,
       "rsi14": 47.6,
       "ma20": 153.8275,
@@ -669,7 +669,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 160.2,
-          "volume": 15078655.0
+          "volume": 15079066.0
         }
       ]
     },
@@ -2177,7 +2177,7 @@
       "d5": 7.21,
       "d20": -6.12,
       "gap": 0.6,
-      "volume": 35316918.0,
+      "volume": 35322838.0,
       "volume_ratio": 0.9,
       "rsi14": 76.6,
       "ma20": 324.3785,
@@ -2463,7 +2463,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 351.12,
-          "volume": 35316918.0
+          "volume": 35322838.0
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       "d5": 0.1,
       "d20": -22.24,
       "gap": -0.61,
-      "volume": 66059644.0,
+      "volume": 66123408.0,
       "volume_ratio": 1.54,
       "rsi14": 30.9,
       "ma20": 10.6165,
@@ -3958,7 +3958,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 9.65,
-          "volume": 66059644.0
+          "volume": 66123408.0
         }
       ]
     },
@@ -4868,7 +4868,7 @@
       "d5": 0.91,
       "d20": -8.34,
       "gap": 1.61,
-      "volume": 24063480.0,
+      "volume": 24065491.0,
       "volume_ratio": 1.4,
       "rsi14": 64.2,
       "ma20": 93.542,
@@ -5154,7 +5154,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 95.77,
-          "volume": 24063480.0
+          "volume": 24065491.0
         }
       ]
     },
@@ -6064,7 +6064,7 @@
       "d5": 2.43,
       "d20": 40.64,
       "gap": 0.63,
-      "volume": 35885885.0,
+      "volume": 35885884.0,
       "volume_ratio": 0.77,
       "rsi14": 79.5,
       "ma20": 151.894,
@@ -6350,7 +6350,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 175.19,
-          "volume": 35885885.0
+          "volume": 35885884.0
         }
       ]
     },
@@ -6363,7 +6363,7 @@
       "d5": 2.83,
       "d20": -2.33,
       "gap": 1.98,
-      "volume": 25693590.0,
+      "volume": 25693662.0,
       "volume_ratio": 0.62,
       "rsi14": 58.2,
       "ma20": 894.7448,
@@ -6649,7 +6649,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 937.105,
-          "volume": 25693590.0
+          "volume": 25693662.0
         }
       ]
     },
@@ -11152,7 +11152,7 @@
       "rsi14": 60.1,
       "ma20": 1729.008,
       "ma50": 1781.4952,
-      "atr14": 64.1679,
+      "atr14": 64.17,
       "atr_pct": 3.66,
       "extension_ma20": 1.31,
       "rs5_spy": -2.78,
@@ -11203,9 +11203,9 @@
       "score": -5.47,
       "plan": {
         "trigger": 1804.27,
-        "stop": 1708.0181,
-        "target1": 1996.7737,
-        "target2": 2093.0255,
+        "stop": 1708.015,
+        "target1": 1996.78,
+        "target2": 2093.035,
         "rr_target1": 2.0,
         "note": "需盘中价格与成交确认后执行"
       },
@@ -11446,7 +11446,7 @@
       "d5": -6.18,
       "d20": 14.28,
       "gap": -0.07,
-      "volume": 23788722.0,
+      "volume": 23788822.0,
       "volume_ratio": 0.77,
       "rsi14": 63.8,
       "ma20": 138.1165,
@@ -11732,7 +11732,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 143.81,
-          "volume": 23788722.0
+          "volume": 23788822.0
         }
       ]
     },
@@ -11749,7 +11749,7 @@
       "volume_ratio": 0.77,
       "rsi14": 53.1,
       "ma20": 291.2265,
-      "ma50": 265.1984,
+      "ma50": 265.6888,
       "atr14": 18.2227,
       "atr_pct": 6.24,
       "extension_ma20": 0.22,
@@ -11808,11 +11808,6 @@
         "note": "需盘中价格与成交确认后执行"
       },
       "history": [
-        {
-          "time": "2026-06-15T13:30:00+00:00",
-          "close": 235.71,
-          "volume": 3359300.0
-        },
         {
           "time": "2026-06-16T13:30:00+00:00",
           "close": 230.97,
@@ -11927,6 +11922,11 @@
           "time": "2026-07-20T13:30:00+00:00",
           "close": 272.42,
           "volume": 3113000.0
+        },
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 272.31,
+          "volume": 3715300.0
         },
         {
           "time": "2026-07-22T13:30:00+00:00",
@@ -12642,7 +12642,7 @@
       "d5": -3.07,
       "d20": -4.98,
       "gap": 0.03,
-      "volume": 4239671.0,
+      "volume": 4243312.0,
       "volume_ratio": 0.8,
       "rsi14": 39.5,
       "ma20": 254.2935,
@@ -12928,7 +12928,7 @@
         {
           "time": "2026-08-19T13:30:00+00:00",
           "close": 233.52,
-          "volume": 4239671.0
+          "volume": 4243312.0
         }
       ]
     },
@@ -14432,6 +14432,40 @@
     {
       "market": "美股",
       "symbol": "NVDA",
+      "title": "Why Wheaton Precious Metals Zoomed 11% Higher Today",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T23:44:45+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6327db9e-1df3-3059-8f82-b8fda3383d5e/why-wheaton-precious-metals.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
+      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T23:42:12+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
       "title": "SOXL Turns Every 1% Nvidia Move Into 3%. Here’s What $10,000 Did in the Last 12 Months",
       "bias": "中性待确认",
       "impact": "中",
@@ -14444,6 +14478,40 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/5c941f21-ab4c-3103-bcb2-5ccc8ea7850b/soxl-turns-every-1%25-nvidia.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MRVL",
+      "title": "AMD and Intel Shares Plummet, What You Need To Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T23:34:02+00:00",
+      "source": "StockStory",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-shares-plummet-know-233402382.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
+      "title": "Why Is Strategy (MSTR) Stock Soaring Today",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：soar",
+      "time": "2026-08-19T23:26:02+00:00",
+      "source": "StockStory",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/why-strategy-mstr-stock-soaring-232602408.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14482,6 +14550,23 @@
     },
     {
       "market": "美股",
+      "symbol": "MRVL",
+      "title": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support — NVDA, MRNA, MRVL, LOWE In Focus",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T23:15:36+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/8027f4c5-a9bb-339a-ac76-30fccc1028eb/us-stock-index-futures-climb.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "COIN",
       "title": "Trump hosts crypto executives at the White House — and one token surges 19% on his remarks",
       "bias": "中性待确认",
@@ -14512,23 +14597,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-stock-know-231002862.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T23:08:04+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14567,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "HYPE Jumps 17% After Trump Backs CFTC Path for Hyperliquid in U.S.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14580,23 +14648,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/e5a92d0f-e174-3a91-adee-b0e28f0e883d/hype-jumps-17%25-after-trump.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Oil Is Up 36% and the Strait of Hormuz Is Still Closed. The QQQI Family Runs a 14.75% Energy Fund",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T22:35:11+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/bad5e918-3c7c-353a-9ff4-b4f5eb44b2cd/oil-is-up-36%25-and-the-strait.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14614,23 +14665,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ross-gerber-says-tesla-223141920.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Tech & Energy Fuel S&P 500 Growth Engine",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-08-19T22:27:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tech-energy-fuel-p-500-222700075.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14805,23 +14839,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
-      "title": "Broadcom (AVGO) Is Down More Than 20%—Why TD Cowen Still Sees 27% Upside",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T21:49:54+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-down-more-20-214954022.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "UBER",
       "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
       "bias": "中性待确认",
@@ -14924,23 +14941,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
-      "title": "Marvell Technology (MRVL) Expands Google AI Partnership: What Investors Need to Know",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "并购/合作",
-      "reason": "标题包含方向词：partnership",
-      "time": "2026-08-19T21:15:07+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-expands-google-211507897.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MARA",
       "title": "MARA Holdings (MARA) Stock Still Looks Expensive As AI Lease Plans Grow",
       "bias": "中性待确认",
@@ -15009,7 +15009,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NFLX",
+      "symbol": "AAPL",
       "title": "Alphabet Stock Surged When Its AI Spending Found Customers",
       "bias": "偏利多",
       "impact": "中",
@@ -15043,7 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Strategy, Coinbase Stocks Rose After Trump Met Crypto Execs",
       "bias": "中性待确认",
       "impact": "中",
@@ -15094,7 +15094,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Stock Market Today: Dow Breaks Losing Streak As Moderna Catapults On Its Cancer Vaccine Win (Live Coverage)",
       "bias": "中性待确认",
       "impact": "中",
@@ -15243,23 +15243,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/articles/uber-launches-first-autonomous-rides-195507955.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSTR",
-      "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-19T19:51:11+00:00",
-      "source": "decrypt",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/9af682a2-624f-3e76-9985-bff0d4df35e5/crypto-stocks-rip-higher-as.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1000-123002040.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MA",
+      "title": "Rain forms agentic payments alliance with Visa, Mastercard and other players",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-19T11:59:13+00:00",
+      "source": "Electronic Payments",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/fa6723cc-4ad3-3d64-bbf0-0e72f981cabd/rain-forms-agentic-payments.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
