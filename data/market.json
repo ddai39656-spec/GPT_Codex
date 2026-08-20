@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T22:48:02.945620+00:00",
+  "updated_at": "2026-08-20T23:12:51.956912+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,12 +14438,29 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T22:35:54+00:00",
+      "time": "2026-08-20T22:55:21+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures%3A-market.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Bitcoin Is Suddenly a Hedge Again, VanEck Says: What Changed?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T22:48:07+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0391c59e-31cd-3838-a77a-db0054939a68/bitcoin-is-suddenly-a-hedge.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14618,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
       "bias": "中性待确认",
       "impact": "中",
@@ -14771,7 +14788,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "The SEC Hands Crypto Projects a $75 Million Shortcut",
       "bias": "偏利空",
       "impact": "高",
@@ -14822,7 +14839,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "TSLA",
       "title": "Moderna, Walmart, Coinbase, Deere, SpaceX, Tesla, and More Stocks That Explain Today’s Market",
       "bias": "中性待确认",
       "impact": "中",
@@ -14856,7 +14873,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Rain’s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
       "bias": "中性待确认",
       "impact": "中",
@@ -14890,7 +14907,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "$98 billion In Payouts, A Lagging Stock: The V Trade-Off",
       "bias": "中性待确认",
       "impact": "中",
@@ -15264,7 +15281,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Billionaire Bill Ackman Just Sold 25% of His Stake in This Big Tech Giant for 2 AI Rivals",
       "bias": "中性待确认",
       "impact": "中",
@@ -15447,23 +15464,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/visa-vs-affirm-fintech-stock-163600247.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NFLX",
-      "title": "David Friedberg Says 1 Piece of SpaceX Could Be Worth a Trillion Dollars Inside 18 Months, ‘That I Think Funds All of the Rest of This’",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T16:35:07+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/74cd7459-e10d-3e23-8a54-312a84259a64/david-friedberg-says-1-piece.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15672,7 +15672,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Warning: The Buffett Portfolio Your OMAH ETF Copies Is Disappearing One 13F at a Time",
       "bias": "偏利空",
       "impact": "中",
