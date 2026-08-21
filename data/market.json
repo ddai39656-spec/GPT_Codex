@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T05:40:06.968168+00:00",
+  "updated_at": "2026-08-21T06:19:23.018576+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14550,7 +14550,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "MSTR",
       "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus",
       "bias": "中性待确认",
       "impact": "中",
@@ -15179,7 +15179,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Rain’s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
       "bias": "中性待确认",
       "impact": "中",
@@ -15196,7 +15196,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "$98 billion In Payouts, A Lagging Stock: The V Trade-Off",
       "bias": "中性待确认",
       "impact": "中",
@@ -15417,7 +15417,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Billionaire Bill Ackman Just Sold 25% of His Stake in This Big Tech Giant for 2 AI Rivals",
       "bias": "中性待确认",
       "impact": "中",
@@ -15774,7 +15774,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Warning: The Buffett Portfolio Your OMAH ETF Copies Is Disappearing One 13F at a Time",
       "bias": "偏利空",
       "impact": "中",
