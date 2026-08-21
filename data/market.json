@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T09:48:38.223250+00:00",
+  "updated_at": "2026-08-21T10:38:48.689380+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,9 +52,9 @@
       },
       {
         "ticker": "^VIX",
-        "price": 15.73,
-        "d5": 10.39,
-        "ma20": 16.0335,
+        "price": 15.72,
+        "d5": 10.32,
+        "ma20": 16.033,
         "above_ma20": false
       },
       {
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 16,
     "events": 80,
-    "high_impact_events": 9,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -14431,7 +14431,58 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "RIOT",
+      "symbol": "MU",
+      "title": "Dow Jones Futures Rise After Bearish Market Signal; Bitcoin Keeps Surging",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T10:26:41+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures-rise-after.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Bitcoin Heads for Best Week Since 2024 as Trump-Fueled Crypto Rally Rages On",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T10:14:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d66935d1-6d51-3f6a-9468-43d81576b770/bitcoin-heads-for-best-week.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
+      "title": "Crypto stocks extend rally as Bitcoin jumps on US regulatory momentum",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T09:56:33+00:00",
+      "source": "InvestorsHub",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/b184a800-2740-308e-84c0-7efbd9e50571/crypto-stocks-extend-rally-as.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
       "title": "Crypto stocks continue rallying as Bitcoin extends gains on regulation push",
       "bias": "中性待确认",
       "impact": "中",
@@ -14601,7 +14652,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -14631,6 +14682,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081024366.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T08:07:00+00:00",
+      "source": "Bloomberg",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/memory-stocks-struggle-momentum-smart-080700264.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14716,6 +14784,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-alphabet-070300773.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "UBER",
+      "title": "Amazon, Uber, DoorDash, and Walmart are taking the delivery wars to the skies",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T07:03:00+00:00",
+      "source": "Fortune",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/amazon-uber-doordash-walmart-taking-070300525.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14839,23 +14924,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "Dow Jones Futures: Market Triggers This Bearish Signal As Walmart, SpaceX, CrowdStrike Tumble",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T03:09:23+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/91327cea-fed2-33ed-a182-385b27c0298f/dow-jones-futures%3A-market.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "AAPL",
       "title": "Wall Street is starting to warm to Apple's $2,199 foldable gamble",
       "bias": "中性待确认",
@@ -14958,23 +15026,6 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
-      "title": "Trump once stamped his face on gold, now his eyes are on Bitcoin",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T01:15:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/c876508d-d93c-3486-9270-b9c0ebcf6ed3/trump-once-stamped-his-face.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MARA",
       "title": "MARA Holdings (MARA) Soars Double Digits — Here’s The Catalyst to Watch Now",
       "bias": "偏利多",
@@ -14992,7 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MARA",
       "title": "Top stocks today, Aug. 20: 5 biggest gainers as Bitcoin climbs",
       "bias": "中性待确认",
       "impact": "中",
@@ -15073,23 +15124,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/1f459003-7a34-34fc-bf4c-07f2a3854f00/own-dell-stock%3F-here-is-how.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
-      "title": "Coinbase Fell 50%. This 2X ETF Lost 85%. Here’s the Brutal Math a ‘Comeback’ Has to Overcome",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T23:46:30+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/635c584e-e09c-38e0-9075-21bc6d392ce6/coinbase-fell-50%25.-this-2x.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15179,23 +15213,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "Jim Simons' Renaissance cuts $486 million from surging AI stock",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：cut, cuts",
-      "time": "2026-08-20T22:33:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0b67cc6d-5671-3ef4-bf40-49150d2c3eca/jim-simons%27-renaissance-cuts.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MA",
       "title": "Can Mastercard (MA) Stay Cheap As AI Payments Expand?",
       "bias": "中性待确认",
@@ -15226,23 +15243,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/18c6aca7-42f6-3872-ab64-acb1737b527e/history-of-tsmc-%26-its-stock%3A.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSTR",
-      "title": "Stocks to Watch Thursday Recap: Strategy, Moderna, Walmart",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T21:49:03+00:00",
-      "source": "The Wall Street Journal",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/84b77662-f498-38e9-9692-38ddf62b3bb3/stocks-to-watch-thursday.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15332,7 +15332,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Rain’s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
       "bias": "中性待确认",
       "impact": "中",
@@ -15349,7 +15349,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "$98 billion In Payouts, A Lagging Stock: The V Trade-Off",
       "bias": "中性待确认",
       "impact": "中",
@@ -15536,7 +15536,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Billionaire Bill Ackman Just Sold 25% of His Stake in This Big Tech Giant for 2 AI Rivals",
       "bias": "中性待确认",
       "impact": "中",
