@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T21:42:39.499773+00:00",
+  "updated_at": "2026-08-21T22:02:30.361510+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -682,7 +682,7 @@
       "d5": 22.39,
       "d20": -7.1,
       "gap": 5.07,
-      "volume": 101106921.0,
+      "volume": 101063737.0,
       "volume_ratio": 2.24,
       "rsi14": 46.2,
       "ma20": 10.4925,
@@ -968,7 +968,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 11.26,
-          "volume": 101106921.0
+          "volume": 101063737.0
         }
       ]
     },
@@ -1280,7 +1280,7 @@
       "d5": 3.39,
       "d20": 14.88,
       "gap": 1.45,
-      "volume": 61431249.0,
+      "volume": 61421557.0,
       "volume_ratio": 0.96,
       "rsi14": 57.9,
       "ma20": 17.7545,
@@ -1566,7 +1566,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 18.91,
-          "volume": 61431249.0
+          "volume": 61421557.0
         }
       ]
     },
@@ -13838,7 +13838,7 @@
       "d5": -11.52,
       "d20": 4.73,
       "gap": 0.08,
-      "volume": 7936382.0,
+      "volume": 7935930.0,
       "volume_ratio": 1.05,
       "rsi14": 42.9,
       "ma20": 204.243,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 191.95,
-          "volume": 7936382.0
+          "volume": 7935930.0
         }
       ]
     },
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
+      "bias": "偏利空",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：cut",
+      "time": "2026-08-21T21:53:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a574904e-70cd-35f1-b2ba-39f9c930ed9f/warren-buffett-successor-greg.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
+      "title": "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T21:48:44+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e4bc1328-64a0-3b28-a227-067671a70572/us-stock-indices-end-week.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Why Is Tesla Stock Up Today?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T21:46:33+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/5a0bf949-d207-3a8f-9d9f-f9c30fbd93b8/why-is-tesla-stock-up-today%3F.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval",
       "bias": "偏利多",
@@ -14482,7 +14533,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -14516,7 +14567,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch Recap: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -14533,7 +14584,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules.",
       "bias": "偏利多",
       "impact": "中",
@@ -14567,7 +14618,7 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
+      "symbol": "MSFT",
       "title": "The Premium On AAPL Stock Vs What Its Peers Deliver",
       "bias": "中性待确认",
       "impact": "中",
@@ -14618,7 +14669,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
       "bias": "中性待确认",
       "impact": "中",
@@ -14652,7 +14703,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Weekly Wrap: Bitcoin Breaks Out",
       "bias": "中性待确认",
       "impact": "中",
@@ -14839,7 +14890,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "UBER",
       "title": "Alphabet Rises as Waymo Secures Another Robotaxi Market",
       "bias": "中性待确认",
       "impact": "中",
@@ -14886,23 +14937,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/94c274d7-6c1c-3bf2-9a2b-3b4c45c973fa/what-exxonmobil-told-you.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Meta Platforms (META) Pitches AI for Everyone While Apple (AAPL) Quietly Turns to China",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T19:54:54+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-pitches-ai-195454070.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14988,23 +15022,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/969400a7-3c7e-3df1-9a1b-5f2b47b2a109/warsh-at-jackson-hole%2C-nvidia.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla vs. SpaceX: Which Musk Stock Offers the Better Bet on the Future?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T19:00:43+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/8f863968-a067-3673-915e-241c4107704f/tesla-vs.-spacex%3A-which-musk.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15213,7 +15230,7 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
+      "symbol": "SNOW",
       "title": "Even The Calm Reading On Palantir Puts Nearly Half The Position In Play",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,6 +15451,23 @@
     },
     {
       "market": "美股",
+      "symbol": "PLTR",
+      "title": "Palantir Co-Founder Peter Thiel's Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T15:41:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/5677fe2d-b128-3b82-84a7-5fc0fbae12b2/palantir-co-founder-peter.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "SOFI",
       "title": "SoFi Climbs 5% as Robinhood Spikes 13%, Affirm Ticks Up: Is There a Crypto Connection Here?",
       "bias": "中性待确认",
@@ -15536,7 +15570,7 @@
     },
     {
       "market": "美股",
-      "symbol": "SOFI",
+      "symbol": "MARA",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15753,40 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-stay-cheap-ai-221212356.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "V",
-      "title": "Rain’s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T20:24:36+00:00",
-      "source": "Forkast News",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/rain-agentic-payments-alliance-writing-202436472.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "V",
-      "title": "$98 billion In Payouts, A Lagging Stock: The V Trade-Off",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T20:21:46+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/b9a4eca7-5bb7-39fa-9bc8-b647d8d5c173/%2498-billion-in-payouts%2C-a.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
