@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T04:57:14.015191+00:00",
+  "updated_at": "2026-08-21T05:40:06.968168+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MU",
+      "title": "Memory Is the “Strategic Infrastructure of the AI Era,” Micron CEO Says",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T04:54:24+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/25db71d9-59e0-3492-9d22-ad07d16ea18b/memory-is-the-%E2%80%9Cstrategic.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "TSLA Stock Eyes Another Winning Week: Nevada Clears Up To 5,000 Robotaxis, Musk Sees ‘Crazy’ Tesla Growth",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-08-21T04:33:06+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9767e04e-1faa-3ef5-a310-b1dbecd57402/tsla-stock-eyes-another.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "XOM",
       "title": "Germany Revoked ‘Suspicious’ Carbon Credits Bought by ExxonMobil",
       "bias": "中性待确认",
@@ -14635,7 +14669,7 @@
     },
     {
       "market": "美股",
-      "symbol": "RIOT",
+      "symbol": "COIN",
       "title": "Top stocks today, Aug. 20: 5 biggest gainers as Bitcoin climbs",
       "bias": "中性待确认",
       "impact": "中",
@@ -14975,23 +15009,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "How Much of Your Portfolio Should Actually Be in DRAM",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T21:25:31+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/a137d9b6-316c-3a98-9c1d-2a5b37276fec/how-much-of-your-portfolio.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
       "bias": "中性待确认",
@@ -15141,23 +15158,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/df894c8e-b938-3608-853e-b8c0f39683d6/the-sec-hands-crypto-projects.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Einride targets 1,500 trucks by 2028 with Tesla and DAF deals",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T20:46:13+00:00",
-      "source": "FreightWaves",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/einride-targets-1-500-trucks-204613883.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
