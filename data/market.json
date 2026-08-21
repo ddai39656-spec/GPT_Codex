@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T07:26:09.852311+00:00",
+  "updated_at": "2026-08-21T08:08:56.978025+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,9 +52,9 @@
       },
       {
         "ticker": "^VIX",
-        "price": 16.01,
-        "d5": 9.43,
-        "ma20": 16.176,
+        "price": 15.84,
+        "d5": 11.16,
+        "ma20": 16.039,
         "above_ma20": false
       },
       {
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 16,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 8,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MA",
+      "title": "Mastercard Insider Sold Shares Worth $4,868,203, According to a Recent SEC Filing",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "监管/调查",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T07:54:01+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-insider-sold-shares-worth-075401212.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
+      "title": "Marc Benioff's Salesforce Spent a Record $27 Billion on Stock Buybacks in a Single Quarter to Fight What He Calls the \"SaaSpocalypse.\" Here's Why the Size of That Repurchase Matters.",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：buyback, record",
+      "time": "2026-08-21T07:42:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/fe98ebcf-3a22-36a9-9d53-0976cefe63b9/marc-benioff%27s-salesforce.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Billionaire Investor Stanley Druckenmiller Just Sold Intel and Micron, and Piled Into 2 Artificial Intelligence (AI) Stocks That Are Betting Big on Robotics",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T07:25:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/371dff92-424d-3d62-8d88-3b3826cb2754/billionaire-investor-stanley.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "NFLX",
       "title": "Five Below Stock Looks Like a Winner for Back to School—and Beyond",
       "bias": "中性待确认",
@@ -14584,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "MSTR",
       "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus",
       "bias": "中性待确认",
       "impact": "中",
@@ -14703,7 +14754,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "RIOT",
       "title": "Top stocks today, Aug. 20: 5 biggest gainers as Bitcoin climbs",
       "bias": "中性待确认",
       "impact": "中",
@@ -15026,23 +15077,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "The Engine Behind INTC Stock Has Real Parts",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T21:29:00+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/d8d15a54-8372-336d-b394-61afe6d27dfb/the-engine-behind-intc-stock.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
       "bias": "中性待确认",
@@ -15094,23 +15128,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Airwallex expands from cross-border payments to autonomous finance—though president Lucy Liu says it’s still ‘not the best time’ for an IPO",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T21:00:00+00:00",
-      "source": "Fortune",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/airwallex-expands-cross-border-payments-210000767.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "AAPL",
       "title": "Apple’s New CEO Could Shake Up Its Spending Strategy to Win in AI",
       "bias": "中性待确认",
@@ -15124,6 +15141,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/08cd1a38-2d09-357e-b90c-6411f5ff21d1/apple%E2%80%99s-new-ceo-could-shake.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Airwallex expands from cross-border payments to autonomous finance—though president Lucy Liu says it’s still ‘not the best time’ for an IPO",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-20T21:00:00+00:00",
+      "source": "Fortune",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/airwallex-expands-cross-border-payments-210000767.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15213,7 +15247,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Rain’s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
       "bias": "中性待确认",
       "impact": "中",
@@ -15230,7 +15264,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "$98 billion In Payouts, A Lagging Stock: The V Trade-Off",
       "bias": "中性待确认",
       "impact": "中",
@@ -15451,7 +15485,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Billionaire Bill Ackman Just Sold 25% of His Stake in This Big Tech Giant for 2 AI Rivals",
       "bias": "中性待确认",
       "impact": "中",
@@ -15672,23 +15706,6 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
-      "title": "CEOs shift messaging around AI and layoffs",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：layoff",
-      "time": "2026-08-20T15:59:06+00:00",
-      "source": "Axios",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/e96cc1b7-b454-3bed-a282-12d64f4963b4/ceos-shift-messaging-around.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "RIOT",
       "title": "Riot Platforms Stock Gains as Bitcoin Crosses $72,000",
       "bias": "中性待确认",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/b155fc50-8773-366c-8137-9a560a255e98/palantir-is-growing-faster.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NFLX",
-      "title": "Walt Disney Stock's Next Leg Depends On What It Has Been Building",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-20T14:47:29+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/b76cec31-fe55-3616-9652-53dcb2838e87/walt-disney-stock%27s-next-leg.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
