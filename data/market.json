@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T08:51:03.625088+00:00",
+  "updated_at": "2026-08-22T09:35:16.674486+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "XOM",
+      "title": "What Is ExxonMobil (XOM) Telling Investors By Shifting Focus From Tengiz To Kashagan?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T09:08:58+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-telling-investors-shifting-090858564.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
       "bias": "中性待确认",
@@ -14550,7 +14567,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "bias": "中性待确认",
       "impact": "高",
@@ -14567,7 +14584,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15366,23 +15383,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "Sector Update: Energy Stocks Mixed Friday Afternoon",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T17:36:44+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-friday-173644811.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "NOW",
       "title": "ServiceNow investors must consider latest alert from Bank of America",
       "bias": "中性待确认",
@@ -15417,7 +15417,7 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
+      "symbol": "NOW",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
