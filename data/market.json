@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T18:41:59.512593+00:00",
+  "updated_at": "2026-08-22T19:10:01.849661+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14788,6 +14788,23 @@
     },
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Full Self-Driving Is the Best Thing About the New Tesla Model Y",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T09:30:00+00:00",
+      "source": "The Wall Street Journal",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f24f6c8f-039f-3eee-9886-b9a44fa5d693/full-self-driving-is-the-best.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "XOM",
       "title": "What Is ExxonMobil (XOM) Telling Investors By Shifting Focus From Tengiz To Kashagan?",
       "bias": "中性待确认",
@@ -14924,7 +14941,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15264,7 +15281,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15570,7 +15587,7 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
+      "symbol": "NOW",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143017545.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Strategy Rallies 8%, MARA Holdings Climbs 6%, Coinbase Jumps 5% as Bitcoin Breaks Out of Its 2026 Range",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T13:25:23+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/3d4924f7-6cb7-37bc-bb08-7aff0c195462/strategy-rallies-8%25%2C-mara.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
