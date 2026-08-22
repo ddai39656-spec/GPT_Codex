@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T11:02:05.397231+00:00",
+  "updated_at": "2026-08-22T11:31:37.949469+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MSFT",
+      "title": "3 AI Stocks Built for the Next Decade",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T11:00:30+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9da55a43-8879-3126-af43-67b5cb823c54/3-ai-stocks-built-for-the.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "XRP Price Breaks $1.20 as Whales Scoop 300M Tokens — Is $2 Next After Ripple Prime’s $275M Raise?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T10:57:15+00:00",
+      "source": "CCN",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/c98c7d97-5529-3e97-a18e-d781c72ac00d/xrp-price-breaks-%241.20-as.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "COIN",
       "title": "Trump's Crypto Comments Cheered: Robinhood CEO Stresses 'Broad Ownership' At White House Event, Binance Founder Says, 'We're So Back'",
       "bias": "中性待确认",
@@ -14601,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "bias": "中性待确认",
       "impact": "高",
@@ -14992,7 +15026,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "UBER",
       "title": "Why Is Tesla Stock Up Today?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15009,7 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15124,23 +15158,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/83421330-6386-31f1-8c16-8f9b1127fb50/bitcoin-rally-tops-%2479%2C000..html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "The Premium On AAPL Stock Vs What Its Peers Deliver",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T20:45:38+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/57c103a8-65c8-3ff9-844d-4ea09e9f2c9f/the-premium-on-aapl-stock-vs.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15672,7 +15689,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "SOFI",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/b184a800-2740-308e-84c0-7efbd9e50571/crypto-stocks-extend-rally-as.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Crypto stocks continue rallying as Bitcoin extends gains on regulation push",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T09:37:30+00:00",
-      "source": "Investing.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-continue-rallying-bitcoin-093730958.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
