@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T05:34:58.753056+00:00",
+  "updated_at": "2026-08-22T06:02:46.768528+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14516,7 +14516,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "bias": "中性待确认",
       "impact": "高",
@@ -14533,7 +14533,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -14907,7 +14907,7 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
+      "symbol": "TSLA",
       "title": "Why Is Tesla Stock Up Today?",
       "bias": "中性待确认",
       "impact": "中",
@@ -14924,7 +14924,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15026,7 +15026,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Stocks to Watch Recap: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -15043,7 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules.",
       "bias": "偏利多",
       "impact": "中",
