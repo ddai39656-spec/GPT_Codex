@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T04:52:55.645337+00:00",
+  "updated_at": "2026-08-22T05:34:58.753056+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 10,
+    "high_impact_events": 11,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "CRM",
+      "title": "Salesforce (CRM) Adds No Code Contract Management App To Its AgentExchange",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "并购/合作",
+      "reason": "标题包含方向词：contract",
+      "time": "2026-08-22T05:08:17+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/salesforce-crm-adds-no-code-050817286.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "UBER",
       "title": "Billionaire David Tepper Sells Lyft in Favor of Its Biggest Rival, Which Has 30% Upside, According to Wall Street",
       "bias": "中性待确认",
@@ -14461,6 +14478,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-6-4-041817693.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Coinbase CEO Brian Armstrong Sees Crypto Bull Market Starting Soon",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T04:10:36+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/ed347acc-7657-3aab-9a9b-211b087a3e88/coinbase-ceo-brian-armstrong.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14499,7 +14533,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -14720,6 +14754,23 @@
     },
     {
       "market": "美股",
+      "symbol": "MSFT",
+      "title": "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T23:00:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6d239e08-64d1-30c3-adf3-1ce7d0e7c046/microsoft-vs.-broadcom%3A-one.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "V",
       "title": "Market Chatter: Hims & Hers Health Faces Nearly $75,000 Bill From Card Disputes",
       "bias": "中性待确认",
@@ -14856,7 +14907,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "UBER",
       "title": "Why Is Tesla Stock Up Today?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15022,40 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/57c103a8-65c8-3ff9-844d-4ea09e9f2c9f/the-premium-on-aapl-stock-vs.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T20:40:25+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-advanced-micro-204025825.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
-      "title": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T20:40:11+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15349,23 +15366,6 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
-      "title": "Zoom Stock Is Priced Three Separate Ways At Once",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T17:35:02+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/1469d525-1d57-3ed6-b593-d1521f13ab3a/zoom-stock-is-priced-three.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "NOW",
       "title": "ServiceNow investors must consider latest alert from Bank of America",
       "bias": "中性待确认",
@@ -15655,7 +15655,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "SOFI",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
