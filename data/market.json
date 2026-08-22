@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T11:53:24.474955+00:00",
+  "updated_at": "2026-08-22T12:55:04.780707+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,19 +14431,36 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "bias": "中性待确认",
       "impact": "高",
       "horizon": "1–5个交易日",
       "event_type": "财报/指引",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T11:31:49+00:00",
+      "time": "2026-08-22T12:08:44+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "Palantir, Freeport Clear Buy Points, Lead Five Stocks To Watch",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T12:00:19+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9057af07-60ab-3c1c-b640-407251f6e2fc/palantir%2C-freeport-clear-buy.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15468,7 +15485,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NOW",
+      "symbol": "PLTR",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15532,23 +15549,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/26c83f1a-718b-39c0-a28a-5ef9a414b74b/one-wall-street-analyst.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "Bloom Energy vs. Palantir: Which \"Story Stock\" Actually Has More Room to Run?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T16:25:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/ea80aae9-6b98-3041-be96-1847772afb6c/bloom-energy-vs.-palantir%3A.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
