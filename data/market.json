@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T09:35:16.674486+00:00",
+  "updated_at": "2026-08-22T10:02:17.093736+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "PLTR",
+      "title": "Prediction: This Will Be Palantir's Stock Price by the End of 2030",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T09:35:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/96401403-751f-3ce3-b4f6-cfe4ceb99d0a/prediction%3A-this-will-be.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "XOM",
       "title": "What Is ExxonMobil (XOM) Telling Investors By Shifting Focus From Tengiz To Kashagan?",
       "bias": "中性待确认",
@@ -14584,7 +14601,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15549,23 +15566,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0fa92f5a-a03e-3bbe-b19e-34d0ec54bfae/iraq-wants-to-more-than.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "Palantir Co-Founder Peter Thiel's Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:41:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5677fe2d-b128-3b82-84a7-5fc0fbae12b2/palantir-co-founder-peter.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
