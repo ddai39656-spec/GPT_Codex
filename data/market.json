@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T15:29:43.931195+00:00",
+  "updated_at": "2026-08-22T15:51:23.152658+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 8,
+    "high_impact_events": 7,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla's Model Y L Is Coming to America. Will It Reignite Sales Growth?",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-08-22T15:35:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6e050776-1b7f-37c7-8f18-dba6d03e5ffa/tesla%27s-model-y-l-is-coming.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "CRM",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
@@ -14495,23 +14512,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/9b04016b-f5c6-385b-9faf-ed2aa3137546/amazon-stock-is-historically.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "HOOD",
-      "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T13:27:37+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14771,7 +14771,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15128,7 +15128,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15141,23 +15141,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/eeb9d4a5-709e-3c13-950e-15ab74f5e034/u.s.-stocks-rise-as-bitcoin.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：approval",
-      "time": "2026-08-21T21:22:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0de9a631-8015-34bc-a63e-a72f47d0e059/stock-market-today%2C-aug.-21%3A.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-continue-rallying-bitcoin-093730958.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MA",
+      "title": "Mastercard Insider Sold Shares Worth $4,868,203, According to a Recent SEC Filing",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "监管/调查",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T07:54:01+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-insider-sold-shares-worth-075401212.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
