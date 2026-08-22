@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T08:03:40.690668+00:00",
+  "updated_at": "2026-08-22T08:51:03.625088+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Every S&P 500 Index Fund Owner Holds More Nvidia Than Apple",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T08:32:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e08ab9df-be6b-3d59-97e3-d253e7d472be/every-s%26p-500-index-fund.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
+      "title": "Will Eli Lilly’s Global Vault CRM Deal and Leadership Shift Change Veeva Systems’ (VEEV) Narrative?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T08:08:51+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-global-vault-crm-080851754.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "CRM",
       "title": "Salesforce (CRM) Adds No Code Contract Management App To Its AgentExchange",
       "bias": "偏利多",
@@ -14924,7 +14958,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15009,24 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：cut",
-      "time": "2026-08-21T20:58:07+00:00",
-      "source": "TechCrunch",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-reportedly-cutting-hundreds-jobs-205807162.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch Recap: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -15043,7 +15060,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules.",
       "bias": "偏利多",
       "impact": "中",
@@ -15400,7 +15417,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NOW",
+      "symbol": "PLTR",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15600,23 +15617,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/d6f93a28-fc41-3ad0-b840-6b48c5ad7207/truist-just-upped-its-price.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Stock Split Watch: Is Eli Lilly (LLY) Stock Next?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:05:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/ec363122-0a95-3496-855e-9972cbc3f947/stock-split-watch%3A-is-eli.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
