@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T01:47:10.754720+00:00",
+  "updated_at": "2026-08-22T02:43:00.706108+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 12,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "CRM",
+      "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T02:36:16+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Coinbase Global (COIN) Could Be 25% Undervalued After Its Abu Dhabi Tokenization Push",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T02:11:45+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-global-coin-could-25-021145743.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "HOOD",
+      "title": "Vlad Tenev Asked Regulators to Green-Light Tokenized Stocks. Robinhood Just Added About $12 Billion in Market Value.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T02:11:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/22b01e23-49eb-3874-b19f-18df4f71b7a5/vlad-tenev-asked-regulators.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "UBER",
       "title": "Uber (UBER) Hit With €825 Million GDPR Fine Over Driver Suspensions",
       "bias": "中性待确认",
@@ -14737,7 +14788,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -14839,7 +14890,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch Recap: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -14856,7 +14907,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules.",
       "bias": "偏利多",
       "impact": "中",
@@ -14869,23 +14920,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/83421330-6386-31f1-8c16-8f9b1127fb50/bitcoin-rally-tops-%2479%2C000..html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "HOOD",
-      "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T20:48:30+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14941,7 +14975,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
       "bias": "中性待确认",
       "impact": "中",
@@ -14988,23 +15022,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/5b77819d-85d8-3d9a-8bc6-0d47ff89e0b5/weekly-wrap%3A-bitcoin-breaks.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
-      "title": "Crypto Stocks Gain as Bitcoin Logs Best Week in Over Two Years",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T20:30:40+00:00",
-      "source": "The Wall Street Journal",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/11ecd426-6bc3-3544-b5dd-b3914accb585/crypto-stocks-gain-as-bitcoin.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15349,7 +15366,7 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
+      "symbol": "NOW",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15604,7 +15621,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "SOFI",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-insider-sold-shares-worth-074550093.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T02:38:54+00:00",
-      "source": "Stocktwits",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5b27c2b1-8c82-3c5f-9c8f-2a5b9919a12e/dow%2C-s%26p-500%2C-nasdaq-futures.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
