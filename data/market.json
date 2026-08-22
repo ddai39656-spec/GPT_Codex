@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T13:38:23.218751+00:00",
+  "updated_at": "2026-08-22T14:01:26.129620+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,7 +14431,24 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "MSFT",
+      "title": "Amazon Stock Is Historically Cheap. Is This a Once-in-a-Decade Buying Opportunity?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T13:30:46+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9b04016b-f5c6-385b-9faf-ed2aa3137546/amazon-stock-is-historically.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "bias": "中性待确认",
       "impact": "高",
@@ -14703,7 +14720,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15094,7 +15111,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15468,7 +15485,7 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
+      "symbol": "NOW",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15672,7 +15689,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MARA",
+      "symbol": "SOFI",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/b184a800-2740-308e-84c0-7efbd9e50571/crypto-stocks-extend-rally-as.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Crypto stocks continue rallying as Bitcoin extends gains on regulation push",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T09:37:30+00:00",
-      "source": "Investing.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-continue-rallying-bitcoin-093730958.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
