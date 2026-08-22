@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T21:54:45.119391+00:00",
+  "updated_at": "2026-08-22T22:31:35.518948+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：buyback",
+      "time": "2026-08-22T22:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/199a7bbe-6870-3c31-b182-82013fb73622/apple-announced-its.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Nvidia customers face over 15% server price hikes as memory costs soar - report",
       "bias": "偏利多",
@@ -14720,7 +14737,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
       "impact": "中",
@@ -15026,7 +15043,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15158,23 +15175,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/14d038cf-7c04-341f-b1e2-3f54a7da8344/review-%26-preview%3A-vacation%E2%80%99s.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "The Lakers as a $12.5 Billion Tax Shelter",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T23:34:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/be7b758b-d8a2-3b74-a555-4685f09e9af4/the-lakers-as-a-%2412.5-billion.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
