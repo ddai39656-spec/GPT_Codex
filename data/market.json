@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T02:43:00.706108+00:00",
+  "updated_at": "2026-08-22T03:27:31.219257+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 12,
+    "high_impact_events": 11,
     "failed_symbols": []
   },
   "us": [
@@ -682,7 +682,7 @@
       "d5": 22.39,
       "d20": -7.1,
       "gap": 5.07,
-      "volume": 101063737.0,
+      "volume": 101106921.0,
       "volume_ratio": 2.24,
       "rsi14": 46.2,
       "ma20": 10.4925,
@@ -968,7 +968,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 11.26,
-          "volume": 101063737.0
+          "volume": 101106921.0
         }
       ]
     },
@@ -1280,7 +1280,7 @@
       "d5": 3.39,
       "d20": 14.88,
       "gap": 1.45,
-      "volume": 61421557.0,
+      "volume": 61431249.0,
       "volume_ratio": 0.96,
       "rsi14": 57.9,
       "ma20": 17.7545,
@@ -1566,7 +1566,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 18.91,
-          "volume": 61421557.0
+          "volume": 61431249.0
         }
       ]
     },
@@ -13838,7 +13838,7 @@
       "d5": -11.52,
       "d20": 4.73,
       "gap": 0.08,
-      "volume": 7935930.0,
+      "volume": 7936382.0,
       "volume_ratio": 1.05,
       "rsi14": 42.9,
       "ma20": 204.243,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 191.95,
-          "volume": 7935930.0
+          "volume": 7936382.0
         }
       ]
     },
@@ -14482,6 +14482,23 @@
     },
     {
       "market": "美股",
+      "symbol": "MSTR",
+      "title": "Michael Saylor Warns Strategy Investors: 'We Have to Be Prepared to Have Difficult Years'",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T01:31:46+00:00",
+      "source": "Benzinga",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-warns-strategy-investors-013146179.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "UBER",
       "title": "Uber (UBER) Hit With €825 Million GDPR Fine Over Driver Suspensions",
       "bias": "中性待确认",
@@ -14771,7 +14788,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "UBER",
       "title": "Why Is Tesla Stock Up Today?",
       "bias": "中性待确认",
       "impact": "中",
@@ -14975,7 +14992,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
       "bias": "中性待确认",
       "impact": "中",
@@ -15366,7 +15383,7 @@
     },
     {
       "market": "美股",
-      "symbol": "NOW",
+      "symbol": "PLTR",
       "title": "Palantir Climbs 4% Through $180, BigBear.ai Rises 4%, ServiceNow Holds Flat: How Are Traders Picking the Software Winners?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15621,7 +15638,7 @@
     },
     {
       "market": "美股",
-      "symbol": "SOFI",
+      "symbol": "MARA",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-insider-sold-shares-worth-075401212.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SNOW",
-      "title": "Snowflake Insider Sold Shares Worth $97,425,065, According to a Recent SEC Filing",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "监管/调查",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T07:45:50+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-insider-sold-shares-worth-074550093.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
