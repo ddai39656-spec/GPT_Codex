@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T22:31:35.518948+00:00",
+  "updated_at": "2026-08-22T22:54:22.749006+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 6,
     "failed_symbols": []
   },
   "us": [
@@ -14448,6 +14448,23 @@
     },
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "JPMorgan Says Tesla Is Confident of Scaling Cybercab Operations, Touts Future Models Based on Platform—FSD V15 a ‘Step-Change’ From Previous Versions",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T21:31:47+00:00",
+      "source": "Benzinga",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-says-tesla-confident-scaling-213147223.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Nvidia customers face over 15% server price hikes as memory costs soar - report",
       "bias": "偏利多",
@@ -15043,7 +15060,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15264,23 +15281,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T22:17:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/4bbbca5e-6c1c-32ff-a245-7fd42e99ed0f/morgan-stanley-resets-nvidia.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "V",
       "title": "OBOOK Q2 Earnings Call Highlights",
       "bias": "中性待确认",
@@ -15349,7 +15349,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
