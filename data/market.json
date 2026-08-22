@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T20:34:45.036278+00:00",
+  "updated_at": "2026-08-22T21:02:48.517392+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14754,7 +14754,7 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
+      "symbol": "MSFT",
       "title": "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
       "bias": "中性待确认",
       "impact": "中",
@@ -15332,7 +15332,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
