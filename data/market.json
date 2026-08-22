@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T21:32:59.145133+00:00",
+  "updated_at": "2026-08-22T21:54:45.119391+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14720,7 +14720,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
       "impact": "中",
@@ -15349,7 +15349,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
