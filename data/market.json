@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T14:33:06.682755+00:00",
+  "updated_at": "2026-08-22T14:55:12.933390+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "XOM",
+      "title": "Why Shell and the Other Oil Majors Aren't Price Gouging",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T14:35:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/2a58a420-a54b-35f1-88f1-90fc99736c90/why-shell-and-the-other-oil.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
       "bias": "中性待确认",
@@ -15094,7 +15111,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15260,23 +15277,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/2a67a801-4e6b-3f85-b135-e165ad0e05ea/occidental-petroleum-stock.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "XOM",
-      "title": "ConocoPhillips (COP) Beats Earnings and Names New CEO While Exxon Mobil (XOM)’s Record Profit Falls Short",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题包含方向词：beat, beats, profit, record",
-      "time": "2026-08-21T19:34:28+00:00",
-      "source": "Insider Monkey",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/conocophillips-cop-beats-earnings-names-193428889.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15655,23 +15655,6 @@
     },
     {
       "market": "美股",
-      "symbol": "CVX",
-      "title": "Are High Oil Prices a Tailwind for Cenovus Energy's Business?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T14:36:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/high-oil-prices-tailwind-cenovus-143600793.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "SOFI",
       "title": "BC-Most Active Stocks",
       "bias": "中性待确认",
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-continue-rallying-bitcoin-093730958.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MA",
+      "title": "Mastercard Insider Sold Shares Worth $4,868,203, According to a Recent SEC Filing",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "监管/调查",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T07:54:01+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-insider-sold-shares-worth-075401212.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
