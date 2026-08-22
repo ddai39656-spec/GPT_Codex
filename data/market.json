@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-22T04:08:46.194786+00:00",
+  "updated_at": "2026-08-22T04:52:55.645337+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "UBER",
+      "title": "Billionaire David Tepper Sells Lyft in Favor of Its Biggest Rival, Which Has 30% Upside, According to Wall Street",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T04:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/1e5d722f-e7da-32b8-b37d-0d4435be03e9/billionaire-david-tepper.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
+      "title": "Eli Lilly (LLY) Is Up 6.4% After UK Clears Foundayo and GLP‑1 Portfolio Advances - What's Changed",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-22T04:18:17+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-6-4-041817693.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "HOOD",
       "title": "Why Robinhood Markets Stock Popped Today",
       "bias": "中性待确认",
@@ -14839,7 +14873,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -14941,7 +14975,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch Recap: Strategy, Ross Stores, BJ’s Wholesale Club",
       "bias": "中性待确认",
       "impact": "中",
@@ -14958,7 +14992,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Bitcoin Rally Tops $79,000. Crypto Shorts, ETF Flows Soar. CFTC Explores Crypto Rules.",
       "bias": "偏利多",
       "impact": "中",
@@ -15226,23 +15260,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/51981666-fad5-3560-834f-d1fef4721335/microsoft-stock-gets-cheaper.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "UBER",
-      "title": "Tesla Jumps 3.6% as Semi Launch and Robotaxi Expansion Accelerate",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：launch",
-      "time": "2026-08-21T18:22:20+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-jumps-3-6-semi-182220329.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15685,23 +15702,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/2b45ef07-f169-3c3a-96cd-0b8e42e43049/salesforce-vs.-servicenow%3A.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "LLY",
-      "title": "Apple paid $17bn in taxes to Ireland after court ruling on back levies",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T12:34:23+00:00",
-      "source": "Financial Times",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/economy/policy/articles/apple-paid-17bn-taxes-ireland-123423999.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
