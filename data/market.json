@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T22:31:11.097202+00:00",
+  "updated_at": "2026-08-23T22:53:52.198057+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,7 +14438,7 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T22:23:02+00:00",
+      "time": "2026-08-23T22:40:21+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14461,23 +14461,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/212c99d1-b1ca-3198-8b46-5dcb1c38fcd0/eli-lilly-and-novo-nordisk.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "CRM",
-      "title": "Dow Jones Futures Fall With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T22:11:38+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14618,7 +14601,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "UBER",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14669,7 +14652,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,7 +15417,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-41-1-since-153007090.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SNOW",
+      "title": "Truist Just Upped Its Price Target on Snowflake Stock. Here's Why.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "评级变化",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T15:17:53+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d6f93a28-fc41-3ad0-b840-6b48c5ad7207/truist-just-upped-its-price.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
