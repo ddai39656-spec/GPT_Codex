@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T21:02:11.194119+00:00",
+  "updated_at": "2026-08-23T21:32:42.769822+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,7 +14438,7 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T20:43:43+00:00",
+      "time": "2026-08-23T21:07:44+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14550,7 +14550,7 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
+      "symbol": "V",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
