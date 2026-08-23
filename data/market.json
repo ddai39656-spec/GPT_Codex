@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T05:37:05.604554+00:00",
+  "updated_at": "2026-08-23T06:15:38.756996+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14448,7 +14448,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
       "impact": "中",
@@ -15179,7 +15179,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,7 +15434,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
