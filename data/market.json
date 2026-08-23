@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T10:08:54.993186+00:00",
+  "updated_at": "2026-08-23T10:44:19.219345+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "CVX",
+      "title": "Why Is Chevron (CVX) Naming A New Treasurer Worth Watching?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T10:08:15+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-chevron-cvx-naming-treasurer-100815088.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
       "bias": "中性待确认",
@@ -15566,23 +15583,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/94c274d7-6c1c-3bf2-9a2b-3b4c45c973fa/what-exxonmobil-told-you.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "CVX",
-      "title": "Occidental Petroleum Stock Can Climb Without A Higher Oil Price",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T19:41:46+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/2a67a801-4e6b-3f85-b135-e165ad0e05ea/occidental-petroleum-stock.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
