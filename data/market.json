@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T18:43:20.498319+00:00",
+  "updated_at": "2026-08-23T19:10:01.660172+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14533,7 +14533,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -14614,6 +14614,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/ce589487-d302-343d-9dc7-ad4cc41a018c/trump-continues-trading.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "500 Reasons to Buy Einride Stock Today",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T13:00:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6d72a611-6392-375f-812a-5e507648b816/500-reasons-to-buy-einride.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15005,23 +15022,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/61407c76-e1fb-356e-9266-46425a25eb7a/stock-market-week-ahead%3A-a.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla (TSLA) Is Recalling Nearly 3 Million Vehicles In China",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：recall",
-      "time": "2026-08-22T17:08:09+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-recalling-nearly-3-170809617.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
