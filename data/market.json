@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T21:32:42.769822+00:00",
+  "updated_at": "2026-08-23T21:53:50.496883+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,14 +14431,31 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "UBER",
+      "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T21:35:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/916f5f53-0f2a-329c-a4c7-27b41a9afa5d/does-billionaire-bill-ackman.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
       "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T21:07:44+00:00",
+      "time": "2026-08-23T21:23:43+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14601,7 +14618,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15447,23 +15464,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-hit-825-million-011150734.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "UBER",
-      "title": "Uber (UBER) Stock Fair Value Edges Lower As Analysts Weigh AV Spending And Delivery Hero",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T00:17:33+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-stock-fair-value-001733853.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
