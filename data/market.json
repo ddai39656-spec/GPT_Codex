@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T20:34:13.999052+00:00",
+  "updated_at": "2026-08-23T21:02:11.194119+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 5,
+    "high_impact_events": 4,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "HOOD",
+      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T20:43:43+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-due-with.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T20:38:55+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f972f6a0-ea1f-39a4-92c1-934f241d8939/this-company-just-paid-out.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "V",
       "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
       "bias": "中性待确认",
@@ -14483,23 +14517,6 @@
     {
       "market": "美股",
       "symbol": "CRM",
-      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T18:36:56+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-due-with.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "CRM",
       "title": "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
       "bias": "中性待确认",
       "impact": "中",
@@ -14533,7 +14550,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "UBER",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14584,7 +14601,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -14716,23 +14733,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/2040187f-ad4d-342f-b286-5cabe5fd231b/microsoft-stock-dropped-30%25.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题包含方向词：surge",
-      "time": "2026-08-23T11:25:02+00:00",
-      "source": "Yahoo Finance",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
