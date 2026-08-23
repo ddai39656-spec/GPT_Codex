@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T18:00:20.254833+00:00",
+  "updated_at": "2026-08-23T18:43:20.498319+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 6,
     "failed_symbols": []
   },
   "us": [
@@ -14431,19 +14431,36 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "HOOD",
-      "title": "Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus",
+      "symbol": "CRM",
+      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T17:30:17+00:00",
+      "time": "2026-08-23T18:36:56+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-due-with.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
+      "title": "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T18:00:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e7011a59-9767-38bc-88d5-890ce80e3f65/nvidia%2C-fed-confab%2C.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15396,23 +15413,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-stock-fair-value-001733853.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "CRM",
-      "title": "Arista Networks vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T00:12:39+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f54baa33-4468-337c-8094-456f80d2a883/arista-networks-vs..html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
