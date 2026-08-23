@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T09:12:21.736748+00:00",
+  "updated_at": "2026-08-23T09:46:38.136310+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T09:35:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9362a709-7741-3206-8ff0-1a8c6cf97605/tesla-stock-in-2027%3A-why-i.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "LLY",
       "title": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock. Should You?",
       "bias": "中性待确认",
@@ -14499,7 +14516,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
       "impact": "中",
@@ -15056,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/96401403-751f-3ce3-b4f6-cfe4ceb99d0a/prediction%3A-this-will-be.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Full Self-Driving Is the Best Thing About the New Tesla Model Y",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T09:30:00+00:00",
-      "source": "The Wall Street Journal",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f24f6c8f-039f-3eee-9886-b9a44fa5d693/full-self-driving-is-the-best.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
