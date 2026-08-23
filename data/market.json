@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T23:29:08.440848+00:00",
+  "updated_at": "2026-08-23T23:51:15.965704+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,12 +14438,29 @@
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T22:55:04+00:00",
+      "time": "2026-08-23T23:37:03+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "The AI Debt Boom Is Helping Push Everyone’s Cost of Capital Higher",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T23:18:17+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d2c15831-3f79-3b6a-ab94-5dd255c6d6e5/the-ai-debt-boom-is-helping.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15617,23 +15634,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/5b77819d-85d8-3d9a-8bc6-0d47ff89e0b5/weekly-wrap%3A-bitcoin-breaks.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "Palantir Stock Clears Buy Zone But Could Offer Alternative Entry",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T19:16:15+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f9848c02-9b88-3cc0-b4b1-482a54bfbfe5/palantir-stock-clears-buy.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
