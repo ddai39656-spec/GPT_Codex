@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T19:59:37.327024+00:00",
+  "updated_at": "2026-08-23T20:34:13.999052+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 6,
+    "high_impact_events": 5,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "V",
+      "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T20:00:21+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0bdecc4d-5be8-387f-9213-1c44c41ccecf/after-buying-circle-through-a.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "UBER",
       "title": "Uber faces fine of nearly $1B over automated driver suspensions",
       "bias": "中性待确认",
@@ -15519,23 +15536,6 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
-      "title": "OBOOK Q2 Earnings Call Highlights",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T22:02:17+00:00",
-      "source": "MarketBeat",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/803003a7-8bb1-3810-be65-a97244c27760/obook-q2-earnings-call.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus",
       "bias": "中性待确认",
@@ -15706,23 +15706,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
-      "title": "PayPal Agentic Payments: Can They Reshape the Future of Commerce?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T16:45:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-agentic-payments-reshape-future-164500935.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "SOFI",
       "title": "One Wall Street Analyst Thinks SoFi Stock Could Jump 20%. Here’s Why.",
       "bias": "中性待确认",
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-41-1-since-153007090.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SNOW",
+      "title": "Truist Just Upped Its Price Target on Snowflake Stock. Here's Why.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "评级变化",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T15:17:53+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d6f93a28-fc41-3ad0-b840-6b48c5ad7207/truist-just-upped-its-price.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
