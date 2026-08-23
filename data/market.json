@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T14:35:48.593388+00:00",
+  "updated_at": "2026-08-23T15:02:30.512436+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Nvidia’s 15% Price Hike Reveals the Hidden Cost of the AI Boom",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T14:43:54+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a2b11caf-7b7c-387c-8085-32b69378bc7b/nvidia%E2%80%99s-15%25-price-hike.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "PLTR",
       "title": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
       "bias": "中性待确认",
@@ -14516,7 +14533,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
+      "symbol": "AAPL",
       "title": "4 Low-Cost ETFs Every Investor Should Own",
       "bias": "中性待确认",
       "impact": "中",
@@ -14818,23 +14835,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/articles/paul-graham-says-tesla-buyers-233052774.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：buyback",
-      "time": "2026-08-22T22:20:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/199a7bbe-6870-3c31-b182-82013fb73622/apple-announced-its.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15264,7 +15264,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15519,7 +15519,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
