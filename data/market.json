@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T22:53:52.198057+00:00",
+  "updated_at": "2026-08-23T23:29:08.440848+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,19 +14431,19 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "HOOD",
-      "title": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+      "symbol": "CRM",
+      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T22:40:21+00:00",
+      "time": "2026-08-23T22:55:04+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
+      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14601,7 +14601,7 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
+      "symbol": "V",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14614,6 +14614,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/71a8f2dc-68de-3123-bbcc-2179142c8350/bill-ackman%27s-pershing-square.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "CRM",
+      "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T17:00:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f57cbeef-e32b-35f2-9fa8-43b4c292fdd8/nvidia-earnings%2C-jackson-hole.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14652,7 +14669,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15332,23 +15349,6 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
-      "title": "Salesforce (CRM) Adds No Code Contract Management App To Its AgentExchange",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "并购/合作",
-      "reason": "标题包含方向词：contract",
-      "time": "2026-08-22T05:08:17+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/salesforce-crm-adds-no-code-050817286.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "UBER",
       "title": "Billionaire David Tepper Sells Lyft in Favor of Its Biggest Rival, Which Has 30% Upside, According to Wall Street",
       "bias": "中性待确认",
@@ -15417,7 +15417,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
