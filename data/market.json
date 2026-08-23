@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T19:10:01.660172+00:00",
+  "updated_at": "2026-08-23T19:40:02.436314+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "UBER",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T19:30:00+00:00",
+      "source": "TechCrunch",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/uber-faces-fine-nearly-1b-193000400.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "Prediction: ExxonMobil Raises Its Dividend More Than Wall Street Expects",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：raises",
+      "time": "2026-08-23T19:16:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a3967849-55d9-3c39-931f-263a90cc06dc/prediction%3A-exxonmobil-raises.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "CRM",
       "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
@@ -14533,7 +14567,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15111,7 +15145,7 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
+      "symbol": "CVX",
       "title": "Why Shell and the Other Oil Majors Aren't Price Gouging",
       "bias": "中性待确认",
       "impact": "中",
@@ -15332,7 +15366,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15498,23 +15532,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/803003a7-8bb1-3810-be65-a97244c27760/obook-q2-earnings-call.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "UBER",
-      "title": "Uber Brings Baidu’s Driverless Robotaxis To Dubai",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T22:00:35+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/uber-brings-baidu-driverless-robotaxis-220035236.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-41-1-since-153007090.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SNOW",
-      "title": "Truist Just Upped Its Price Target on Snowflake Stock. Here's Why.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:17:53+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/d6f93a28-fc41-3ad0-b840-6b48c5ad7207/truist-just-upped-its-price.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
