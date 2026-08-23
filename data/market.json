@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T08:40:52.230935+00:00",
+  "updated_at": "2026-08-23T09:12:21.736748+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "LLY",
+      "title": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock. Should You?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T09:04:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/0faf92df-8298-300c-b712-58a3484ad38d/billionaire-ken-griffin-just.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up?",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-08-23T08:41:05+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/aws-lagging-microsoft-azure-google-084105975.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
       "bias": "中性待确认",
@@ -14516,7 +14550,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Trump Discloses 1,000 Stock Trades in June",
       "bias": "中性待确认",
       "impact": "中",
@@ -14839,7 +14873,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Visa (V) Backs New Standards For Agentic Payments",
       "bias": "中性待确认",
       "impact": "中",
@@ -14852,23 +14886,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-backs-standards-agentic-170807925.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "Microsoft Has Something Nvidia Doesn’t and Here’s Why it Matters",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T17:00:29+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/a6434137-d738-3803-ab31-a65cc0756a5f/microsoft-has-something.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15179,7 +15196,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,7 +15451,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
@@ -15485,7 +15502,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Weekly Wrap: Bitcoin Breaks Out",
       "bias": "中性待确认",
       "impact": "中",
@@ -15655,23 +15672,6 @@
     },
     {
       "market": "美股",
-      "symbol": "LLY",
-      "title": "Most Of What Moves AbbVie Stock Has Nothing To Do With The Market",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T17:48:49+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/57704af3-e738-3050-b917-5a0d86aa0205/most-of-what-moves-abbvie.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "NOW",
       "title": "ServiceNow investors must consider latest alert from Bank of America",
       "bias": "中性待确认",
@@ -15723,7 +15723,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "PayPal Agentic Payments: Can They Reshape the Future of Commerce?",
       "bias": "中性待确认",
       "impact": "中",
