@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T09:46:38.136310+00:00",
+  "updated_at": "2026-08-23T10:08:54.993186+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -15196,7 +15196,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15451,7 +15451,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "MSTR",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
