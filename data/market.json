@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T11:32:09.051695+00:00",
+  "updated_at": "2026-08-23T11:53:45.372271+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14465,7 +14465,7 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
+      "symbol": "MSFT",
       "title": "4 Low-Cost ETFs Every Investor Should Own",
       "bias": "中性待确认",
       "impact": "中",
@@ -15485,7 +15485,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
