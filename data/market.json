@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T11:53:45.372271+00:00",
+  "updated_at": "2026-08-23T12:55:58.432927+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "XOM",
+      "title": "The Portfolio Blueprint for Building $19,000 a Month in Dividend Income",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T11:53:09+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/88a16066-0d45-3dd4-b0d5-1183ce7aeb41/the-portfolio-blueprint-for.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "Microsoft Stock Dropped 30% From Its All-Time High: 2 Reasons It Could Double by 2030",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T11:44:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/2040187f-ad4d-342f-b286-5cabe5fd231b/microsoft-stock-dropped-30%25.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Nvidia's Q2 earnings to test resurgent AI trade",
       "bias": "偏利多",
@@ -14465,7 +14499,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
+      "symbol": "AAPL",
       "title": "4 Low-Cost ETFs Every Investor Should Own",
       "bias": "中性待确认",
       "impact": "中",
@@ -14601,7 +14635,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
       "bias": "中性待确认",
       "impact": "中",
@@ -14750,23 +14784,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/buy-over-paypal-holdings-inc-235243531.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "Has Wall Street Entered the \"Show Me\" Phase of AI?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T23:41:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/658098fe-6465-33da-9fe6-83015d2b7606/has-wall-street-entered-the.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15230,7 +15247,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15383,7 +15400,7 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
+      "symbol": "CVX",
       "title": "Buy the Big Oil Stocks Now",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/eee794ef-3bc0-36dd-8c2f-d407842e3bf4/cleanspark-sinks-6%25-even-as.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Warren Buffett's Berkshire Hathaway Bought This Dividend Stock for a Reason. Here's Why Greg Abel Won't Sell.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:59:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/8d39109e-e938-3aa3-9bee-c2829dd63c8a/warren-buffett%27s-berkshire.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
