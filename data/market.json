@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T10:44:19.219345+00:00",
+  "updated_at": "2026-08-23T11:03:01.537000+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MSFT",
+      "title": "Nvidia Reportedly Warns Top Customers of 15% Price Hikes on AI Servers",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-23T10:28:24+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/233d7487-7431-3180-8c72-f80ec9adb8d0/nvidia-reportedly-warns-top.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "CVX",
       "title": "Why Is Chevron (CVX) Naming A New Treasurer Worth Watching?",
       "bias": "中性待确认",
@@ -14839,23 +14856,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
-      "title": "I've Held Microsoft for 10 Years. Here's Why I'm Not Selling a Single Share.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T18:33:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/273e561e-bd31-342c-9a4c-dce60fabcff4/i%27ve-held-microsoft-for-10.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "CRM",
       "title": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole",
       "bias": "中性待确认",
@@ -15213,7 +15213,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15468,7 +15468,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "U.S. Stocks Rise as Bitcoin Nears $80,000",
       "bias": "中性待确认",
       "impact": "中",
