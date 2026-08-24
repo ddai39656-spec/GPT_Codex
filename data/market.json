@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T05:56:35.185906+00:00",
+  "updated_at": "2026-08-24T07:14:00.391165+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 8,
+    "high_impact_events": 9,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "HOOD",
+      "title": "HOOD Stock Gets A Retail-Trading Boost: CEO Says Robinhood Beat GameStop-Era Activity",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：beat",
+      "time": "2026-08-24T06:26:39+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/90c227c6-82b1-3697-9422-e5935dd2632c/hood-stock-gets-a.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "Xiaomi launches new Xring chip, partners with TSMC for production, sources say",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-24T06:22:21+00:00",
+      "source": "Reuters",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/xiaomi-launches-xring-chip-partners-062221305.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "Elon Musk's Tesla Has 'Massive Advantage' Before Selling Optimus in the Market, Says This Analyst — Crypto Prediction Market Weighs 2026 Launch Odds",
       "bias": "偏利多",
@@ -14550,7 +14584,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
       "impact": "中",
@@ -14822,7 +14856,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "UBER",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14890,7 +14924,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "COIN",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15056,23 +15090,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/dc477381-6af1-3359-81ed-6aa09b1c78ae/3-tech-compounders-fit-for.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Apple Cut Its Standard EU App Store Commission From 30% to 26%",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：cut, miss",
-      "time": "2026-08-23T03:43:01+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/b264c1a5-eca2-32fe-9a59-9cf7e478deba/apple-cut-its-standard-eu-app.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15532,23 +15549,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-hit-825-million-011150734.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "HOOD",
-      "title": "Review & Preview: Vacation’s Over",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T23:55:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/14d038cf-7c04-341f-b1e2-3f54a7da8344/review-%26-preview%3A-vacation%E2%80%99s.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
