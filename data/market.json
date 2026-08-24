@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-23T23:51:15.965704+00:00",
+  "updated_at": "2026-08-24T01:51:33.359130+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 4,
+    "high_impact_events": 6,
     "failed_symbols": []
   },
   "us": [
@@ -14431,19 +14431,53 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "CRM",
-      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
+      "symbol": "HOOD",
+      "title": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T23:37:03+00:00",
+      "time": "2026-08-24T01:39:51+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "url": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-waver%3B.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters.",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "监管/调查",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T01:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d5cd83f0-b99b-37f6-936e-c2d0cdb95dad/a-new-sec-filing-reveals.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla just set a date for its riskiest launch yet",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-24T01:03:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/b4ace486-6ac7-31ad-9dcc-6295d30000dc/tesla-just-set-a-date-for-its.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14533,7 +14567,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
       "bias": "中性待确认",
       "impact": "中",
@@ -14618,7 +14652,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "UBER",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14686,7 +14720,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -14941,23 +14975,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla Recalls Nearly 3 Million EVs in China Over Door Releases That Could Trap Occupants",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：recall",
-      "time": "2026-08-23T02:31:22+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-recalls-nearly-3-million-023122678.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "PLTR",
       "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
       "bias": "偏利多",
@@ -14975,7 +14992,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Trump Discloses 1,000 Stock Trades in June",
       "bias": "中性待确认",
       "impact": "中",
@@ -15060,23 +15077,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Paul Graham Says Tesla Buyers Are Getting More Range, More Car For Less Money Than A Decade Ago: ‘People Who Think They Dislike Capitalism…’",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T23:30:52+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/paul-graham-says-tesla-buyers-233052774.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "SNOW",
       "title": "Snowflake (SNOW) Stock: AI Growth Is Real, But Is the Valuation Already Priced In?",
       "bias": "偏利多",
@@ -15111,7 +15111,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Trump’s Stock Disclosure Shows More Than 1,000 Trades in June",
       "bias": "中性待确认",
       "impact": "中",
@@ -15145,7 +15145,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Visa (V) Backs New Standards For Agentic Payments",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,7 +15434,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
