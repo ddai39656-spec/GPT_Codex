@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T05:05:05.580032+00:00",
+  "updated_at": "2026-08-24T05:56:35.185906+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 8,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Elon Musk's Tesla Has 'Massive Advantage' Before Selling Optimus in the Market, Says This Analyst — Crypto Prediction Market Weighs 2026 Launch Odds",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-24T05:29:28+00:00",
+      "source": "Benzinga Prediction Markets",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/d40b08c4-b935-3327-9f60-80fa4a0a089d/elon-musk%27s-tesla-has.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Forget the Headlines: Tesla (TSLA) Is Still a Hold Based on What the Data Shows",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T05:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/169fac43-f1f4-3cfd-95dd-5a2435333d4f/forget-the-headlines%3A-tesla.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "COIN",
       "title": "Trump Team Pulls Millions From TRUMP Memecoin Liquidity Pools During Price Rally",
       "bias": "中性待确认",
@@ -14516,7 +14550,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "HOOD",
       "title": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
       "impact": "中",
@@ -14788,7 +14822,7 @@
     },
     {
       "market": "美股",
-      "symbol": "UBER",
+      "symbol": "V",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
       "impact": "中",
@@ -14856,7 +14890,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -14920,23 +14954,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/ce589487-d302-343d-9dc7-ad4cc41a018c/trump-continues-trading.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "500 Reasons to Buy Einride Stock Today",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T13:00:02+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/6d72a611-6392-375f-812a-5e507648b816/500-reasons-to-buy-einride.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15005,23 +15022,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-chevron-cvx-naming-treasurer-100815088.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T09:35:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/9362a709-7741-3206-8ff0-1a8c6cf97605/tesla-stock-in-2027%3A-why-i.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
