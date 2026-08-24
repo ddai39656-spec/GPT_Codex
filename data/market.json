@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T04:09:56.795706+00:00",
+  "updated_at": "2026-08-24T05:05:05.580032+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 8,
+    "high_impact_events": 7,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "COIN",
+      "title": "Trump Team Pulls Millions From TRUMP Memecoin Liquidity Pools During Price Rally",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T04:31:25+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/10bc8d5d-a748-3a75-b9be-06bc8d82032b/trump-team-pulls-millions.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "How Farmers & Merchants Bancorp’s Dividend Hike Shapes FMCB’s Capital Return Strategy for Investors",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T04:29:49+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/farmers-merchants-bancorp-dividend-hike-042949456.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "A $650 smartphone takes aim at Apple and Samsung’s surging repair costs",
       "bias": "中性待确认",
@@ -14482,7 +14516,7 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
+      "symbol": "CRM",
       "title": "Dow Jones Futures Waver; Nvidia, Tariffs, Warsh In Focus",
       "bias": "中性待确认",
       "impact": "中",
@@ -14822,7 +14856,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
       "bias": "中性待确认",
       "impact": "中",
@@ -15434,7 +15468,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
       "bias": "中性待确认",
       "impact": "中",
@@ -15753,40 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/257389cc-8f26-315b-be91-bb09d62b05cc/sofi-climbs-5%25-as-robinhood.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NOW",
-      "title": "ServiceNow (NOW) Up 41.1% Since Last Earnings Report: Can It Continue?",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:30:07+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-41-1-since-153007090.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SNOW",
-      "title": "Truist Just Upped Its Price Target on Snowflake Stock. Here's Why.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-21T15:17:53+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/d6f93a28-fc41-3ad0-b840-6b48c5ad7207/truist-just-upped-its-price.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
