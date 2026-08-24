@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T12:16:07.622878+00:00",
+  "updated_at": "2026-08-24T13:25:12.010130+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -10,17 +10,12 @@
     {
       "name": "DEX 社区接管",
       "status": "ok",
-      "detail": "新增22个地址"
+      "detail": "新增23个地址"
     },
     {
       "name": "DEX 最新资料",
       "status": "ok",
-      "detail": "新增19个地址"
-    },
-    {
-      "name": "DEX 最新Boost",
-      "status": "degraded",
-      "detail": "request failed: https://api.dexscreener.com/token-boosts/latest/v1: The read operation timed out"
+      "detail": "新增22个地址"
     },
     {
       "name": "DEX 热门Boost",
@@ -28,14 +23,19 @@
       "detail": "request failed: https://api.dexscreener.com/token-boosts/top/v1: The read operation timed out"
     },
     {
-      "name": "GoPlus Security",
+      "name": "DEX 最新Boost",
       "status": "degraded",
-      "detail": "0条安全记录；未覆盖项目保持未知并禁止升级"
+      "detail": "request failed: https://api.dexscreener.com/token-boosts/latest/v1: The read operation timed out"
+    },
+    {
+      "name": "GoPlus Security",
+      "status": "ok",
+      "detail": "1条安全记录；未覆盖项目保持未知并禁止升级"
     }
   ],
   "summary": {
-    "discovered": 41,
-    "pools": 0,
+    "discovered": 45,
+    "pools": 3,
     "actionable": 0,
     "near_trigger": 0,
     "risk_denied": 0
@@ -46,8 +46,660 @@
     "statement": "任何关键字段未知或失败，都不会产生【必须买｜可立即执行】。",
     "aggregate_flow_warning": "DEX聚合买卖笔数不是实际美元净买。"
   },
-  "candidates": [],
-  "events": [],
-  "history": {},
+  "candidates": [
+    {
+      "id": "ethereum:0x65dE619562d1d1DB09E1a552C9e94C8BFA30c951",
+      "chain": "ethereum",
+      "ca": "0x65dE619562d1d1DB09E1a552C9e94C8BFA30c951",
+      "pool": "0xa209D0B77F9b36437768325e06c83924598315ef",
+      "dex": "uniswap",
+      "url": "https://dexscreener.com/ethereum/0xa209d0b77f9b36437768325e06c83924598315ef",
+      "name": "Macca the Gator",
+      "symbol": "MACCA",
+      "quote_symbol": "WETH",
+      "price_usd": 2.327e-05,
+      "liquidity_usd": 11436.33,
+      "fdv": 22861.0,
+      "pair_created_at": "2026-06-24T10:51:11+00:00",
+      "age_minutes": 87994.0,
+      "price_change": {
+        "m5": null,
+        "h1": null,
+        "h6": -14.38,
+        "h24": -23.68
+      },
+      "volume": {
+        "m5": 0,
+        "h1": 0,
+        "h6": 727.13,
+        "h24": 7166.8
+      },
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 4,
+          "sells": 6
+        },
+        "h24": {
+          "buys": 43,
+          "sells": 36
+        }
+      },
+      "source_tags": [
+        "社区接管"
+      ],
+      "setup": "趋势观察",
+      "decision": "观察｜保持静默",
+      "tone": "neutral",
+      "actionable": false,
+      "score": -5.09,
+      "checks": [
+        {
+          "label": "CA与真实主池",
+          "status": "pass",
+          "detail": "DEX返回完整CA和池地址",
+          "critical": true,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "执行流动性",
+          "status": "fail",
+          "detail": "$11,436 / 门槛$150,000",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "可卖出与Honeypot",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "增发与冻结权限",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "黑名单与余额修改",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "LP锁定/烧毁",
+          "status": "unknown",
+          "detail": "没有可靠锁仓证据",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "5m真实美元净买",
+          "status": "unknown",
+          "detail": "DEX仅提供聚合笔数与成交量，不能冒充美元净买",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "15m真实美元净买",
+          "status": "unknown",
+          "detail": "需要逐笔Swap数据或专业数据源",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "1h资金结构改善",
+          "status": "unknown",
+          "detail": "聚合买/卖笔数 0/0，仅供观察",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "成交重新加速",
+          "status": "fail",
+          "detail": "5m $0；1h $0",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "价格结构确认",
+          "status": "unknown",
+          "detail": "5m +0.00%；1h +0.00%",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "合理2×空间",
+          "status": "unknown",
+          "detail": "缺少筹码成本、历史压力和可比估值证据",
+          "critical": true,
+          "evidence": "待补充"
+        }
+      ],
+      "passed_checks": 1,
+      "total_checks": 12,
+      "blockers": [
+        "可卖出与Honeypot",
+        "增发与冻结权限",
+        "黑名单与余额修改",
+        "LP锁定/烧毁",
+        "5m真实美元净买",
+        "15m真实美元净买",
+        "1h资金结构改善",
+        "价格结构确认",
+        "合理2×空间"
+      ],
+      "security": {
+        "coverage": "none",
+        "provider": null
+      },
+      "execution": {
+        "entry": null,
+        "position_usdt": null,
+        "stop": null,
+        "targets": [],
+        "reason": "硬条件未全部通过，禁止生成伪精确执行价格"
+      },
+      "history": [
+        {
+          "time": "2026-08-24T13:25:12.010130+00:00",
+          "price": 2.327e-05,
+          "liquidity_usd": 11436.33,
+          "volume_m5": 0,
+          "volume_h1": 0,
+          "buys_m5": 0,
+          "sells_m5": 0,
+          "buys_h1": 0,
+          "sells_h1": 0
+        }
+      ]
+    },
+    {
+      "id": "ethereum:0x01F40d471357F5f5363f41226b413387ed7Ea9B5",
+      "chain": "ethereum",
+      "ca": "0x01F40d471357F5f5363f41226b413387ed7Ea9B5",
+      "pool": "0x7358Fe37606FD1B20C62bbA5c5D36fe6cE78b07f",
+      "dex": "uniswap",
+      "url": "https://dexscreener.com/ethereum/0x7358fe37606fd1b20c62bba5c5d36fe6ce78b07f",
+      "name": "Tsutsuji Doge's Brother",
+      "symbol": "$TSUTSUJI",
+      "quote_symbol": "WETH",
+      "price_usd": 2.789e-08,
+      "liquidity_usd": 3614.59,
+      "fdv": 2789.0,
+      "pair_created_at": "2024-07-30T12:08:59+00:00",
+      "age_minutes": 1087276.2,
+      "price_change": {
+        "m5": null,
+        "h1": null,
+        "h6": 33.0,
+        "h24": 10.87
+      },
+      "volume": {
+        "m5": 0,
+        "h1": 0,
+        "h6": 508.48,
+        "h24": 9886.46
+      },
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 3,
+          "sells": 1
+        },
+        "h24": {
+          "buys": 49,
+          "sells": 38
+        }
+      },
+      "source_tags": [
+        "社区接管"
+      ],
+      "setup": "趋势观察",
+      "decision": "观察｜保持静默",
+      "tone": "neutral",
+      "actionable": false,
+      "score": -5.71,
+      "checks": [
+        {
+          "label": "CA与真实主池",
+          "status": "pass",
+          "detail": "DEX返回完整CA和池地址",
+          "critical": true,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "执行流动性",
+          "status": "fail",
+          "detail": "$3,615 / 门槛$150,000",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "可卖出与Honeypot",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "增发与冻结权限",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "黑名单与余额修改",
+          "status": "unknown",
+          "detail": "安全数据缺失，禁止执行",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "LP锁定/烧毁",
+          "status": "unknown",
+          "detail": "没有可靠锁仓证据",
+          "critical": true,
+          "evidence": ""
+        },
+        {
+          "label": "5m真实美元净买",
+          "status": "unknown",
+          "detail": "DEX仅提供聚合笔数与成交量，不能冒充美元净买",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "15m真实美元净买",
+          "status": "unknown",
+          "detail": "需要逐笔Swap数据或专业数据源",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "1h资金结构改善",
+          "status": "unknown",
+          "detail": "聚合买/卖笔数 0/0，仅供观察",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "成交重新加速",
+          "status": "fail",
+          "detail": "5m $0；1h $0",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "价格结构确认",
+          "status": "unknown",
+          "detail": "5m +0.00%；1h +0.00%",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "合理2×空间",
+          "status": "unknown",
+          "detail": "缺少筹码成本、历史压力和可比估值证据",
+          "critical": true,
+          "evidence": "待补充"
+        }
+      ],
+      "passed_checks": 1,
+      "total_checks": 12,
+      "blockers": [
+        "可卖出与Honeypot",
+        "增发与冻结权限",
+        "黑名单与余额修改",
+        "LP锁定/烧毁",
+        "5m真实美元净买",
+        "15m真实美元净买",
+        "1h资金结构改善",
+        "价格结构确认",
+        "合理2×空间"
+      ],
+      "security": {
+        "coverage": "none",
+        "provider": null
+      },
+      "execution": {
+        "entry": null,
+        "position_usdt": null,
+        "stop": null,
+        "targets": [],
+        "reason": "硬条件未全部通过，禁止生成伪精确执行价格"
+      },
+      "history": [
+        {
+          "time": "2026-08-24T13:25:12.010130+00:00",
+          "price": 2.789e-08,
+          "liquidity_usd": 3614.59,
+          "volume_m5": 0,
+          "volume_h1": 0,
+          "buys_m5": 0,
+          "sells_m5": 0,
+          "buys_h1": 0,
+          "sells_h1": 0
+        }
+      ]
+    },
+    {
+      "id": "ethereum:0x712F3378CD1a0476b53f0E29B1a9586E00D78683",
+      "chain": "ethereum",
+      "ca": "0x712F3378CD1a0476b53f0E29B1a9586E00D78683",
+      "pool": "0x8117E4fa9A971690Fa7630a7fEEa35f3a510fc81",
+      "dex": "uniswap",
+      "url": "https://dexscreener.com/ethereum/0x8117e4fa9a971690fa7630a7feea35f3a510fc81",
+      "name": "Tsutsuji the Cate",
+      "symbol": "CATE",
+      "quote_symbol": "WETH",
+      "price_usd": 0.0001271,
+      "liquidity_usd": 30309.33,
+      "fdv": 127120.0,
+      "pair_created_at": "2025-05-06T14:37:59+00:00",
+      "age_minutes": 683927.2,
+      "price_change": {
+        "m5": null,
+        "h1": -8.53,
+        "h6": 55.03,
+        "h24": -15.55
+      },
+      "volume": {
+        "m5": 0,
+        "h1": 770.46,
+        "h6": 9478.04,
+        "h24": 25379.44
+      },
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 1,
+          "sells": 5
+        },
+        "h6": {
+          "buys": 51,
+          "sells": 27
+        },
+        "h24": {
+          "buys": 94,
+          "sells": 76
+        }
+      },
+      "source_tags": [
+        "社区接管"
+      ],
+      "setup": "趋势观察",
+      "decision": "观察｜保持静默",
+      "tone": "neutral",
+      "actionable": false,
+      "score": -9.55,
+      "checks": [
+        {
+          "label": "CA与真实主池",
+          "status": "pass",
+          "detail": "DEX返回完整CA和池地址",
+          "critical": true,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "执行流动性",
+          "status": "fail",
+          "detail": "$30,309 / 门槛$150,000",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "可卖出与Honeypot",
+          "status": "unknown",
+          "detail": "接口未发现Honeypot，但缺少独立卖出模拟",
+          "critical": true,
+          "evidence": "GoPlus单源"
+        },
+        {
+          "label": "异常税率",
+          "status": "pass",
+          "detail": "买/卖税 0.0% / 0.0%",
+          "critical": true,
+          "evidence": "GoPlus"
+        },
+        {
+          "label": "任意增发",
+          "status": "pass",
+          "detail": "未发现该危险权限",
+          "critical": true,
+          "evidence": "GoPlus"
+        },
+        {
+          "label": "黑名单/冻结",
+          "status": "pass",
+          "detail": "未发现该危险权限",
+          "critical": true,
+          "evidence": "GoPlus"
+        },
+        {
+          "label": "余额修改/隐藏权限",
+          "status": "pass",
+          "detail": "未发现该危险权限",
+          "critical": true,
+          "evidence": "GoPlus"
+        },
+        {
+          "label": "LP锁定/烧毁",
+          "status": "pass",
+          "detail": "安全接口显示约100.0% LP锁定",
+          "critical": true,
+          "evidence": "GoPlus"
+        },
+        {
+          "label": "LP短期稳定",
+          "status": "unknown",
+          "detail": "历史快照不足",
+          "critical": true,
+          "evidence": "本站历史快照"
+        },
+        {
+          "label": "5m真实美元净买",
+          "status": "unknown",
+          "detail": "DEX仅提供聚合笔数与成交量，不能冒充美元净买",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "15m真实美元净买",
+          "status": "unknown",
+          "detail": "需要逐笔Swap数据或专业数据源",
+          "critical": true,
+          "evidence": "数据能力限制"
+        },
+        {
+          "label": "1h资金结构改善",
+          "status": "unknown",
+          "detail": "聚合买/卖笔数 1/5，仅供观察",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "成交重新加速",
+          "status": "fail",
+          "detail": "5m $0；1h $770",
+          "critical": false,
+          "evidence": "DEX Screener"
+        },
+        {
+          "label": "价格结构确认",
+          "status": "unknown",
+          "detail": "5m +0.00%；1h -8.53%",
+          "critical": true,
+          "evidence": "DEX聚合数据"
+        },
+        {
+          "label": "合理2×空间",
+          "status": "unknown",
+          "detail": "缺少筹码成本、历史压力和可比估值证据",
+          "critical": true,
+          "evidence": "待补充"
+        }
+      ],
+      "passed_checks": 6,
+      "total_checks": 15,
+      "blockers": [
+        "可卖出与Honeypot",
+        "LP短期稳定",
+        "5m真实美元净买",
+        "15m真实美元净买",
+        "1h资金结构改善",
+        "价格结构确认",
+        "合理2×空间"
+      ],
+      "security": {
+        "coverage": "partial",
+        "provider": "GoPlus",
+        "raw_fields": [
+          "anti_whale_modifiable",
+          "buy_tax",
+          "can_take_back_ownership",
+          "cannot_buy",
+          "cannot_sell_all",
+          "creator_address",
+          "creator_balance",
+          "creator_percent",
+          "dex",
+          "external_call",
+          "hidden_owner",
+          "holder_count",
+          "holders",
+          "honeypot_with_same_creator",
+          "is_anti_whale",
+          "is_blacklisted",
+          "is_honeypot",
+          "is_in_dex",
+          "is_mintable",
+          "is_open_source",
+          "is_proxy",
+          "is_whitelisted",
+          "lp_holder_count",
+          "lp_holders",
+          "lp_total_supply",
+          "owner_address",
+          "owner_balance",
+          "owner_change_balance",
+          "owner_percent",
+          "personal_slippage_modifiable",
+          "selfdestruct",
+          "sell_tax",
+          "slippage_modifiable",
+          "token_name",
+          "token_symbol",
+          "total_supply",
+          "trading_cooldown",
+          "transfer_pausable",
+          "transfer_tax"
+        ]
+      },
+      "execution": {
+        "entry": null,
+        "position_usdt": null,
+        "stop": null,
+        "targets": [],
+        "reason": "硬条件未全部通过，禁止生成伪精确执行价格"
+      },
+      "history": [
+        {
+          "time": "2026-08-24T13:25:12.010130+00:00",
+          "price": 0.0001271,
+          "liquidity_usd": 30309.33,
+          "volume_m5": 0,
+          "volume_h1": 770.46,
+          "buys_m5": 0,
+          "sells_m5": 0,
+          "buys_h1": 1,
+          "sells_h1": 5
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "market": "加密币",
+      "symbol": "CATE",
+      "chain": "ethereum",
+      "ca": "0x712F3378CD1a0476b53f0E29B1a9586E00D78683",
+      "pool": "0x8117E4fa9A971690Fa7630a7fEEa35f3a510fc81",
+      "title": "CATE 资金结构观察：1h -8.5%，成交 $770",
+      "bias": "偏利空",
+      "impact": "中",
+      "horizon": "分钟–数小时",
+      "event_type": "链上资金异动",
+      "time": "2026-08-24T13:25:12.010130+00:00",
+      "source": "DEX Screener aggregate",
+      "credibility": "中",
+      "novelty": "实时观察",
+      "priced_in": "需结合回踩与净买确认",
+      "url": "https://dexscreener.com/ethereum/0x8117e4fa9a971690fa7630a7feea35f3a510fc81",
+      "reason": "1h聚合买/卖笔数 1/5；这不是实际美元净买，也不会直接升级为买入信号。"
+    }
+  ],
+  "history": {
+    "ethereum:0x712F3378CD1a0476b53f0E29B1a9586E00D78683": [
+      {
+        "time": "2026-08-24T13:25:12.010130+00:00",
+        "price": 0.0001271,
+        "liquidity_usd": 30309.33,
+        "volume_m5": 0,
+        "volume_h1": 770.46,
+        "buys_m5": 0,
+        "sells_m5": 0,
+        "buys_h1": 1,
+        "sells_h1": 5
+      }
+    ],
+    "ethereum:0x65dE619562d1d1DB09E1a552C9e94C8BFA30c951": [
+      {
+        "time": "2026-08-24T13:25:12.010130+00:00",
+        "price": 2.327e-05,
+        "liquidity_usd": 11436.33,
+        "volume_m5": 0,
+        "volume_h1": 0,
+        "buys_m5": 0,
+        "sells_m5": 0,
+        "buys_h1": 0,
+        "sells_h1": 0
+      }
+    ],
+    "ethereum:0x01F40d471357F5f5363f41226b413387ed7Ea9B5": [
+      {
+        "time": "2026-08-24T13:25:12.010130+00:00",
+        "price": 2.789e-08,
+        "liquidity_usd": 3614.59,
+        "volume_m5": 0,
+        "volume_h1": 0,
+        "buys_m5": 0,
+        "sells_m5": 0,
+        "buys_h1": 0,
+        "sells_h1": 0
+      }
+    ]
+  },
   "disclaimer": "高风险资产研究工具；不保证盈利，未知安全字段等同于禁止执行。"
 }
