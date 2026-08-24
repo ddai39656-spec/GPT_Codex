@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T09:07:41.232488+00:00",
+  "updated_at": "2026-08-24T10:06:58.232636+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,9 +52,9 @@
       },
       {
         "ticker": "^VIX",
-        "price": 15.87,
-        "d5": 4.48,
-        "ma20": 15.8635,
+        "price": 15.89,
+        "d5": 4.61,
+        "ma20": 15.8645,
         "above_ma20": true
       },
       {
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 10,
+    "high_impact_events": 11,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "1 Profitable Stock to Own for Decades and 2 We Turn Down",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：profit",
+      "time": "2026-08-24T09:29:36+00:00",
+      "source": "StockStory",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-own-decades-092936123.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "The Zacks Analyst Blog Highlights Apple, Alphabet, Microsoft and Amazon",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T09:24:00+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-092400354.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "Market Chatter: Nvidia AI Server Prices Set to Rise Over 15% Caused by Memory Costs",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T08:58:49+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-ai-server-085849345.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "AAPL Stock Ticks Up Premarket As New Foldable iPhone Details Emerge",
       "bias": "中性待确认",
@@ -14546,6 +14597,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/1-financials-stock-own-decades-080136512.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "HOOD",
+      "title": "The Market That Never Sleeps Is Getting Closer to Reality",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T08:00:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/585cd1af-3ddf-3454-8524-a7a27b33b2cb/the-market-that-never-sleeps.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14992,23 +15060,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
-      "title": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T20:38:55+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f972f6a0-ea1f-39a4-92c1-934f241d8939/this-company-just-paid-out.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "V",
       "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
       "bias": "中性待确认",
@@ -15077,23 +15128,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
-      "title": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T17:07:38+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "V",
       "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
       "bias": "中性待确认",
@@ -15124,23 +15158,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/f57cbeef-e32b-35f2-9fa8-43b4c292fdd8/nvidia-earnings%2C-jackson-hole.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T16:17:42+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5a241fc4-1169-3e4c-b6ef-b07d8dbf47ee/the-%241.7-trillion-job.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15260,23 +15277,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/d17566ae-a849-3f53-9fe0-15130238640b/prediction%3A-nvidia-will-be-a.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "4 Low-Cost ETFs Every Investor Should Own",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-23T11:00:29+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/158484a0-bfd5-3828-b965-441ae440747e/4-low-cost-etfs-every.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15638,23 +15638,6 @@
     },
     {
       "market": "美股",
-      "symbol": "HOOD",
-      "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-22T02:31:56+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-says-us-hottest-country-023156530.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "Michael Saylor Warns Strategy Investors: 'We Have to Be Prepared to Have Difficult Years'",
       "bias": "中性待确认",
@@ -15787,6 +15770,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/1a3b1b78-5fc3-34a6-b24b-b0839c3bbe03/palantir-climbs-4%25-through.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SOFI",
+      "title": "One Wall Street Analyst Thinks SoFi Stock Could Jump 20%. Here’s Why.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-21T16:30:36+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/26c83f1a-718b-39c0-a28a-5ef9a414b74b/one-wall-street-analyst.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
