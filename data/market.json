@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T04:57:23.843527+00:00",
+  "updated_at": "2026-08-25T05:39:20.095244+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14669,7 +14669,7 @@
     },
     {
       "market": "美股",
-      "symbol": "LLY",
+      "symbol": "ABNB",
       "title": "Eli Lilly Stock Raised Its Forecast, So Why Is The Market Shrugging?",
       "bias": "偏利多",
       "impact": "中",
@@ -14975,7 +14975,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "AAPL",
       "title": "How to Find the Market's Long-Term Winners",
       "bias": "中性待确认",
       "impact": "中",
