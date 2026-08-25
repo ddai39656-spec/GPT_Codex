@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T21:47:17.187664+00:00",
+  "updated_at": "2026-08-25T22:11:04.526901+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,7 +14438,7 @@
       "horizon": "1–5个交易日",
       "event_type": "财报/指引",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T21:39:11+00:00",
+      "time": "2026-08-25T21:56:20+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14652,7 +14652,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "UBER",
       "title": "Nevada Just Raised Tesla's Las Vegas Robotaxi Cap From 10 Vehicles to 5,000",
       "bias": "偏利多",
       "impact": "中",
@@ -14771,7 +14771,7 @@
     },
     {
       "market": "美股",
-      "symbol": "CRM",
+      "symbol": "NOW",
       "title": "ServiceNow Just Ripped 29% in a Month. What Would It Take to Get NOW Stock Up to $150?",
       "bias": "中性待确认",
       "impact": "中",
