@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T00:01:50.627977+00:00",
+  "updated_at": "2026-08-25T01:48:11.997105+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 17,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -85,7 +85,7 @@
       "d20": 24.31,
       "gap": 2.17,
       "volume": 41024349.0,
-      "volume_ratio": 1.97,
+      "volume_ratio": 1.96,
       "rsi14": 72.0,
       "ma20": 99.768,
       "ma50": 99.83,
@@ -112,7 +112,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.97",
+          "detail": "量比 1.96",
           "critical": false
         },
         {
@@ -137,7 +137,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 25.47,
+      "score": 25.46,
       "plan": {
         "trigger": 127.9,
         "stop": 118.3054,
@@ -365,7 +365,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 119.25,
-          "volume": 45839500.0
+          "volume": 46364300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -664,7 +664,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 11.26,
-          "volume": 103811900.0
+          "volume": 104100300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -963,7 +963,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 186.49,
-          "volume": 22583200.0
+          "volume": 22736000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -1561,7 +1561,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 209.17,
-          "volume": 9612800.0
+          "volume": 9685400.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -2159,7 +2159,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 128.48,
-          "volume": 12456000.0
+          "volume": 12504600.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -2458,7 +2458,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 78.8,
-          "volume": 12709300.0
+          "volume": 12754300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -3056,7 +3056,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 79.59,
-          "volume": 23619600.0
+          "volume": 23773800.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -3654,7 +3654,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 483.24,
-          "volume": 22489200.0
+          "volume": 22510800.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -3953,7 +3953,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 108.13,
-          "volume": 50228800.0
+          "volume": 50460200.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -4252,7 +4252,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 165.11,
-          "volume": 14300700.0
+          "volume": 14314300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -5448,7 +5448,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 344.82,
-          "volume": 20803700.0
+          "volume": 20849800.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -6046,7 +6046,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 179.94,
-          "volume": 40986600.0
+          "volume": 41076200.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -6345,7 +6345,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 309.35,
-          "volume": 46768100.0
+          "volume": 46876800.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -6644,7 +6644,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 258.63,
-          "volume": 35652900.0
+          "volume": 35723000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -6943,7 +6943,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 362.86,
-          "volume": 58979800.0
+          "volume": 59224000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -7242,7 +7242,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 19.83,
-          "volume": 27329400.0
+          "volume": 27433600.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -7541,7 +7541,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 351.58,
-          "volume": 8073400.0
+          "volume": 8112100.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -7840,7 +7840,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 18.91,
-          "volume": 62131000.0
+          "volume": 62406100.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -8139,7 +8139,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 549.9,
-          "volume": 13663800.0
+          "volume": 13848000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -8737,7 +8737,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 332.78,
-          "volume": 3426600.0
+          "volume": 3437100.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -9053,7 +9053,7 @@
       "d1": -3.27,
       "d5": -2.15,
       "d20": 21.21,
-      "gap": -3.3,
+      "gap": -3.34,
       "volume": 18712071.0,
       "volume_ratio": 0.78,
       "rsi14": 54.2,
@@ -9335,7 +9335,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 237.04,
-          "volume": 25467400.0
+          "volume": 25526600.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -9634,7 +9634,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 146.47,
-          "volume": 19567800.0
+          "volume": 19635000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -9933,7 +9933,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 418.95,
-          "volume": 8936800.0
+          "volume": 8947200.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -11129,7 +11129,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 214.72,
-          "volume": 98545600.0
+          "volume": 98869300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -11727,7 +11727,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 37.24,
-          "volume": 36409900.0
+          "volume": 36474300.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -12026,7 +12026,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 368.45,
-          "volume": 19000300.0
+          "volume": 19037100.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -12045,7 +12045,7 @@
       "d20": 5.87,
       "gap": -1.27,
       "volume": 7229076.0,
-      "volume_ratio": 0.95,
+      "volume_ratio": 0.94,
       "rsi14": 34.6,
       "ma20": 204.7715,
       "ma50": 193.4992,
@@ -12072,7 +12072,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.95",
+          "detail": "量比 0.94",
           "critical": false
         },
         {
@@ -12097,7 +12097,7 @@
       "passed_checks": 0,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -11.76,
+      "score": -11.77,
       "plan": {
         "trigger": 195.3755,
         "stop": 182.0078,
@@ -12325,7 +12325,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 191.95,
-          "volume": 8176900.0
+          "volume": 8201000.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -13222,7 +13222,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 473.25,
-          "volume": 14310600.0
+          "volume": 14343900.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -13820,7 +13820,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 966.78,
-          "volume": 21741600.0
+          "volume": 21823400.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -14119,7 +14119,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 41.88,
-          "volume": 49452800.0
+          "volume": 49894700.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -14418,7 +14418,7 @@
         {
           "time": "2026-08-21T13:30:00+00:00",
           "close": 72.57,
-          "volume": 12510900.0
+          "volume": 12570200.0
         },
         {
           "time": "2026-08-24T13:30:00+00:00",
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "XOM",
+      "title": "Shell’s Chemicals Exit Attracts XOM and LYB: Capital Discipline or Missed Opportunity?",
+      "bias": "偏利空",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：miss",
+      "time": "2026-08-25T01:44:39+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/shell-chemicals-exit-attracts-xom-014439095.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla (TSLA)’s Solar Roof Shutdown Raises Questions About its Energy Ambitions",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：raises",
+      "time": "2026-08-25T01:41:01+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/tesla-tsla-solar-roof-shutdown-014101772.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NOW",
+      "title": "Bank of America raises price targets on 10 software stocks",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "评级变化",
+      "reason": "标题包含方向词：raises",
+      "time": "2026-08-25T01:17:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/ef0dac00-6ead-3ac0-b32e-68291a3a1a36/bank-of-america-raises-price.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MA",
       "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
       "bias": "中性待确认",
@@ -14438,7 +14489,7 @@
       "horizon": "1–5个交易日",
       "event_type": "财报/指引",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T23:55:37+00:00",
+      "time": "2026-08-25T01:04:31+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14448,7 +14499,75 @@
     },
     {
       "market": "美股",
-      "symbol": "ABNB",
+      "symbol": "V",
+      "title": "Will PYPL Stock's Multiple Catch Up?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-25T00:24:31+00:00",
+      "source": "Trefis",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/64c01a28-056c-3bd0-bb32-b647ed1adcd6/will-pypl-stock%27s-multiple.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "Alibaba’s $10.2 billion AI bet could reach far beyond investors",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-25T00:03:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/121aa013-1a30-3b50-a6cd-e338b745afbb/alibaba%E2%80%99s-%2410.2-billion-ai.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "V",
+      "title": "Visa Joins MAS-Led BLOOM Initiative to Connect Traditional Payments and Stablecoin Networks",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-25T00:00:00+00:00",
+      "source": "PR Newswire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/visa-joins-mas-led-bloom-000000318.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "AGNTCon + MCPCon Japan to Convene Builders Advancing Production-Ready Agentic AI",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-25T00:00:00+00:00",
+      "source": "PR Newswire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/agntcon-mcpcon-japan-convene-builders-000000620.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "LLY",
       "title": "Eli Lilly Stock Raised Its Forecast, So Why Is The Market Shrugging?",
       "bias": "偏利多",
       "impact": "中",
@@ -14992,23 +15111,6 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
-      "title": "Visa to Participate in Upcoming Investor Conference",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T20:05:00+00:00",
-      "source": "Business Wire",
-      "credibility": "高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-participate-upcoming-investor-conference-200500644.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "HOOD",
       "title": "Robinhood CEO Vlad Tenev Is Betting Big on the Future of Tokenization. Here's What That Means for the Average Crypto Investor.",
       "bias": "中性待确认",
@@ -15073,23 +15175,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-195855484.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "V",
-      "title": "Visa Surges 2.4% as Payment Stocks Seize Market Leadership",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：surge",
-      "time": "2026-08-24T19:56:11+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-surges-2-4-payment-195611676.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15192,40 +15277,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/6d1c3460-d9a0-330f-8012-7c40c385213a/which-credit-card-stock-has.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Stablecoin card spending triples to $1 billion",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T19:30:00+00:00",
-      "source": "Yahoo Finance Video",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/video/stablecoin-card-spending-triples-1-193000825.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "XOM",
-      "title": "Exxon Drops as Oil Retreats From $94",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T19:19:50+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/exxon-drops-oil-retreats-94-191950154.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15400,23 +15451,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Why Tesla (TSLA) Is Up 6.9% After Robotaxi Approvals And 500 Semi Deal News - And What's Next",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：approval",
-      "time": "2026-08-24T18:15:37+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-tsla-6-9-181537600.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "CRM",
       "title": "Update: Equities Mixed Intraday as US Discloses Anti-Iran Global Sanctions Plan",
       "bias": "中性待确认",
@@ -15464,40 +15498,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/b72948a7-b2fa-377b-a82a-0e3009cde8f8/youtube-could-spark-a-creator.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "Forget CoreWeave — This Is the AI Stock You Should Instead Be Buying",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T17:31:26+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/b0fce28b-6fa6-38e6-ad80-0a66f22cb074/forget-coreweave-%E2%80%94-this-is.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "ExxonMobil vs. Chevron: We Compared 10 Years of Dividend Growth And Here’s the Winner",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-08-24T17:30:23+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/36902413-b67a-3742-8db2-54a283b20081/exxonmobil-vs.-chevron%3A-we.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
