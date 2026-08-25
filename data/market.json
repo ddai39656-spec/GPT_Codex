@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T23:32:20.167658+00:00",
+  "updated_at": "2026-08-25T23:55:37.667744+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14438,7 +14438,7 @@
       "horizon": "1–5个交易日",
       "event_type": "财报/指引",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T23:23:05+00:00",
+      "time": "2026-08-25T23:47:13+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
