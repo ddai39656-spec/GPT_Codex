@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T05:39:20.095244+00:00",
+  "updated_at": "2026-08-25T06:18:40.310784+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14686,6 +14686,23 @@
     },
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here’s How Income Investors Can Adapt.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-24T23:30:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/1c58d3e5-4fd5-342b-b208-ec7987955261/treasuries-have-reclaimed-the.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?",
       "bias": "中性待确认",
@@ -15056,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/24570458-6ae6-3da7-b0d4-4e8d89148208/how-a-negative-beta-bet-can.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Google plans to move all Pixel manufacturing out of China by 2027: report",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T20:26:56+00:00",
-      "source": "Fox Business",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/bd7e8533-d2ff-3664-b36a-b387a2ba8fa1/google-plans-to-move-all.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
