@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T04:06:44.167037+00:00",
+  "updated_at": "2026-08-26T04:58:48.764563+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14856,7 +14856,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Bitcoin Tests $80K, Analyst Sees Further Upside. BTC ETFs Form Bases.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14992,7 +14992,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "Stocks to Watch: Strategy, Nvidia, XPeng",
       "bias": "中性待确认",
       "impact": "中",
