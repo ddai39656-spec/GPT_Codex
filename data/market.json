@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T07:28:28.303801+00:00",
+  "updated_at": "2026-08-26T08:20:32.818178+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,10 +52,10 @@
       },
       {
         "ticker": "^VIX",
-        "price": 15.45,
-        "d5": -2.46,
-        "ma20": 15.7245,
-        "above_ma20": false
+        "price": 15.67,
+        "d5": 5.24,
+        "ma20": 15.475,
+        "above_ma20": true
       },
       {
         "ticker": "^TNX",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 14,
     "events": 80,
-    "high_impact_events": 9,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -14438,7 +14438,7 @@
       "horizon": "1–5个交易日",
       "event_type": "财报/指引",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-26T07:10:09+00:00",
+      "time": "2026-08-26T08:09:52+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
@@ -14461,6 +14461,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/karty-llc-receives-visa-fintech-070000406.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "Nvidia’s Paradox: Stellar Earnings and a Sliding Stock",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T07:00:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/fa303cac-07c3-3871-8606-fa43d89d5825/nvidia%E2%80%99s-paradox%3A-stellar.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14822,7 +14839,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "157-year-old Wall Street giant has a new call on Coinbase and Robinhood",
       "bias": "中性待确认",
       "impact": "中",
@@ -15213,7 +15230,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "Goldman Sachs Reiterates Buy Ratings On Coinbase And Robinhood",
       "bias": "中性待确认",
       "impact": "中",
@@ -15264,7 +15281,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "HOOD",
       "title": "SoFi Rises 3% as the Stablecoin Trade Pulls Fintech Into the Crypto Bid, Coinbase Climbs 5%",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-draws-fresh-growth-190854238.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T14:41:36+00:00",
-      "source": "StockStory",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-nasdaq-100-stocks-research-144136091.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
