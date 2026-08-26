@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T10:08:19.999834+00:00",
+  "updated_at": "2026-08-26T10:53:51.084680+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -52,9 +52,9 @@
       },
       {
         "ticker": "^VIX",
-        "price": 15.7,
-        "d5": 5.44,
-        "ma20": 15.4765,
+        "price": 15.69,
+        "d5": 5.37,
+        "ma20": 15.476,
         "above_ma20": true
       },
       {
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 14,
     "events": 80,
-    "high_impact_events": 11,
+    "high_impact_events": 12,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MSTR",
+      "title": "Social Buzz: Wallstreetbets Stocks Mostly Declining Pre-Bell Wednesday; Intuit, Strategy to Open Lower",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T10:35:46+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-103546038.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "V",
+      "title": "Bluefin and Visa launch unified card-present payment acceptance offering",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "融资/稀释",
+      "reason": "标题包含方向词：offering",
+      "time": "2026-08-26T10:23:54+00:00",
+      "source": "Electronic Payments",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/469f922b-0e50-32ea-9a9c-0ccd7cf1a383/bluefin-and-visa-launch.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "META",
       "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
       "bias": "中性待确认",
@@ -14461,6 +14495,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/fa0a1b37-d55d-38ff-8ce8-0efe81353d92/3-overlooked-autonomous.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "OpenAI Uncovers a Covert Russian Influence Machine Using ChatGPT to Build Fake Expertise and Spread Pro-Moscow Narratives Across Social Media",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T09:45:28+00:00",
+      "source": "Benzinga",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/c09103bc-8faf-3473-a7dd-c13d7f9dc8bf/openai-uncovers-a-covert.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14550,6 +14601,23 @@
     },
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Jason Calacanis Says TSLA's Optimus Will Eclipse AAPL's iPhone, Predicts 1 Billion Robots By 2036",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T09:21:00+00:00",
+      "source": "Benzinga",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jason-calacanis-says-tslas-optimus-092100231.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "COIN",
       "title": "Coinbase CEO Brian Armstrong Thinks a New Crypto Bull Market Is Coming. Here's What History Says.",
       "bias": "中性待确认",
@@ -14563,6 +14631,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/5b6c4dd6-4489-3007-b99f-3739b92deeff/coinbase-ceo-brian-armstrong.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MRVL",
+      "title": "Stock Futures Fall as Market Braces for Crunch Nvidia Earnings, PCE Report",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T09:19:06+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/7111c541-8f5a-321b-9e57-5e9ce1213034/stock-futures-fall-as-market.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14822,23 +14907,6 @@
     },
     {
       "market": "美股",
-      "symbol": "META",
-      "title": "Instagram is like a digital cigarette and box of chocolates that ‘encourages gluttony.’ How do you fix that?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-26T07:00:00+00:00",
-      "source": "Fortune",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/media-advertising/articles/instagram-digital-cigarette-box-chocolates-070000581.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "NFLX",
       "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku",
       "bias": "中性待确认",
@@ -15060,40 +15128,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
-      "title": "Why MicroStrategy (MSTR) Is Up 37.1% After Building a $1.59 Billion Bitcoin War Chest",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T22:18:10+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/why-microstrategy-mstr-37-1-221810227.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MRVL",
-      "title": "Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T22:08:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-poised-another-220800295.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSLA",
       "title": "Bernie Sanders Says He Was Labeled 'Radical,' 'Crazy' and an Extremist for His Data Center Moratorium Push: 'Today 75% of Americans Agree'",
       "bias": "中性待确认",
@@ -15158,23 +15192,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/79333b54-71ee-34e8-9f2c-0f3648aeb8a4/the-hidden-engine-that-could.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "The Real Engine That Could Power Tesla Stock Higher",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T20:41:10+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/fa6a6605-55a9-316c-b831-df4a7051ee48/the-real-engine-that-could.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15570,7 +15587,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "Visa or Mastercard: One Stock Will Outpace the Other at Record Highs — Here’s Our Pick",
       "bias": "偏利多",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/45fa704e-f5cf-398c-bd06-20781c082a26/2-stocks-that-could-double-by.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MA",
-      "title": "Visa and Mastercard stocks close at record highs in August 2026",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：record",
-      "time": "2026-08-25T12:28:52+00:00",
-      "source": "Quartz",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0e5da080-baba-33fa-9f44-8a3cbbad3253/visa-and-mastercard-stocks.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
