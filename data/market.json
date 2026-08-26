@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T06:20:06.064299+00:00",
+  "updated_at": "2026-08-26T07:28:28.303801+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 14,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 9,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "HOOD",
+      "title": "Dow Jones Futures: Inflation Data, Nvidia Earnings Due; Robinhood In Buy Area",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T07:10:09+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a1a5cb94-36b5-3bbd-869f-362442258823/dow-jones-futures%3A-inflation.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "V",
+      "title": "KARTY LLC Receives the Visa FinTech Innovation Award Following its Qatar Launch",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-08-26T07:00:00+00:00",
+      "source": "PR Newswire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/karty-llc-receives-visa-fintech-070000406.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Meta Could Pay Billions To End Teen Addiction Trial – Gary Black Says That Could Boost META Stock",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T06:29:34+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/86cd9ad6-c38f-3a68-91b0-1335d6fde358/meta-could-pay-billions-to.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "NFLX",
       "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku",
       "bias": "中性待确认",
@@ -14448,6 +14499,23 @@
     },
     {
       "market": "美股",
+      "symbol": "CRM",
+      "title": "Salesforce Reports Earnings While Disrupting Itself to Fight AI",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T05:30:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/cd5d3fcf-68ca-3d0f-84be-7bee58b38dcf/salesforce-reports-earnings.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "PSNY Stock Loses August Race To Chinese EV Rivals — Unexplained US Ban Deals Polestar A Fresh Blow",
       "bias": "中性待确认",
@@ -14461,6 +14529,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/dda267ed-0147-3570-9a0d-e28e16d4b6e2/psny-stock-loses-august-race.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSFT",
+      "title": "How These 3 Top Funds Deliver ‘Deep Value’ With Fewer Tech Stocks",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T05:00:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9e5aeeec-2ba6-3915-845b-eed17b26240a/how-these-3-top-funds-deliver.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14512,23 +14597,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/53becb39-e291-3487-a7d5-45f85aed6ff4/tsla-stock-races-past-nvda%2C.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "HOOD",
-      "title": "Dow Jones Futures: Inflation Data, Nvidia Earnings Due; Robinhood In Buy Area",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-26T03:07:14+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/a1a5cb94-36b5-3bbd-869f-362442258823/dow-jones-futures%3A-inflation.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14839,23 +14907,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MSFT",
-      "title": "Ro Khanna Urges AI CEOs to Follow Pope Leo XIV’s Warning: AI Must Not 'Diminishes Humanity' and Should Serve the Common Good",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：warning",
-      "time": "2026-08-25T22:01:06+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/ae2cc6ef-e83b-3d9f-8718-6c82059ff535/ro-khanna-urges-ai-ceos-to.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSLA",
       "title": "Bernie Sanders Says He Was Labeled 'Radical,' 'Crazy' and an Extremist for His Data Center Moratorium Push: 'Today 75% of Americans Agree'",
       "bias": "中性待确认",
@@ -14886,23 +14937,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/ai-trade-risk-us-voter-212412748.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "OpenAI’s Data-Center Chief Has Reportedly Left — Executive Exodus Grows Ahead Of Planned IPO",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：cut",
-      "time": "2026-08-25T21:02:57+00:00",
-      "source": "Stocktwits",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5647af85-2830-3ea4-b742-767369ecec6b/openai%E2%80%99s-data-center-chief.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15158,23 +15192,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-heading-much-bigger-earnings-193139916.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "CRM",
-      "title": "Salesforce investors should watch for signs of second-half reacceleration, Jefferies says",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T19:30:00+00:00",
-      "source": "Proactive",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/68f355ff-b749-3bca-8b1b-e47368f8c2b8/salesforce-investors-should.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15570,7 +15587,7 @@
     },
     {
       "market": "美股",
-      "symbol": "V",
+      "symbol": "MA",
       "title": "Who Can Power Visa’s $7B Stablecoin Machine After BVNK?",
       "bias": "中性待确认",
       "impact": "中",
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/2-nasdaq-100-stocks-research-144136091.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "BC-Most Active Stocks",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-24T14:30:18+00:00",
-      "source": "Associated Press",
-      "credibility": "高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143018967.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
