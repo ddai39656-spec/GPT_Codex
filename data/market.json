@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T04:58:48.764563+00:00",
+  "updated_at": "2026-08-26T05:42:46.588017+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "PSNY Stock Loses August Race To Chinese EV Rivals — Unexplained US Ban Deals Polestar A Fresh Blow",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T05:10:18+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/dda267ed-0147-3570-9a0d-e28e16d4b6e2/psny-stock-loses-august-race.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Coinbase Stock Surges as Bitcoin Rallied to $80,000: How Tight Is the Link?",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：surge",
+      "time": "2026-08-26T04:35:00+00:00",
+      "source": "BeInCrypto",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/367744d0-40b7-3ded-8ac2-f36f50259e27/coinbase-stock-surges-as.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MRVL",
       "title": "Marvell Technology (MRVL) Reports Earnings Tomorrow: What To Expect",
       "bias": "中性待确认",
@@ -14448,7 +14482,7 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
+      "symbol": "MSFT",
       "title": "TSLA Stock Races Past NVDA, GOOG In August Rally: Elon Musk’s TeraFab And Semi Bets Shift Into High Gear",
       "bias": "中性待确认",
       "impact": "中",
@@ -14856,7 +14890,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Bitcoin Tests $80K, Analyst Sees Further Upside. BTC ETFs Form Bases.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14992,7 +15026,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "COIN",
       "title": "Stocks to Watch: Strategy, Nvidia, XPeng",
       "bias": "中性待确认",
       "impact": "中",
@@ -15039,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/43912898-e2dc-3691-b818-d25f4c293818/nevada-just-raised-tesla%27s.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla Rises as 2.98 Million-Car Recall Tests China",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：recall",
-      "time": "2026-08-25T19:45:44+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-rises-2-98-million-194544517.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15226,23 +15243,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/eb652244-e850-3cca-8007-168903dd0a8c/sofi-rises-3%25-as-the.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
-      "title": "Coinbase Stock Pops on a Bitcoin Short Squeeze. How to Play COIN Here.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T18:19:16+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/14e05703-1717-33b1-9c42-f7da8169d946/coinbase-stock-pops-on-a.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
