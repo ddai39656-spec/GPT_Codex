@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T05:42:46.588017+00:00",
+  "updated_at": "2026-08-26T06:20:06.064299+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "NFLX",
+      "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-08-26T06:02:39+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9149ca4b-438e-3b02-a5dd-7b00b2807828/nflx-stock-eyes-sixth-week-of.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSLA",
       "title": "PSNY Stock Loses August Race To Chinese EV Rivals — Unexplained US Ban Deals Polestar A Fresh Blow",
       "bias": "中性待确认",
@@ -15396,23 +15413,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/ef144411-9ee3-309c-bc9d-f224ec201dd4/the-retail-silence-that.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NFLX",
-      "title": "The Price of Progress for Google Stock",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-08-25T15:44:12+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/76565bae-6676-3abf-86e5-9becfbda9c42/the-price-of-progress-for.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
