@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-12T21:00:15.840574+00:00",
+  "updated_at": "2026-09-12T22:58:38.405747+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 20,
     "events": 80,
-    "high_impact_events": 7,
+    "high_impact_events": 8,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MU",
+      "title": "Not Nvidia. Not Micron. This Dirt Cheap “Magnificent Seven” Stock Could Be the Biggest Winner of the Trillion-Dollar AI Race – Here’s the Case.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T22:35:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/2932c484-eca9-34b7-8907-641b1c9bae95/not-nvidia.-not-micron.-this.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Agentic commerce: Is Payments the winner this time?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T21:33:09+00:00",
+      "source": "Investing.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-payments-winner-time-213309351.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AMD",
+      "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T21:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e61254d9-56d2-3272-8d44-3050272e6898/nvidia-vs.-amd%3A-elon-musk.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MSFT",
       "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
       "bias": "偏利多",
@@ -14584,6 +14635,23 @@
     },
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T15:30:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/50c9c6d4-f996-3acc-be1e-242b9933b469/foxconn-just-delivered-a.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AMD",
       "title": "Cramer Asked Who Was Buying Gigantic Bloom Energy Calls. A Pelosi Filing Named Two of the Same Stocks Weeks Earlier.",
       "bias": "中性待确认",
@@ -14669,7 +14737,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
+      "symbol": "AMD",
       "title": "Qualcomm Lost Apple’s Modem Business. Amazon Just Offered a $60 Billion Escape Route.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14788,7 +14856,7 @@
     },
     {
       "market": "美股",
-      "symbol": "META",
+      "symbol": "MSFT",
       "title": "The $760 Billion AI Risk That Nobody Is Talking About. But Should.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14818,23 +14886,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-why-marvell-mrvl-110613884.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "A flawed system and one man’s hubris cost Meta shareholders $17 billion",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T11:00:00+00:00",
-      "source": "Fortune",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/flawed-system-one-man-hubris-110000349.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14936,7 +14987,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/warren-buffett-loves-wide-moats-092000512.html",
+      "url": "https://finance.yahoo.com/m/7aa43b03-9079-38d9-aa60-a8c120bbb6d0/warren-buffett-loves-wide.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14988,23 +15039,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/c4271308-5488-3092-bf13-ef337ae0d69f/billionaire-stanley.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AMD",
-      "title": "Why Power Integrations (POWI) Stock Is Trading Up Today",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T04:51:05+00:00",
-      "source": "StockStory",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-power-integrations-powi-stock-045105470.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15753,40 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-registers-bigger-fall-214503051.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "ASML",
-      "title": "What is ASML? The company that makes chip-printing machines",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-10T21:00:49+00:00",
-      "source": "Quartz",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/asml-company-makes-chip-printing-210049460.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "IREN",
-      "title": "Nvidia Makes Bold Move to Expand Global AI Empire",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-10T18:25:42+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-bold-move-expand-182542229.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
