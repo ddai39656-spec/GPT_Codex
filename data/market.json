@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-12T18:40:02.740444+00:00",
+  "updated_at": "2026-09-12T21:00:15.840574+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "MSFT",
+      "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-12T20:02:01+00:00",
+      "source": "MarketBeat",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/c3ec876a-6501-3000-8f8c-ccd6b7e9f7ce/zscaler-conference%3A-ai.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "From LeBron James to Sydney Sweeney: Prediction Markets Launch NFL Ad Blitz",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-09-12T19:05:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/7cce9289-b6e5-385d-85a8-39ae5efdcdce/from-lebron-james-to-sydney.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "MU",
       "title": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
       "bias": "中性待确认",
@@ -14461,23 +14495,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/c89012a1-ff17-3cbd-8ffd-a30e82963d7d/cloudflare-sees-agentic-ai.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "From LeBron James to Sydney Sweeney: Prediction Markets Launch NFL Ad Blitz",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：launch",
-      "time": "2026-09-12T17:57:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/7cce9289-b6e5-385d-85a8-39ae5efdcdce/from-lebron-james-to-sydney.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14618,6 +14635,23 @@
     },
     {
       "market": "美股",
+      "symbol": "AMD",
+      "title": "Why AMD Stock Forecast Has Room to Run",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T14:00:02+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/2b0d1fdc-02cf-3770-9a0c-af4706c01263/why-amd-stock-forecast-has.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "TSM",
       "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside.",
       "bias": "偏利空",
@@ -14665,6 +14699,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/297cea64-f4f2-3102-b562-a2df9b51f87c/prediction%3A-this-tech-giant.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Why Cathie Wood Is Selling Google and Buying More Meta Platforms Stock",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-12T12:43:04+00:00",
+      "source": "Barchart",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9907c980-e196-35a1-b1f5-931f7397d136/why-cathie-wood-is-selling.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14885,24 +14936,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/7aa43b03-9079-38d9-aa60-a8c120bbb6d0/warren-buffett-loves-wide.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "Mark Zuckerberg’s Meta bet that AI would shrink its management ranks. Now it’s quietly rebuilding them",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T09:16:00+00:00",
-      "source": "Fortune",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-meta-bet-ai-091600760.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/warren-buffett-loves-wide-moats-092000512.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15039,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/424a67e5-fe46-3c8b-907f-987c473d4b95/exxon%27s-2030-targets-call-for.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSFT",
-      "title": "Microsoft Signs ‘Iron-Clad’ AI Safety Deal — Schools Can Seek Damages if Student Data Is Misused",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T02:30:05+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/21cec9c5-3573-34da-a4b8-8bac7e3498d1/microsoft-signs-%E2%80%98iron-clad%E2%80%99.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15752,7 +15769,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/7a532723-a161-383e-99ad-05577ba11cdc/what-is-asml%3F-the-company.html",
+      "url": "https://finance.yahoo.com/technology/articles/asml-company-makes-chip-printing-210049460.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15770,23 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-bold-move-expand-182542229.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "IREN",
-      "title": "TeraWulf Drops 4% on Profit Taking After a 44% YTD Run; Applied Digital Falls 3%, IREN Pulls Back",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：profit",
-      "time": "2026-09-10T17:48:12+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/e703bba9-166a-3de5-81ab-4170819c0352/terawulf-drops-4%25-on-profit.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
