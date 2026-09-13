@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-13T00:50:50.970765+00:00",
+  "updated_at": "2026-09-13T05:57:06.288529+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 20,
     "events": 80,
-    "high_impact_events": 9,
+    "high_impact_events": 10,
     "failed_symbols": []
   },
   "us": [
@@ -14431,6 +14431,57 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AAPL",
+      "title": "Louis Navellier is buying 3 headline-making stocks, including Google",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-13T02:33:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6d4da608-f67a-3160-ac23-4fcf5edb3285/louis-navellier-is-buying-3.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+      "bias": "偏利空",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题包含方向词：cut",
+      "time": "2026-09-13T01:16:03+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-cut-kv-cache-hbm-011603128.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-13T01:01:57+00:00",
+      "source": "MarketBeat",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/404076af-f8ad-35a4-99d6-2a77fecf015c/mp-materials-nears-ndpr.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AMD",
       "title": "Advanced Micro Devices, Inc. (AMD)’s Halo Station Could Strengthen Its AI Position, but Near-Term Revenue Impact May Be Limited",
       "bias": "中性待确认",
@@ -14528,7 +14579,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/zscaler-conference-ai-agents-agentic-200201182.html",
+      "url": "https://finance.yahoo.com/m/c3ec876a-6501-3000-8f8c-ccd6b7e9f7ce/zscaler-conference%3A-ai.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14635,23 +14686,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-09-12T16:01:58+00:00",
-      "source": "MarketBeat",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/b0822a02-9ec8-3ce1-bb1e-f9b2b354900c/sirius-xm-ceo-highlights-cash.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSM",
       "title": "Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same",
       "bias": "中性待确认",
@@ -14665,23 +14699,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/909f9bc5-e3c3-32a6-8a37-941842531427/anthropic%E2%80%99s-prisoner%E2%80%99s.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T15:30:02+00:00",
-      "source": "Barchart",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/50c9c6d4-f996-3acc-be1e-242b9933b469/foxconn-just-delivered-a.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14771,7 +14788,7 @@
     },
     {
       "market": "美股",
-      "symbol": "QCOM",
+      "symbol": "MRVL",
       "title": "Qualcomm Lost Apple’s Modem Business. Amazon Just Offered a $60 Billion Escape Route.",
       "bias": "中性待确认",
       "impact": "中",
@@ -14834,7 +14851,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/3196b8f4-c17f-3d1f-a4f6-c1f541a03a7f/chevron-already-committed-%247.html",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-already-committed-7-billion-123500207.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14851,7 +14868,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0975de4d-b5ba-3a9c-9e30-4da91f8c5084/how-much-do-you-really-need.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/much-really-invested-dividend-stocks-115031676.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14885,7 +14902,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/760-billion-ai-risk-nobody-112300734.html",
+      "url": "https://finance.yahoo.com/m/22655d07-22d6-3264-a0e7-b2b803fd7ef6/the-%24760-billion-ai-risk-that.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15026,23 +15043,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "Billionaire Stanley Druckenmiller Dumped Broadcom, Intel, and Micron for This Chip Stock. Here's Why.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T08:23:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/c4271308-5488-3092-bf13-ef337ae0d69f/billionaire-stanley.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "QCOM",
       "title": "Qorvo, Qualcomm, Texas Instruments, Vishay Intertechnology, and Impinj Stocks Trade Up, What You Need To Know",
       "bias": "中性待确认",
@@ -15106,7 +15106,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/424a67e5-fe46-3c8b-907f-987c473d4b95/exxon%27s-2030-targets-call-for.html",
+      "url": "https://finance.yahoo.com/energy/articles/exxons-2030-targets-call-35-023500773.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15225,7 +15225,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/e59ee94b-4c60-36b3-b36a-7680257bd18e/forget-vym%3A-hdv%E2%80%99s-3.42%25-yield.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-vym-hdv-3-42-221515102.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15553,23 +15553,6 @@
     },
     {
       "market": "美股",
-      "symbol": "XOM",
-      "title": "Update: Market Chatter: White House Looking to Expand US Oil Refining Capacity",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-11T18:11:41+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/energy/articles/market-chatter-white-house-looking-181141019.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "QCOM",
       "title": "Should Qualcomm Stockholders Worry About Its Shrinking Revenue?",
       "bias": "中性待确认",
@@ -15582,7 +15565,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/ca185139-4e99-3644-a43b-15e6d5c1410b/should-qualcomm-stockholders.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stockholders-worry-shrinking-revenue-175226563.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15617,6 +15600,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/19c76bc5-7aae-3dc0-8dd4-d63e61aa0182/terawulf-rallies-7%25-as-miner.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "XOM",
+      "title": "ExxonMobil Finds More Hydrocarbons in Angola's Offshore Block 15",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-11T16:22:00+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/energy/articles/exxonmobil-finds-more-hydrocarbons-angolas-162200600.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
