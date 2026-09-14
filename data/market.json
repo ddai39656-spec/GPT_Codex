@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-13T23:05:04.210748+00:00",
+  "updated_at": "2026-09-14T01:11:47.670955+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14432,6 +14432,40 @@
     {
       "market": "美股",
       "symbol": "AAPL",
+      "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-14T00:54:04+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/75964091-0d57-3879-b55e-2c11b3225642/dow-jones-futures-fall%2C-techs.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSM",
+      "title": "Amazon and 2 Other AI Stocks to Buy With $5,000",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-14T00:46:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/6003531b-8c10-39e7-bb3f-3ff2ea02a7e0/amazon-and-2-other-ai-stocks.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
       "title": "SpaceX vs. Apple: Wall Street Sees Strong Upside for One of These Stocks and Remains Neutral On the Other",
       "bias": "中性待确认",
       "impact": "中",
@@ -14444,23 +14478,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/cd7316fb-498b-3ff6-ac1f-c494b20dbe12/spacex-vs.-apple%3A-wall-street.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-13T22:48:01+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/75964091-0d57-3879-b55e-2c11b3225642/dow-jones-futures-fall%2C-techs.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15094,7 +15111,7 @@
     },
     {
       "market": "美股",
-      "symbol": "QCOM",
+      "symbol": "MRVL",
       "title": "Qualcomm Lost Apple’s Modem Business. Amazon Just Offered a $60 Billion Escape Route.",
       "bias": "中性待确认",
       "impact": "中",
@@ -15328,23 +15345,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/424a67e5-fe46-3c8b-907f-987c473d4b95/exxon%27s-2030-targets-call-for.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSM",
-      "title": "David Tepper makes surprising double bet on AI's biggest bottleneck",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-12T01:03:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/96d346f7-2a8d-32ca-a900-7076955c9d7d/david-tepper-makes-surprising.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
