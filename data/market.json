@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-22T20:14:46.583599+00:00",
+  "updated_at": "2026-09-22T23:01:19.812742+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -15,7 +15,7 @@
     {
       "name": "Yahoo News",
       "status": "ok",
-      "detail": "108条标题"
+      "detail": "107条标题"
     },
     {
       "name": "SEC EDGAR",
@@ -31,9 +31,9 @@
     "benchmarks": [
       {
         "ticker": "SPY",
-        "price": 773.44,
-        "d5": 2.12,
-        "ma20": 765.191,
+        "price": 773.38,
+        "d5": 2.11,
+        "ma20": 765.188,
         "above_ma20": true
       },
       {
@@ -45,16 +45,16 @@
       },
       {
         "ticker": "IWM",
-        "price": 287.18,
-        "d5": 0.72,
-        "ma20": 291.2295,
+        "price": 287.21,
+        "d5": 0.73,
+        "ma20": 291.231,
         "above_ma20": false
       },
       {
         "ticker": "^VIX",
-        "price": 14.28,
-        "d5": -16.98,
-        "ma20": 15.6015,
+        "price": 14.21,
+        "d5": -17.38,
+        "ma20": 15.598,
         "above_ma20": false
       },
       {
@@ -68,10 +68,10 @@
   },
   "summary": {
     "stocks": 48,
-    "strong": 1,
+    "strong": 2,
     "weak": 13,
     "events": 80,
-    "high_impact_events": 5,
+    "high_impact_events": 4,
     "failed_symbols": []
   },
   "us": [
@@ -84,16 +84,16 @@
       "d5": 37.78,
       "d20": 39.54,
       "gap": -1.08,
-      "volume": 7249697.0,
-      "volume_ratio": 1.6,
+      "volume": 7363146.0,
+      "volume_ratio": 1.62,
       "rsi14": 78.9,
       "ma20": 257.9655,
       "ma50": 261.7354,
       "atr14": 17.8941,
       "atr_pct": 5.37,
       "extension_ma20": 29.16,
-      "rs5_spy": 35.66,
-      "rs20_spy": 38.23,
+      "rs5_spy": 35.67,
+      "rs20_spy": 38.24,
       "setup": "放量异动",
       "decision": "等待触发",
       "checks": [
@@ -106,13 +106,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 35.66%",
+          "detail": "5日相对SPY 35.67%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.6",
+          "detail": "量比 1.62",
           "critical": false
         },
         {
@@ -137,7 +137,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 33.22,
+      "score": 33.26,
       "plan": {
         "trigger": 334.66,
         "stop": 307.8188,
@@ -370,7 +370,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 333.2,
-          "volume": 7249697.0
+          "volume": 7363146.0
         }
       ]
     },
@@ -383,16 +383,16 @@
       "d5": 26.55,
       "d20": 24.65,
       "gap": -1.82,
-      "volume": 19265099.0,
-      "volume_ratio": 1.25,
+      "volume": 19471533.0,
+      "volume_ratio": 1.26,
       "rsi14": 76.8,
       "ma20": 21.1315,
       "ma50": 20.7687,
       "atr14": 1.5066,
       "atr_pct": 6.04,
       "extension_ma20": 17.98,
-      "rs5_spy": 24.43,
-      "rs20_spy": 23.34,
+      "rs5_spy": 24.44,
+      "rs20_spy": 23.35,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -405,13 +405,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 24.43%",
+          "detail": "5日相对SPY 24.44%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.25",
+          "detail": "量比 1.26",
           "critical": false
         },
         {
@@ -436,7 +436,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 29.42,
+      "score": 29.44,
       "plan": {
         "trigger": 25.39,
         "stop": 23.1301,
@@ -669,7 +669,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 24.93,
-          "volume": 19265099.0
+          "volume": 19471533.0
         }
       ]
     },
@@ -682,16 +682,16 @@
       "d5": 13.77,
       "d20": -1.38,
       "gap": 4.61,
-      "volume": 25187948.0,
-      "volume_ratio": 2.96,
+      "volume": 25293846.0,
+      "volume_ratio": 2.97,
       "rsi14": 56.9,
       "ma20": 139.209,
       "ma50": 136.8448,
       "atr14": 6.5896,
       "atr_pct": 4.46,
       "extension_ma20": 6.13,
-      "rs5_spy": 11.65,
-      "rs20_spy": -2.69,
+      "rs5_spy": 11.66,
+      "rs20_spy": -2.68,
       "setup": "放量异动",
       "decision": "强势候选",
       "checks": [
@@ -704,13 +704,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 11.65%",
+          "detail": "5日相对SPY 11.66%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 2.96",
+          "detail": "量比 2.97",
           "critical": false
         },
         {
@@ -735,7 +735,7 @@
       "passed_checks": 6,
       "total_checks": 6,
       "trade_ready": true,
-      "score": 26.49,
+      "score": 26.51,
       "plan": {
         "trigger": 150.18,
         "stop": 140.2956,
@@ -968,7 +968,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 147.74,
-          "volume": 25187948.0
+          "volume": 25293846.0
         }
       ]
     },
@@ -981,16 +981,16 @@
       "d5": 29.11,
       "d20": 36.45,
       "gap": -0.6,
-      "volume": 22575048.0,
-      "volume_ratio": 0.82,
+      "volume": 23484383.0,
+      "volume_ratio": 0.85,
       "rsi14": 70.8,
       "ma20": 136.3415,
       "ma50": 113.797,
       "atr14": 9.915,
       "atr_pct": 5.93,
       "extension_ma20": 22.73,
-      "rs5_spy": 26.99,
-      "rs20_spy": 35.14,
+      "rs5_spy": 27.0,
+      "rs20_spy": 35.15,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -1003,13 +1003,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 26.99%",
+          "detail": "5日相对SPY 27.0%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.82",
+          "detail": "量比 0.85",
           "critical": false
         },
         {
@@ -1034,7 +1034,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 25.83,
+      "score": 25.88,
       "plan": {
         "trigger": 171.17,
         "stop": 156.2975,
@@ -1267,7 +1267,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 167.33,
-          "volume": 22575048.0
+          "volume": 23484383.0
         }
       ]
     },
@@ -1280,16 +1280,16 @@
       "d5": 18.17,
       "d20": 20.4,
       "gap": -1.02,
-      "volume": 27939765.0,
-      "volume_ratio": 1.11,
+      "volume": 28773640.0,
+      "volume_ratio": 1.14,
       "rsi14": 70.1,
       "ma20": 972.746,
       "ma50": 931.7334,
       "atr14": 45.8082,
       "atr_pct": 4.18,
       "extension_ma20": 12.69,
-      "rs5_spy": 16.05,
-      "rs20_spy": 19.09,
+      "rs5_spy": 16.06,
+      "rs20_spy": 19.1,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -1302,13 +1302,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 16.05%",
+          "detail": "5日相对SPY 16.06%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.11",
+          "detail": "量比 1.14",
           "critical": false
         },
         {
@@ -1333,7 +1333,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 24.26,
+      "score": 24.31,
       "plan": {
         "trigger": 1097.25,
         "stop": 1028.5377,
@@ -1566,7 +1566,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 1096.16,
-          "volume": 27939765.0
+          "volume": 28773640.0
         }
       ]
     },
@@ -1579,16 +1579,16 @@
       "d5": 21.26,
       "d20": 21.91,
       "gap": -1.17,
-      "volume": 43093267.0,
-      "volume_ratio": 0.88,
+      "volume": 43303667.0,
+      "volume_ratio": 0.89,
       "rsi14": 74.9,
       "ma20": 11.635,
       "ma50": 11.2302,
       "atr14": 0.8886,
       "atr_pct": 6.52,
       "extension_ma20": 17.15,
-      "rs5_spy": 19.14,
-      "rs20_spy": 20.6,
+      "rs5_spy": 19.15,
+      "rs20_spy": 20.61,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -1601,13 +1601,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 19.14%",
+          "detail": "5日相对SPY 19.15%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.88",
+          "detail": "量比 0.89",
           "critical": false
         },
         {
@@ -1632,7 +1632,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 22.91,
+      "score": 22.93,
       "plan": {
         "trigger": 13.97,
         "stop": 12.6371,
@@ -1865,7 +1865,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 13.63,
-          "volume": 43093267.0
+          "volume": 43303667.0
         }
       ]
     },
@@ -1878,16 +1878,16 @@
       "d5": 23.71,
       "d20": 36.57,
       "gap": -1.37,
-      "volume": 26632856.0,
-      "volume_ratio": 1.29,
+      "volume": 28045099.0,
+      "volume_ratio": 1.36,
       "rsi14": 82.6,
       "ma20": 506.218,
       "ma50": 498.7872,
       "atr14": 25.5084,
       "atr_pct": 4.09,
       "extension_ma20": 23.22,
-      "rs5_spy": 21.59,
-      "rs20_spy": 35.26,
+      "rs5_spy": 21.6,
+      "rs20_spy": 35.27,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -1900,13 +1900,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 21.59%",
+          "detail": "5日相对SPY 21.6%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.29",
+          "detail": "量比 1.36",
           "critical": false
         },
         {
@@ -1931,7 +1931,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 21.66,
+      "score": 21.77,
       "plan": {
         "trigger": 624.52,
         "stop": 586.2574,
@@ -2164,7 +2164,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 623.77,
-          "volume": 26632856.0
+          "volume": 28045099.0
         }
       ]
     },
@@ -2177,16 +2177,16 @@
       "d5": 16.55,
       "d20": 18.11,
       "gap": 0.15,
-      "volume": 29115319.0,
-      "volume_ratio": 0.76,
+      "volume": 30026695.0,
+      "volume_ratio": 0.78,
       "rsi14": 61.0,
       "ma20": 38.396,
       "ma50": 34.0922,
       "atr14": 2.4078,
       "atr_pct": 5.8,
       "extension_ma20": 8.19,
-      "rs5_spy": 14.43,
-      "rs20_spy": 16.8,
+      "rs5_spy": 14.44,
+      "rs20_spy": 16.81,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -2199,13 +2199,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 14.43%",
+          "detail": "5日相对SPY 14.44%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.76",
+          "detail": "量比 0.78",
           "critical": false
         },
         {
@@ -2230,7 +2230,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 21.24,
+      "score": 21.28,
       "plan": {
         "trigger": 41.7399,
         "stop": 38.1282,
@@ -2463,7 +2463,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 41.54,
-          "volume": 29115319.0
+          "volume": 30026695.0
         }
       ]
     },
@@ -2476,16 +2476,16 @@
       "d5": 18.34,
       "d20": 14.42,
       "gap": -0.83,
-      "volume": 18373303.0,
-      "volume_ratio": 0.83,
+      "volume": 19713392.0,
+      "volume_ratio": 0.89,
       "rsi14": 73.5,
       "ma20": 230.1465,
       "ma50": 217.2738,
       "atr14": 13.005,
       "atr_pct": 4.96,
       "extension_ma20": 14.0,
-      "rs5_spy": 16.22,
-      "rs20_spy": 13.11,
+      "rs5_spy": 16.23,
+      "rs20_spy": 13.12,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -2498,13 +2498,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 16.22%",
+          "detail": "5日相对SPY 16.23%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.83",
+          "detail": "量比 0.89",
           "critical": false
         },
         {
@@ -2529,7 +2529,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 20.8,
+      "score": 20.89,
       "plan": {
         "trigger": 266.0,
         "stop": 246.4925,
@@ -2762,7 +2762,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 262.36,
-          "volume": 18373303.0
+          "volume": 19713392.0
         }
       ]
     },
@@ -2775,16 +2775,16 @@
       "d5": 16.83,
       "d20": 12.03,
       "gap": -0.82,
-      "volume": 7070080.0,
-      "volume_ratio": 0.67,
+      "volume": 7229736.0,
+      "volume_ratio": 0.68,
       "rsi14": 59.9,
       "ma20": 182.7575,
       "ma50": 168.3748,
       "atr14": 12.44,
       "atr_pct": 6.19,
       "extension_ma20": 10.02,
-      "rs5_spy": 14.71,
-      "rs20_spy": 10.72,
+      "rs5_spy": 14.72,
+      "rs20_spy": 10.73,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -2797,13 +2797,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 14.71%",
+          "detail": "5日相对SPY 14.72%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.67",
+          "detail": "量比 0.68",
           "critical": false
         },
         {
@@ -2828,7 +2828,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 19.67,
+      "score": 19.69,
       "plan": {
         "trigger": 203.0,
         "stop": 184.34,
@@ -3061,7 +3061,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 201.07,
-          "volume": 7070080.0
+          "volume": 7229736.0
         }
       ]
     },
@@ -3074,16 +3074,16 @@
       "d5": 16.76,
       "d20": 21.95,
       "gap": -0.52,
-      "volume": 33224815.0,
-      "volume_ratio": 0.81,
+      "volume": 33625427.0,
+      "volume_ratio": 0.82,
       "rsi14": 75.7,
       "ma20": 42.5358,
       "ma50": 40.6941,
       "atr14": 2.9094,
       "atr_pct": 5.99,
       "extension_ma20": 14.14,
-      "rs5_spy": 14.64,
-      "rs20_spy": 20.64,
+      "rs5_spy": 14.65,
+      "rs20_spy": 20.65,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -3096,13 +3096,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 14.64%",
+          "detail": "5日相对SPY 14.65%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.81",
+          "detail": "量比 0.82",
           "critical": false
         },
         {
@@ -3127,7 +3127,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 19.55,
+      "score": 19.57,
       "plan": {
         "trigger": 49.35,
         "stop": 44.9859,
@@ -3360,7 +3360,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 48.55,
-          "volume": 33224815.0
+          "volume": 33625427.0
         }
       ]
     },
@@ -3373,16 +3373,16 @@
       "d5": 12.49,
       "d20": 19.91,
       "gap": -0.24,
-      "volume": 15385909.0,
-      "volume_ratio": 0.65,
+      "volume": 15960163.0,
+      "volume_ratio": 0.68,
       "rsi14": 66.0,
       "ma20": 113.0845,
       "ma50": 103.6894,
       "atr14": 7.2836,
       "atr_pct": 5.86,
       "extension_ma20": 9.87,
-      "rs5_spy": 10.37,
-      "rs20_spy": 18.6,
+      "rs5_spy": 10.38,
+      "rs20_spy": 18.61,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -3395,13 +3395,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 10.37%",
+          "detail": "5日相对SPY 10.38%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.65",
+          "detail": "量比 0.68",
           "critical": false
         },
         {
@@ -3426,7 +3426,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 15.35,
+      "score": 15.4,
       "plan": {
         "trigger": 126.16,
         "stop": 115.2346,
@@ -3659,7 +3659,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 124.25,
-          "volume": 15385909.0
+          "volume": 15960163.0
         }
       ]
     },
@@ -3672,16 +3672,16 @@
       "d5": 13.27,
       "d20": 5.42,
       "gap": 2.65,
-      "volume": 20536558.0,
-      "volume_ratio": 1.11,
+      "volume": 21927781.0,
+      "volume_ratio": 1.19,
       "rsi14": 69.2,
       "ma20": 65.0275,
       "ma50": 69.5756,
       "atr14": 3.4047,
       "atr_pct": 4.73,
       "extension_ma20": 10.69,
-      "rs5_spy": 11.15,
-      "rs20_spy": 4.11,
+      "rs5_spy": 11.16,
+      "rs20_spy": 4.12,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -3694,13 +3694,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 11.15%",
+          "detail": "5日相对SPY 11.16%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.11",
+          "detail": "量比 1.19",
           "critical": false
         },
         {
@@ -3725,7 +3725,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 15.22,
+      "score": 15.35,
       "plan": {
         "trigger": 72.5,
         "stop": 67.3929,
@@ -3958,7 +3958,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 71.98,
-          "volume": 20536558.0
+          "volume": 21927781.0
         }
       ]
     },
@@ -3966,23 +3966,23 @@
       "ticker": "TSM",
       "name": "TSMC",
       "sector": "半导体",
-      "price": 451.89,
-      "d1": 1.52,
-      "d5": 9.22,
-      "d20": 10.18,
+      "price": 452.0,
+      "d1": 1.54,
+      "d5": 9.24,
+      "d20": 10.21,
       "gap": -0.88,
-      "volume": 8957132.0,
-      "volume_ratio": 0.91,
+      "volume": 11225312.0,
+      "volume_ratio": 1.14,
       "rsi14": 69.2,
-      "ma20": 425.8865,
-      "ma50": 418.2006,
+      "ma20": 425.892,
+      "ma50": 418.2028,
       "atr14": 10.2271,
       "atr_pct": 2.26,
-      "extension_ma20": 6.11,
-      "rs5_spy": 7.1,
-      "rs20_spy": 8.87,
+      "extension_ma20": 6.13,
+      "rs5_spy": 7.13,
+      "rs20_spy": 8.91,
       "setup": "趋势延续候选",
-      "decision": "等待触发",
+      "decision": "强势候选",
       "checks": [
         {
           "label": "多头趋势",
@@ -3993,25 +3993,25 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 7.1%",
+          "detail": "5日相对SPY 7.13%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 0.91",
+          "status": "pass",
+          "detail": "量比 1.14",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "pass",
-          "detail": "RSI 69.2，偏离MA20 6.11%",
+          "detail": "RSI 69.2，偏离MA20 6.13%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "pass",
-          "detail": "1日 1.52%",
+          "detail": "1日 1.54%",
           "critical": false
         },
         {
@@ -4021,10 +4021,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 5,
+      "passed_checks": 6,
       "total_checks": 6,
-      "trade_ready": false,
-      "score": 13.7,
+      "trade_ready": true,
+      "score": 14.09,
       "plan": {
         "trigger": 452.88,
         "stop": 437.5394,
@@ -4256,8 +4256,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 451.89,
-          "volume": 8957132.0
+          "close": 452.0,
+          "volume": 11225312.0
         }
       ]
     },
@@ -4270,16 +4270,16 @@
       "d5": 9.83,
       "d20": 0.45,
       "gap": -0.89,
-      "volume": 1164655.0,
-      "volume_ratio": 0.91,
+      "volume": 1173374.0,
+      "volume_ratio": 0.92,
       "rsi14": 57.4,
       "ma20": 1687.1625,
       "ma50": 1720.8672,
       "atr14": 56.0286,
       "atr_pct": 3.21,
       "extension_ma20": 3.6,
-      "rs5_spy": 7.71,
-      "rs20_spy": -0.86,
+      "rs5_spy": 7.72,
+      "rs20_spy": -0.85,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -4292,13 +4292,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 7.71%",
+          "detail": "5日相对SPY 7.72%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.91",
+          "detail": "量比 0.92",
           "critical": false
         },
         {
@@ -4323,7 +4323,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 11.9,
+      "score": 11.92,
       "plan": {
         "trigger": 1749.7,
         "stop": 1665.6571,
@@ -4556,7 +4556,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 1747.9,
-          "volume": 1164655.0
+          "volume": 1173374.0
         }
       ]
     },
@@ -4569,16 +4569,16 @@
       "d5": 7.87,
       "d20": 9.78,
       "gap": -0.21,
-      "volume": 84964425.0,
-      "volume_ratio": 0.63,
+      "volume": 93296546.0,
+      "volume_ratio": 0.69,
       "rsi14": 61.4,
       "ma20": 220.531,
       "ma50": 215.1078,
       "atr14": 5.9121,
       "atr_pct": 2.58,
       "extension_ma20": 3.78,
-      "rs5_spy": 5.75,
-      "rs20_spy": 8.47,
+      "rs5_spy": 5.76,
+      "rs20_spy": 8.48,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -4591,13 +4591,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 5.75%",
+          "detail": "5日相对SPY 5.76%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.63",
+          "detail": "量比 0.69",
           "critical": false
         },
         {
@@ -4622,7 +4622,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 11.04,
+      "score": 11.14,
       "plan": {
         "trigger": 229.98,
         "stop": 221.1119,
@@ -4855,7 +4855,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 228.87,
-          "volume": 84964425.0
+          "volume": 93296546.0
         }
       ]
     },
@@ -4868,16 +4868,16 @@
       "d5": 7.2,
       "d20": 5.17,
       "gap": 1.09,
-      "volume": 20777066.0,
-      "volume_ratio": 0.74,
+      "volume": 21859169.0,
+      "volume_ratio": 0.78,
       "rsi14": 54.2,
       "ma20": 176.508,
       "ma50": 160.4842,
       "atr14": 7.0527,
       "atr_pct": 3.81,
       "extension_ma20": 4.81,
-      "rs5_spy": 5.08,
-      "rs20_spy": 3.86,
+      "rs5_spy": 5.09,
+      "rs20_spy": 3.87,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -4890,13 +4890,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 5.08%",
+          "detail": "5日相对SPY 5.09%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.74",
+          "detail": "量比 0.78",
           "critical": false
         },
         {
@@ -4921,7 +4921,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 10.74,
+      "score": 10.8,
       "plan": {
         "trigger": 185.54,
         "stop": 174.9609,
@@ -5154,7 +5154,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 184.99,
-          "volume": 20777066.0
+          "volume": 21859169.0
         }
       ]
     },
@@ -5167,16 +5167,16 @@
       "d5": 6.26,
       "d20": 8.58,
       "gap": 1.0,
-      "volume": 27338057.0,
-      "volume_ratio": 0.69,
+      "volume": 28089930.0,
+      "volume_ratio": 0.71,
       "rsi14": 61.6,
       "ma20": 361.72,
       "ma50": 349.2792,
       "atr14": 13.1277,
       "atr_pct": 3.46,
       "extension_ma20": 4.75,
-      "rs5_spy": 4.14,
-      "rs20_spy": 7.27,
+      "rs5_spy": 4.15,
+      "rs20_spy": 7.28,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -5189,13 +5189,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 4.14%",
+          "detail": "5日相对SPY 4.15%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.69",
+          "detail": "量比 0.71",
           "critical": false
         },
         {
@@ -5220,7 +5220,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 9.52,
+      "score": 9.55,
       "plan": {
         "trigger": 380.4175,
         "stop": 360.726,
@@ -5453,7 +5453,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 378.9,
-          "volume": 27338057.0
+          "volume": 28089930.0
         }
       ]
     },
@@ -5466,16 +5466,16 @@
       "d5": 9.9,
       "d20": 31.77,
       "gap": -1.32,
-      "volume": 27424231.0,
-      "volume_ratio": 1.34,
+      "volume": 27915040.0,
+      "volume_ratio": 1.37,
       "rsi14": 85.0,
       "ma20": 633.0562,
       "ma50": 610.4171,
       "atr14": 27.2264,
       "atr_pct": 3.7,
       "extension_ma20": 16.36,
-      "rs5_spy": 7.78,
-      "rs20_spy": 30.46,
+      "rs5_spy": 7.79,
+      "rs20_spy": 30.47,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -5488,13 +5488,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 7.78%",
+          "detail": "5日相对SPY 7.79%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.34",
+          "detail": "量比 1.37",
           "critical": false
         },
         {
@@ -5519,7 +5519,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 8.39,
+      "score": 8.44,
       "plan": {
         "trigger": 757.27,
         "stop": 716.4304,
@@ -5752,7 +5752,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 736.595,
-          "volume": 27424231.0
+          "volume": 27915040.0
         }
       ]
     },
@@ -5765,16 +5765,16 @@
       "d5": 7.47,
       "d20": 9.61,
       "gap": 0.39,
-      "volume": 2707407.0,
-      "volume_ratio": 0.74,
+      "volume": 2822910.0,
+      "volume_ratio": 0.77,
       "rsi14": 64.4,
       "ma20": 227.8177,
       "ma50": 243.1225,
       "atr14": 10.7834,
       "atr_pct": 4.36,
       "extension_ma20": 8.63,
-      "rs5_spy": 5.35,
-      "rs20_spy": 8.3,
+      "rs5_spy": 5.36,
+      "rs20_spy": 8.31,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -5787,13 +5787,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 5.35%",
+          "detail": "5日相对SPY 5.36%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.74",
+          "detail": "量比 0.77",
           "critical": false
         },
         {
@@ -5818,7 +5818,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 7.63,
+      "score": 7.68,
       "plan": {
         "trigger": 249.91,
         "stop": 233.7349,
@@ -6051,7 +6051,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 247.475,
-          "volume": 2707407.0
+          "volume": 2822910.0
         }
       ]
     },
@@ -6064,16 +6064,16 @@
       "d5": 7.45,
       "d20": 1.61,
       "gap": 0.16,
-      "volume": 18709727.0,
-      "volume_ratio": 0.69,
+      "volume": 20440459.0,
+      "volume_ratio": 0.75,
       "rsi14": 46.8,
       "ma20": 359.3175,
       "ma50": 378.6188,
       "atr14": 11.1643,
       "atr_pct": 3.06,
       "extension_ma20": 1.45,
-      "rs5_spy": 5.33,
-      "rs20_spy": 0.3,
+      "rs5_spy": 5.34,
+      "rs20_spy": 0.31,
       "setup": "多头回踩候选",
       "decision": "等待触发",
       "checks": [
@@ -6086,13 +6086,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 5.33%",
+          "detail": "5日相对SPY 5.34%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.69",
+          "detail": "量比 0.75",
           "critical": false
         },
         {
@@ -6117,7 +6117,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 7.53,
+      "score": 7.63,
       "plan": {
         "trigger": 366.54,
         "stop": 349.7936,
@@ -6350,7 +6350,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 364.54,
-          "volume": 18709727.0
+          "volume": 20440459.0
         }
       ]
     },
@@ -6358,21 +6358,21 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "sector": "网络安全",
-      "price": 352.945,
-      "d1": 0.36,
-      "d5": 7.86,
-      "d20": 25.89,
+      "price": 353.0,
+      "d1": 0.38,
+      "d5": 7.88,
+      "d20": 25.91,
       "gap": 0.22,
-      "volume": 2968467.0,
-      "volume_ratio": 0.94,
-      "rsi14": 72.2,
-      "ma20": 307.8953,
-      "ma50": 295.0691,
+      "volume": 3279351.0,
+      "volume_ratio": 1.03,
+      "rsi14": 72.3,
+      "ma20": 307.898,
+      "ma50": 295.0702,
       "atr14": 18.1168,
       "atr_pct": 5.13,
-      "extension_ma20": 14.63,
-      "rs5_spy": 5.74,
-      "rs20_spy": 24.58,
+      "extension_ma20": 14.65,
+      "rs5_spy": 5.77,
+      "rs20_spy": 24.61,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -6385,25 +6385,25 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 5.74%",
+          "detail": "5日相对SPY 5.77%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.94",
+          "detail": "量比 1.03",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 72.2，偏离MA20 14.63%",
+          "detail": "RSI 72.3，偏离MA20 14.65%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "pass",
-          "detail": "1日 0.36%",
+          "detail": "1日 0.38%",
           "critical": false
         },
         {
@@ -6416,7 +6416,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 7.28,
+      "score": 7.44,
       "plan": {
         "trigger": 356.2225,
         "stop": 329.0473,
@@ -6648,8 +6648,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 352.945,
-          "volume": 2968467.0
+          "close": 353.0,
+          "volume": 3279351.0
         }
       ]
     },
@@ -6662,16 +6662,16 @@
       "d5": 5.58,
       "d20": 25.07,
       "gap": -1.09,
-      "volume": 10606146.0,
-      "volume_ratio": 0.73,
+      "volume": 11465322.0,
+      "volume_ratio": 0.79,
       "rsi14": 74.0,
       "ma20": 175.9335,
       "ma50": 168.906,
       "atr14": 9.6607,
       "atr_pct": 4.87,
       "extension_ma20": 12.7,
-      "rs5_spy": 3.46,
-      "rs20_spy": 23.76,
+      "rs5_spy": 3.47,
+      "rs20_spy": 23.77,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -6684,13 +6684,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 3.46%",
+          "detail": "5日相对SPY 3.47%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.73",
+          "detail": "量比 0.79",
           "critical": false
         },
         {
@@ -6715,7 +6715,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 6.87,
+      "score": 6.97,
       "plan": {
         "trigger": 199.15,
         "stop": 184.659,
@@ -6948,7 +6948,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 198.27,
-          "volume": 10606146.0
+          "volume": 11465322.0
         }
       ]
     },
@@ -6956,21 +6956,21 @@
       "ticker": "ORCL",
       "name": "Oracle",
       "sector": "软件",
-      "price": 149.12,
-      "d1": 0.38,
-      "d5": 6.25,
-      "d20": 4.68,
+      "price": 149.2,
+      "d1": 0.43,
+      "d5": 6.31,
+      "d20": 4.74,
       "gap": 1.81,
-      "volume": 27058576.0,
-      "volume_ratio": 0.89,
-      "rsi14": 56.7,
-      "ma20": 149.849,
-      "ma50": 141.5124,
+      "volume": 30813324.0,
+      "volume_ratio": 1.01,
+      "rsi14": 56.8,
+      "ma20": 149.853,
+      "ma50": 141.514,
       "atr14": 7.9629,
       "atr_pct": 5.34,
-      "extension_ma20": -0.49,
-      "rs5_spy": 4.13,
-      "rs20_spy": 3.37,
+      "extension_ma20": -0.44,
+      "rs5_spy": 4.2,
+      "rs20_spy": 3.44,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -6983,25 +6983,25 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 4.13%",
+          "detail": "5日相对SPY 4.2%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.89",
+          "detail": "量比 1.01",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "pass",
-          "detail": "RSI 56.7，偏离MA20 -0.49%",
+          "detail": "RSI 56.8，偏离MA20 -0.44%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "pass",
-          "detail": "1日 0.38%",
+          "detail": "1日 0.43%",
           "critical": false
         },
         {
@@ -7014,7 +7014,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 6.34,
+      "score": 6.64,
       "plan": {
         "trigger": 153.6,
         "stop": 141.6556,
@@ -7246,8 +7246,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 149.12,
-          "volume": 27058576.0
+          "close": 149.2,
+          "volume": 30813324.0
         }
       ]
     },
@@ -7255,21 +7255,21 @@
       "ticker": "SNOW",
       "name": "Snowflake",
       "sector": "软件",
-      "price": 336.37,
-      "d1": -0.89,
-      "d5": 4.15,
-      "d20": 4.21,
+      "price": 336.59,
+      "d1": -0.83,
+      "d5": 4.21,
+      "d20": 4.28,
       "gap": 1.86,
-      "volume": 4591666.0,
-      "volume_ratio": 0.83,
-      "rsi14": 56.1,
-      "ma20": 329.942,
-      "ma50": 313.2904,
+      "volume": 4957023.0,
+      "volume_ratio": 0.89,
+      "rsi14": 56.2,
+      "ma20": 329.953,
+      "ma50": 313.2948,
       "atr14": 18.59,
-      "atr_pct": 5.53,
-      "extension_ma20": 1.95,
-      "rs5_spy": 2.03,
-      "rs20_spy": 2.9,
+      "atr_pct": 5.52,
+      "extension_ma20": 2.01,
+      "rs5_spy": 2.1,
+      "rs20_spy": 2.98,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -7282,25 +7282,25 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 2.03%",
+          "detail": "5日相对SPY 2.1%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.83",
+          "detail": "量比 0.89",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "pass",
-          "detail": "RSI 56.1，偏离MA20 1.95%",
+          "detail": "RSI 56.2，偏离MA20 2.01%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -0.89%",
+          "detail": "1日 -0.83%",
           "critical": false
         },
         {
@@ -7313,7 +7313,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 5.82,
+      "score": 6.04,
       "plan": {
         "trigger": 346.7912,
         "stop": 318.9062,
@@ -7545,8 +7545,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 336.37,
-          "volume": 4591666.0
+          "close": 336.59,
+          "volume": 4957023.0
         }
       ]
     },
@@ -7559,16 +7559,16 @@
       "d5": 2.54,
       "d20": 9.48,
       "gap": 0.4,
-      "volume": 36952321.0,
-      "volume_ratio": 0.86,
+      "volume": 40599377.0,
+      "volume_ratio": 0.95,
       "rsi14": 65.9,
       "ma20": 325.592,
       "ma50": 321.0642,
       "atr14": 7.1414,
       "atr_pct": 2.1,
       "extension_ma20": 4.35,
-      "rs5_spy": 0.42,
-      "rs20_spy": 8.17,
+      "rs5_spy": 0.43,
+      "rs20_spy": 8.18,
       "setup": "趋势延续候选",
       "decision": "等待触发",
       "checks": [
@@ -7581,13 +7581,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 0.42%",
+          "detail": "5日相对SPY 0.43%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.86",
+          "detail": "量比 0.95",
           "critical": false
         },
         {
@@ -7612,7 +7612,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 4.91,
+      "score": 5.05,
       "plan": {
         "trigger": 345.34,
         "stop": 334.6279,
@@ -7845,7 +7845,306 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 339.75,
-          "volume": 36952321.0
+          "volume": 40599377.0
+        }
+      ]
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "sector": "医疗",
+      "price": 1170.14,
+      "d1": 0.45,
+      "d5": 3.0,
+      "d20": -6.16,
+      "gap": -1.61,
+      "volume": 2429845.0,
+      "volume_ratio": 1.02,
+      "rsi14": 54.9,
+      "ma20": 1154.949,
+      "ma50": 1176.6516,
+      "atr14": 26.8175,
+      "atr_pct": 2.29,
+      "extension_ma20": 1.32,
+      "rs5_spy": 0.89,
+      "rs20_spy": -7.46,
+      "setup": "多头回踩候选",
+      "decision": "等待触发",
+      "checks": [
+        {
+          "label": "多头趋势",
+          "status": "fail",
+          "detail": "价格 > MA20，MA20 ≤ MA50",
+          "critical": false
+        },
+        {
+          "label": "相对强度",
+          "status": "pass",
+          "detail": "5日相对SPY 0.89%",
+          "critical": false
+        },
+        {
+          "label": "成交参与",
+          "status": "fail",
+          "detail": "量比 1.02",
+          "critical": false
+        },
+        {
+          "label": "未过度延伸",
+          "status": "pass",
+          "detail": "RSI 54.9，偏离MA20 1.32%",
+          "critical": false
+        },
+        {
+          "label": "当日确认",
+          "status": "pass",
+          "detail": "1日 0.45%",
+          "critical": false
+        },
+        {
+          "label": "市场环境",
+          "status": "pass",
+          "detail": "混合震荡",
+          "critical": true
+        }
+      ],
+      "passed_checks": 4,
+      "total_checks": 6,
+      "trade_ready": false,
+      "score": 2.86,
+      "plan": {
+        "trigger": 1180.47,
+        "stop": 1140.2438,
+        "target1": 1260.9225,
+        "target2": 1301.1488,
+        "rr_target1": 2.0,
+        "note": "需盘中价格与成交确认后执行"
+      },
+      "history": [
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 1175.41,
+          "volume": 2092000.0
+        },
+        {
+          "time": "2026-07-22T13:30:00+00:00",
+          "close": 1163.01,
+          "volume": 1555800.0
+        },
+        {
+          "time": "2026-07-23T13:30:00+00:00",
+          "close": 1185.87,
+          "volume": 1909900.0
+        },
+        {
+          "time": "2026-07-24T13:30:00+00:00",
+          "close": 1196.03,
+          "volume": 1983300.0
+        },
+        {
+          "time": "2026-07-27T13:30:00+00:00",
+          "close": 1197.53,
+          "volume": 1592800.0
+        },
+        {
+          "time": "2026-07-28T13:30:00+00:00",
+          "close": 1220.66,
+          "volume": 2375400.0
+        },
+        {
+          "time": "2026-07-29T13:30:00+00:00",
+          "close": 1210.02,
+          "volume": 2170900.0
+        },
+        {
+          "time": "2026-07-30T13:30:00+00:00",
+          "close": 1154.97,
+          "volume": 3027700.0
+        },
+        {
+          "time": "2026-07-31T13:30:00+00:00",
+          "close": 1148.84,
+          "volume": 2884600.0
+        },
+        {
+          "time": "2026-08-03T13:30:00+00:00",
+          "close": 1121.36,
+          "volume": 2934000.0
+        },
+        {
+          "time": "2026-08-04T13:30:00+00:00",
+          "close": 1115.6801,
+          "volume": 4097200.0
+        },
+        {
+          "time": "2026-08-05T13:30:00+00:00",
+          "close": 1169.86,
+          "volume": 6445700.0
+        },
+        {
+          "time": "2026-08-06T13:30:00+00:00",
+          "close": 1191.9399,
+          "volume": 3422400.0
+        },
+        {
+          "time": "2026-08-07T13:30:00+00:00",
+          "close": 1185.71,
+          "volume": 2898500.0
+        },
+        {
+          "time": "2026-08-10T13:30:00+00:00",
+          "close": 1231.9399,
+          "volume": 3011900.0
+        },
+        {
+          "time": "2026-08-11T13:30:00+00:00",
+          "close": 1215.02,
+          "volume": 2113200.0
+        },
+        {
+          "time": "2026-08-12T13:30:00+00:00",
+          "close": 1220.28,
+          "volume": 1941600.0
+        },
+        {
+          "time": "2026-08-13T13:30:00+00:00",
+          "close": 1209.0,
+          "volume": 1927300.0
+        },
+        {
+          "time": "2026-08-14T13:30:00+00:00",
+          "close": 1180.16,
+          "volume": 2274500.0
+        },
+        {
+          "time": "2026-08-17T13:30:00+00:00",
+          "close": 1183.16,
+          "volume": 1807000.0
+        },
+        {
+          "time": "2026-08-18T13:30:00+00:00",
+          "close": 1225.73,
+          "volume": 2509100.0
+        },
+        {
+          "time": "2026-08-19T13:30:00+00:00",
+          "close": 1280.34,
+          "volume": 4541800.0
+        },
+        {
+          "time": "2026-08-20T13:30:00+00:00",
+          "close": 1244.4,
+          "volume": 2621400.0
+        },
+        {
+          "time": "2026-08-21T13:30:00+00:00",
+          "close": 1255.4,
+          "volume": 2497300.0
+        },
+        {
+          "time": "2026-08-24T13:30:00+00:00",
+          "close": 1246.9301,
+          "volume": 1664600.0
+        },
+        {
+          "time": "2026-08-25T13:30:00+00:00",
+          "close": 1233.66,
+          "volume": 2141100.0
+        },
+        {
+          "time": "2026-08-26T13:30:00+00:00",
+          "close": 1189.41,
+          "volume": 3000500.0
+        },
+        {
+          "time": "2026-08-27T13:30:00+00:00",
+          "close": 1176.1,
+          "volume": 2730600.0
+        },
+        {
+          "time": "2026-08-28T13:30:00+00:00",
+          "close": 1174.61,
+          "volume": 2450800.0
+        },
+        {
+          "time": "2026-08-31T13:30:00+00:00",
+          "close": 1156.73,
+          "volume": 3055800.0
+        },
+        {
+          "time": "2026-09-01T13:30:00+00:00",
+          "close": 1160.0,
+          "volume": 2520100.0
+        },
+        {
+          "time": "2026-09-02T13:30:00+00:00",
+          "close": 1160.08,
+          "volume": 2445100.0
+        },
+        {
+          "time": "2026-09-03T13:30:00+00:00",
+          "close": 1159.6,
+          "volume": 2550500.0
+        },
+        {
+          "time": "2026-09-04T13:30:00+00:00",
+          "close": 1149.36,
+          "volume": 2218900.0
+        },
+        {
+          "time": "2026-09-08T13:30:00+00:00",
+          "close": 1123.91,
+          "volume": 2400500.0
+        },
+        {
+          "time": "2026-09-09T13:30:00+00:00",
+          "close": 1124.21,
+          "volume": 2045000.0
+        },
+        {
+          "time": "2026-09-10T13:30:00+00:00",
+          "close": 1123.0,
+          "volume": 1995600.0
+        },
+        {
+          "time": "2026-09-11T13:30:00+00:00",
+          "close": 1115.7,
+          "volume": 1837200.0
+        },
+        {
+          "time": "2026-09-14T13:30:00+00:00",
+          "close": 1138.28,
+          "volume": 2129600.0
+        },
+        {
+          "time": "2026-09-15T13:30:00+00:00",
+          "close": 1136.11,
+          "volume": 1885200.0
+        },
+        {
+          "time": "2026-09-16T13:30:00+00:00",
+          "close": 1137.8199,
+          "volume": 1475400.0
+        },
+        {
+          "time": "2026-09-17T13:30:00+00:00",
+          "close": 1152.4399,
+          "volume": 1896400.0
+        },
+        {
+          "time": "2026-09-18T13:30:00+00:00",
+          "close": 1152.9301,
+          "volume": 4542600.0
+        },
+        {
+          "time": "2026-09-21T13:30:00+00:00",
+          "close": 1164.89,
+          "volume": 2476600.0
+        },
+        {
+          "time": "2026-09-22T13:30:00+00:00",
+          "close": 1170.14,
+          "volume": 2429845.0
         }
       ]
     },
@@ -7858,16 +8157,16 @@
       "d5": 0.53,
       "d20": -5.92,
       "gap": 5.63,
-      "volume": 97427357.0,
-      "volume_ratio": 2.45,
+      "volume": 98130866.0,
+      "volume_ratio": 2.46,
       "rsi14": 51.2,
       "ma20": 17.6915,
       "ma50": 17.6602,
       "atr14": 0.6618,
       "atr_pct": 3.86,
       "extension_ma20": -3.0,
-      "rs5_spy": -1.59,
-      "rs20_spy": -7.23,
+      "rs5_spy": -1.58,
+      "rs20_spy": -7.22,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -7880,13 +8179,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -1.59%",
+          "detail": "5日相对SPY -1.58%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 2.45",
+          "detail": "量比 2.46",
           "critical": false
         },
         {
@@ -7911,7 +8210,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 2.7,
+      "score": 2.72,
       "plan": {
         "trigger": 17.96,
         "stop": 16.9673,
@@ -8144,306 +8443,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 17.16,
-          "volume": 97427357.0
-        }
-      ]
-    },
-    {
-      "ticker": "LLY",
-      "name": "Eli Lilly",
-      "sector": "医疗",
-      "price": 1170.5,
-      "d1": 0.48,
-      "d5": 3.03,
-      "d20": -6.13,
-      "gap": -1.61,
-      "volume": 1883531.0,
-      "volume_ratio": 0.79,
-      "rsi14": 55.0,
-      "ma20": 1154.967,
-      "ma50": 1176.6588,
-      "atr14": 26.8175,
-      "atr_pct": 2.29,
-      "extension_ma20": 1.34,
-      "rs5_spy": 0.91,
-      "rs20_spy": -7.44,
-      "setup": "多头回踩候选",
-      "decision": "等待触发",
-      "checks": [
-        {
-          "label": "多头趋势",
-          "status": "fail",
-          "detail": "价格 > MA20，MA20 ≤ MA50",
-          "critical": false
-        },
-        {
-          "label": "相对强度",
-          "status": "pass",
-          "detail": "5日相对SPY 0.91%",
-          "critical": false
-        },
-        {
-          "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 0.79",
-          "critical": false
-        },
-        {
-          "label": "未过度延伸",
-          "status": "pass",
-          "detail": "RSI 55.0，偏离MA20 1.34%",
-          "critical": false
-        },
-        {
-          "label": "当日确认",
-          "status": "pass",
-          "detail": "1日 0.48%",
-          "critical": false
-        },
-        {
-          "label": "市场环境",
-          "status": "pass",
-          "detail": "混合震荡",
-          "critical": true
-        }
-      ],
-      "passed_checks": 4,
-      "total_checks": 6,
-      "trade_ready": false,
-      "score": 2.57,
-      "plan": {
-        "trigger": 1180.47,
-        "stop": 1140.2438,
-        "target1": 1260.9225,
-        "target2": 1301.1488,
-        "rr_target1": 2.0,
-        "note": "需盘中价格与成交确认后执行"
-      },
-      "history": [
-        {
-          "time": "2026-07-21T13:30:00+00:00",
-          "close": 1175.41,
-          "volume": 2092000.0
-        },
-        {
-          "time": "2026-07-22T13:30:00+00:00",
-          "close": 1163.01,
-          "volume": 1555800.0
-        },
-        {
-          "time": "2026-07-23T13:30:00+00:00",
-          "close": 1185.87,
-          "volume": 1909900.0
-        },
-        {
-          "time": "2026-07-24T13:30:00+00:00",
-          "close": 1196.03,
-          "volume": 1983300.0
-        },
-        {
-          "time": "2026-07-27T13:30:00+00:00",
-          "close": 1197.53,
-          "volume": 1592800.0
-        },
-        {
-          "time": "2026-07-28T13:30:00+00:00",
-          "close": 1220.66,
-          "volume": 2375400.0
-        },
-        {
-          "time": "2026-07-29T13:30:00+00:00",
-          "close": 1210.02,
-          "volume": 2170900.0
-        },
-        {
-          "time": "2026-07-30T13:30:00+00:00",
-          "close": 1154.97,
-          "volume": 3027700.0
-        },
-        {
-          "time": "2026-07-31T13:30:00+00:00",
-          "close": 1148.84,
-          "volume": 2884600.0
-        },
-        {
-          "time": "2026-08-03T13:30:00+00:00",
-          "close": 1121.36,
-          "volume": 2934000.0
-        },
-        {
-          "time": "2026-08-04T13:30:00+00:00",
-          "close": 1115.6801,
-          "volume": 4097200.0
-        },
-        {
-          "time": "2026-08-05T13:30:00+00:00",
-          "close": 1169.86,
-          "volume": 6445700.0
-        },
-        {
-          "time": "2026-08-06T13:30:00+00:00",
-          "close": 1191.9399,
-          "volume": 3422400.0
-        },
-        {
-          "time": "2026-08-07T13:30:00+00:00",
-          "close": 1185.71,
-          "volume": 2898500.0
-        },
-        {
-          "time": "2026-08-10T13:30:00+00:00",
-          "close": 1231.9399,
-          "volume": 3011900.0
-        },
-        {
-          "time": "2026-08-11T13:30:00+00:00",
-          "close": 1215.02,
-          "volume": 2113200.0
-        },
-        {
-          "time": "2026-08-12T13:30:00+00:00",
-          "close": 1220.28,
-          "volume": 1941600.0
-        },
-        {
-          "time": "2026-08-13T13:30:00+00:00",
-          "close": 1209.0,
-          "volume": 1927300.0
-        },
-        {
-          "time": "2026-08-14T13:30:00+00:00",
-          "close": 1180.16,
-          "volume": 2274500.0
-        },
-        {
-          "time": "2026-08-17T13:30:00+00:00",
-          "close": 1183.16,
-          "volume": 1807000.0
-        },
-        {
-          "time": "2026-08-18T13:30:00+00:00",
-          "close": 1225.73,
-          "volume": 2509100.0
-        },
-        {
-          "time": "2026-08-19T13:30:00+00:00",
-          "close": 1280.34,
-          "volume": 4541800.0
-        },
-        {
-          "time": "2026-08-20T13:30:00+00:00",
-          "close": 1244.4,
-          "volume": 2621400.0
-        },
-        {
-          "time": "2026-08-21T13:30:00+00:00",
-          "close": 1255.4,
-          "volume": 2497300.0
-        },
-        {
-          "time": "2026-08-24T13:30:00+00:00",
-          "close": 1246.9301,
-          "volume": 1664600.0
-        },
-        {
-          "time": "2026-08-25T13:30:00+00:00",
-          "close": 1233.66,
-          "volume": 2141100.0
-        },
-        {
-          "time": "2026-08-26T13:30:00+00:00",
-          "close": 1189.41,
-          "volume": 3000500.0
-        },
-        {
-          "time": "2026-08-27T13:30:00+00:00",
-          "close": 1176.1,
-          "volume": 2730600.0
-        },
-        {
-          "time": "2026-08-28T13:30:00+00:00",
-          "close": 1174.61,
-          "volume": 2450800.0
-        },
-        {
-          "time": "2026-08-31T13:30:00+00:00",
-          "close": 1156.73,
-          "volume": 3055800.0
-        },
-        {
-          "time": "2026-09-01T13:30:00+00:00",
-          "close": 1160.0,
-          "volume": 2520100.0
-        },
-        {
-          "time": "2026-09-02T13:30:00+00:00",
-          "close": 1160.08,
-          "volume": 2445100.0
-        },
-        {
-          "time": "2026-09-03T13:30:00+00:00",
-          "close": 1159.6,
-          "volume": 2550500.0
-        },
-        {
-          "time": "2026-09-04T13:30:00+00:00",
-          "close": 1149.36,
-          "volume": 2218900.0
-        },
-        {
-          "time": "2026-09-08T13:30:00+00:00",
-          "close": 1123.91,
-          "volume": 2400500.0
-        },
-        {
-          "time": "2026-09-09T13:30:00+00:00",
-          "close": 1124.21,
-          "volume": 2045000.0
-        },
-        {
-          "time": "2026-09-10T13:30:00+00:00",
-          "close": 1123.0,
-          "volume": 1995600.0
-        },
-        {
-          "time": "2026-09-11T13:30:00+00:00",
-          "close": 1115.7,
-          "volume": 1837200.0
-        },
-        {
-          "time": "2026-09-14T13:30:00+00:00",
-          "close": 1138.28,
-          "volume": 2129600.0
-        },
-        {
-          "time": "2026-09-15T13:30:00+00:00",
-          "close": 1136.11,
-          "volume": 1885200.0
-        },
-        {
-          "time": "2026-09-16T13:30:00+00:00",
-          "close": 1137.8199,
-          "volume": 1475400.0
-        },
-        {
-          "time": "2026-09-17T13:30:00+00:00",
-          "close": 1152.4399,
-          "volume": 1896400.0
-        },
-        {
-          "time": "2026-09-18T13:30:00+00:00",
-          "close": 1152.9301,
-          "volume": 4542600.0
-        },
-        {
-          "time": "2026-09-21T13:30:00+00:00",
-          "close": 1164.89,
-          "volume": 2476600.0
-        },
-        {
-          "time": "2026-09-22T13:30:00+00:00",
-          "close": 1170.5,
-          "volume": 1883531.0
+          "volume": 98130866.0
         }
       ]
     },
@@ -8456,16 +8456,16 @@
       "d5": -0.14,
       "d20": 6.75,
       "gap": 0.71,
-      "volume": 7340610.0,
-      "volume_ratio": 1.04,
+      "volume": 7925297.0,
+      "volume_ratio": 1.13,
       "rsi14": 55.1,
       "ma20": 356.121,
       "ma50": 354.5816,
       "atr14": 18.8336,
       "atr_pct": 5.03,
       "extension_ma20": 5.18,
-      "rs5_spy": -2.26,
-      "rs20_spy": 5.44,
+      "rs5_spy": -2.25,
+      "rs20_spy": 5.45,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -8478,13 +8478,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -2.26%",
+          "detail": "5日相对SPY -2.25%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 1.04",
+          "status": "pass",
+          "detail": "量比 1.13",
           "critical": false
         },
         {
@@ -8506,10 +8506,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 4,
+      "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 2.52,
+      "score": 2.67,
       "plan": {
         "trigger": 377.91,
         "stop": 349.6596,
@@ -8742,7 +8742,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 374.57,
-          "volume": 7340610.0
+          "volume": 7925297.0
         }
       ]
     },
@@ -8755,16 +8755,16 @@
       "d5": 3.12,
       "d20": 31.14,
       "gap": -0.5,
-      "volume": 8441844.0,
-      "volume_ratio": 0.65,
+      "volume": 8910115.0,
+      "volume_ratio": 0.69,
       "rsi14": 68.4,
       "ma20": 221.6945,
       "ma50": 209.5706,
       "atr14": 12.5066,
       "atr_pct": 5.0,
       "extension_ma20": 12.79,
-      "rs5_spy": 1.0,
-      "rs20_spy": 29.83,
+      "rs5_spy": 1.01,
+      "rs20_spy": 29.84,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -8777,13 +8777,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 1.0%",
+          "detail": "5日相对SPY 1.01%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.65",
+          "detail": "量比 0.69",
           "critical": false
         },
         {
@@ -8808,7 +8808,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 2.43,
+      "score": 2.5,
       "plan": {
         "trigger": 250.7999,
         "stop": 232.04,
@@ -9041,7 +9041,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 250.06,
-          "volume": 8441844.0
+          "volume": 8910115.0
         }
       ]
     },
@@ -9049,21 +9049,21 @@
       "ticker": "CAT",
       "name": "Caterpillar",
       "sector": "工业",
-      "price": 808.3,
-      "d1": -1.0,
-      "d5": 3.16,
-      "d20": -0.34,
+      "price": 808.01,
+      "d1": -1.04,
+      "d5": 3.12,
+      "d20": -0.37,
       "gap": -1.28,
-      "volume": 1595637.0,
-      "volume_ratio": 0.68,
-      "rsi14": 59.6,
-      "ma20": 803.8845,
-      "ma50": 834.9584,
+      "volume": 2061499.0,
+      "volume_ratio": 0.88,
+      "rsi14": 59.5,
+      "ma20": 803.87,
+      "ma50": 834.9526,
       "atr14": 21.3464,
       "atr_pct": 2.64,
-      "extension_ma20": 0.55,
-      "rs5_spy": 1.04,
-      "rs20_spy": -1.65,
+      "extension_ma20": 0.52,
+      "rs5_spy": 1.01,
+      "rs20_spy": -1.67,
       "setup": "多头回踩候选",
       "decision": "等待触发",
       "checks": [
@@ -9076,25 +9076,25 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 1.04%",
+          "detail": "5日相对SPY 1.01%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.68",
+          "detail": "量比 0.88",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "pass",
-          "detail": "RSI 59.6，偏离MA20 0.55%",
+          "detail": "RSI 59.5，偏离MA20 0.52%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -1.0%",
+          "detail": "1日 -1.04%",
           "critical": false
         },
         {
@@ -9107,7 +9107,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 1.37,
+      "score": 1.6,
       "plan": {
         "trigger": 812.4595,
         "stop": 780.4399,
@@ -9339,8 +9339,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 808.3,
-          "volume": 1595637.0
+          "close": 808.01,
+          "volume": 2061499.0
         }
       ]
     },
@@ -9353,16 +9353,16 @@
       "d5": 2.64,
       "d20": -2.71,
       "gap": -1.19,
-      "volume": 39632762.0,
-      "volume_ratio": 1.19,
+      "volume": 41258805.0,
+      "volume_ratio": 1.24,
       "rsi14": 50.1,
       "ma20": 255.77,
       "ma50": 256.2554,
       "atr14": 5.1407,
       "atr_pct": 2.02,
       "extension_ma20": -0.31,
-      "rs5_spy": 0.52,
-      "rs20_spy": -4.02,
+      "rs5_spy": 0.53,
+      "rs20_spy": -4.01,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -9375,13 +9375,13 @@
         {
           "label": "相对强度",
           "status": "pass",
-          "detail": "5日相对SPY 0.52%",
+          "detail": "5日相对SPY 0.53%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.19",
+          "detail": "量比 1.24",
           "critical": false
         },
         {
@@ -9406,7 +9406,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 1.27,
+      "score": 1.35,
       "plan": {
         "trigger": 259.0,
         "stop": 251.2889,
@@ -9639,7 +9639,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 254.98,
-          "volume": 39632762.0
+          "volume": 41258805.0
         }
       ]
     },
@@ -9652,16 +9652,16 @@
       "d5": 1.79,
       "d20": 0.89,
       "gap": 0.83,
-      "volume": 28302081.0,
-      "volume_ratio": 1.09,
+      "volume": 29504115.0,
+      "volume_ratio": 1.14,
       "rsi14": 63.3,
       "ma20": 342.449,
       "ma50": 345.506,
       "atr14": 8.645,
       "atr_pct": 2.46,
       "extension_ma20": 2.54,
-      "rs5_spy": -0.33,
-      "rs20_spy": -0.42,
+      "rs5_spy": -0.32,
+      "rs20_spy": -0.41,
       "setup": "多头回踩候选",
       "decision": "等待触发",
       "checks": [
@@ -9674,13 +9674,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -0.33%",
+          "detail": "5日相对SPY -0.32%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 1.09",
+          "status": "pass",
+          "detail": "量比 1.14",
           "critical": false
         },
         {
@@ -9702,10 +9702,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 2,
+      "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 0.35,
+      "score": 0.44,
       "plan": {
         "trigger": 364.17,
         "stop": 351.2025,
@@ -9938,7 +9938,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 351.16,
-          "volume": 28302081.0
+          "volume": 29504115.0
         }
       ]
     },
@@ -9951,16 +9951,16 @@
       "d5": 0.18,
       "d20": 2.19,
       "gap": 1.18,
-      "volume": 19037680.0,
-      "volume_ratio": 0.89,
+      "volume": 20867650.0,
+      "volume_ratio": 0.98,
       "rsi14": 48.3,
       "ma20": 498.963,
       "ma50": 469.151,
       "atr14": 10.4171,
       "atr_pct": 2.09,
       "extension_ma20": -0.19,
-      "rs5_spy": -1.94,
-      "rs20_spy": 0.88,
+      "rs5_spy": -1.93,
+      "rs20_spy": 0.89,
       "setup": "等待结构",
       "decision": "等待触发",
       "checks": [
@@ -9973,13 +9973,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -1.94%",
+          "detail": "5日相对SPY -1.93%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.89",
+          "detail": "量比 0.98",
           "critical": false
         },
         {
@@ -10004,7 +10004,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -1.52,
+      "score": -1.38,
       "plan": {
         "trigger": 508.5,
         "stop": 492.8743,
@@ -10237,7 +10237,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 498.0,
-          "volume": 19037680.0
+          "volume": 20867650.0
         }
       ]
     },
@@ -10245,21 +10245,21 @@
       "ticker": "UNH",
       "name": "UnitedHealth",
       "sector": "医疗",
-      "price": 372.9598,
+      "price": 372.95,
       "d1": -1.22,
       "d5": -0.79,
       "d20": -6.47,
       "gap": 1.01,
-      "volume": 3016831.0,
-      "volume_ratio": 0.6,
+      "volume": 4485262.0,
+      "volume_ratio": 0.9,
       "rsi14": 28.2,
-      "ma20": 388.3845,
-      "ma50": 402.263,
+      "ma20": 388.384,
+      "ma50": 402.2628,
       "atr14": 9.9629,
       "atr_pct": 2.67,
       "extension_ma20": -3.97,
-      "rs5_spy": -2.91,
-      "rs20_spy": -7.78,
+      "rs5_spy": -2.9,
+      "rs20_spy": -7.77,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -10272,13 +10272,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -2.91%",
+          "detail": "5日相对SPY -2.9%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.6",
+          "detail": "量比 0.9",
           "critical": false
         },
         {
@@ -10303,7 +10303,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -3.47,
+      "score": -3.01,
       "plan": {
         "trigger": 381.0,
         "stop": 366.0557,
@@ -10535,307 +10535,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 372.9598,
-          "volume": 3016831.0
-        }
-      ]
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "sector": "互联网",
-      "price": 49.89,
-      "d1": -2.65,
-      "d5": -0.7,
-      "d20": 28.72,
-      "gap": 1.03,
-      "volume": 6477393.0,
-      "volume_ratio": 0.64,
-      "rsi14": 72.8,
-      "ma20": 44.3245,
-      "ma50": 43.7052,
-      "atr14": 2.42,
-      "atr_pct": 4.85,
-      "extension_ma20": 12.56,
-      "rs5_spy": -2.82,
-      "rs20_spy": 27.41,
-      "setup": "等待结构",
-      "decision": "等待触发",
-      "checks": [
-        {
-          "label": "多头趋势",
-          "status": "pass",
-          "detail": "价格 > MA20，MA20 > MA50",
-          "critical": false
-        },
-        {
-          "label": "相对强度",
-          "status": "fail",
-          "detail": "5日相对SPY -2.82%",
-          "critical": false
-        },
-        {
-          "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 0.64",
-          "critical": false
-        },
-        {
-          "label": "未过度延伸",
-          "status": "fail",
-          "detail": "RSI 72.8，偏离MA20 12.56%",
-          "critical": false
-        },
-        {
-          "label": "当日确认",
-          "status": "fail",
-          "detail": "1日 -2.65%",
-          "critical": false
-        },
-        {
-          "label": "市场环境",
-          "status": "pass",
-          "detail": "混合震荡",
-          "critical": true
-        }
-      ],
-      "passed_checks": 2,
-      "total_checks": 6,
-      "trade_ready": false,
-      "score": -4.19,
-      "plan": {
-        "trigger": 51.96,
-        "stop": 48.33,
-        "target1": 59.22,
-        "target2": 62.85,
-        "rr_target1": 2.0,
-        "note": "需盘中价格与成交确认后执行"
-      },
-      "history": [
-        {
-          "time": "2026-07-21T13:30:00+00:00",
-          "close": 52.5,
-          "volume": 5351200.0
-        },
-        {
-          "time": "2026-07-22T13:30:00+00:00",
-          "close": 49.64,
-          "volume": 5892500.0
-        },
-        {
-          "time": "2026-07-23T13:30:00+00:00",
-          "close": 47.55,
-          "volume": 5478800.0
-        },
-        {
-          "time": "2026-07-24T13:30:00+00:00",
-          "close": 47.55,
-          "volume": 4720800.0
-        },
-        {
-          "time": "2026-07-27T13:30:00+00:00",
-          "close": 48.42,
-          "volume": 8413200.0
-        },
-        {
-          "time": "2026-07-28T13:30:00+00:00",
-          "close": 49.5,
-          "volume": 6619400.0
-        },
-        {
-          "time": "2026-07-29T13:30:00+00:00",
-          "close": 50.13,
-          "volume": 6965300.0
-        },
-        {
-          "time": "2026-07-30T13:30:00+00:00",
-          "close": 48.67,
-          "volume": 26434200.0
-        },
-        {
-          "time": "2026-07-31T13:30:00+00:00",
-          "close": 35.6,
-          "volume": 63121200.0
-        },
-        {
-          "time": "2026-08-03T13:30:00+00:00",
-          "close": 36.67,
-          "volume": 25077900.0
-        },
-        {
-          "time": "2026-08-04T13:30:00+00:00",
-          "close": 37.0,
-          "volume": 26983600.0
-        },
-        {
-          "time": "2026-08-05T13:30:00+00:00",
-          "close": 36.19,
-          "volume": 14982100.0
-        },
-        {
-          "time": "2026-08-06T13:30:00+00:00",
-          "close": 36.04,
-          "volume": 8690600.0
-        },
-        {
-          "time": "2026-08-07T13:30:00+00:00",
-          "close": 37.79,
-          "volume": 18477700.0
-        },
-        {
-          "time": "2026-08-10T13:30:00+00:00",
-          "close": 37.05,
-          "volume": 14201900.0
-        },
-        {
-          "time": "2026-08-11T13:30:00+00:00",
-          "close": 36.22,
-          "volume": 24667900.0
-        },
-        {
-          "time": "2026-08-12T13:30:00+00:00",
-          "close": 35.54,
-          "volume": 11282900.0
-        },
-        {
-          "time": "2026-08-13T13:30:00+00:00",
-          "close": 37.95,
-          "volume": 11186300.0
-        },
-        {
-          "time": "2026-08-14T13:30:00+00:00",
-          "close": 38.23,
-          "volume": 9555300.0
-        },
-        {
-          "time": "2026-08-17T13:30:00+00:00",
-          "close": 37.93,
-          "volume": 10833300.0
-        },
-        {
-          "time": "2026-08-18T13:30:00+00:00",
-          "close": 37.67,
-          "volume": 8055700.0
-        },
-        {
-          "time": "2026-08-19T13:30:00+00:00",
-          "close": 38.69,
-          "volume": 12906500.0
-        },
-        {
-          "time": "2026-08-20T13:30:00+00:00",
-          "close": 38.63,
-          "volume": 11458800.0
-        },
-        {
-          "time": "2026-08-21T13:30:00+00:00",
-          "close": 38.37,
-          "volume": 9806900.0
-        },
-        {
-          "time": "2026-08-24T13:30:00+00:00",
-          "close": 38.76,
-          "volume": 8335700.0
-        },
-        {
-          "time": "2026-08-25T13:30:00+00:00",
-          "close": 39.12,
-          "volume": 8208400.0
-        },
-        {
-          "time": "2026-08-26T13:30:00+00:00",
-          "close": 37.56,
-          "volume": 11635300.0
-        },
-        {
-          "time": "2026-08-27T13:30:00+00:00",
-          "close": 38.15,
-          "volume": 11486400.0
-        },
-        {
-          "time": "2026-08-28T13:30:00+00:00",
-          "close": 38.53,
-          "volume": 7736100.0
-        },
-        {
-          "time": "2026-08-31T13:30:00+00:00",
-          "close": 41.29,
-          "volume": 19571200.0
-        },
-        {
-          "time": "2026-09-01T13:30:00+00:00",
-          "close": 40.67,
-          "volume": 9234900.0
-        },
-        {
-          "time": "2026-09-02T13:30:00+00:00",
-          "close": 41.21,
-          "volume": 6545900.0
-        },
-        {
-          "time": "2026-09-03T13:30:00+00:00",
-          "close": 41.51,
-          "volume": 7901200.0
-        },
-        {
-          "time": "2026-09-04T13:30:00+00:00",
-          "close": 43.31,
-          "volume": 9982200.0
-        },
-        {
-          "time": "2026-09-08T13:30:00+00:00",
-          "close": 44.82,
-          "volume": 13935300.0
-        },
-        {
-          "time": "2026-09-09T13:30:00+00:00",
-          "close": 44.52,
-          "volume": 8630300.0
-        },
-        {
-          "time": "2026-09-10T13:30:00+00:00",
-          "close": 44.88,
-          "volume": 6484200.0
-        },
-        {
-          "time": "2026-09-11T13:30:00+00:00",
-          "close": 45.5,
-          "volume": 6349900.0
-        },
-        {
-          "time": "2026-09-14T13:30:00+00:00",
-          "close": 51.29,
-          "volume": 18634200.0
-        },
-        {
-          "time": "2026-09-15T13:30:00+00:00",
-          "close": 50.24,
-          "volume": 8008900.0
-        },
-        {
-          "time": "2026-09-16T13:30:00+00:00",
-          "close": 47.43,
-          "volume": 9083300.0
-        },
-        {
-          "time": "2026-09-17T13:30:00+00:00",
-          "close": 47.5,
-          "volume": 6539200.0
-        },
-        {
-          "time": "2026-09-18T13:30:00+00:00",
-          "close": 47.82,
-          "volume": 13049900.0
-        },
-        {
-          "time": "2026-09-21T13:30:00+00:00",
-          "close": 51.25,
-          "volume": 9532900.0
-        },
-        {
-          "time": "2026-09-22T13:30:00+00:00",
-          "close": 49.89,
-          "volume": 6477393.0
+          "close": 372.95,
+          "volume": 4485262.0
         }
       ]
     },
@@ -10843,21 +10544,21 @@
       "ticker": "UBER",
       "name": "Uber",
       "sector": "互联网",
-      "price": 69.92,
-      "d1": -1.3,
-      "d5": -2.11,
-      "d20": -11.82,
+      "price": 69.89,
+      "d1": -1.34,
+      "d5": -2.16,
+      "d20": -11.86,
       "gap": 1.14,
-      "volume": 19657167.0,
-      "volume_ratio": 1.1,
-      "rsi14": 30.0,
-      "ma20": 73.9635,
-      "ma50": 73.5126,
+      "volume": 25786291.0,
+      "volume_ratio": 1.45,
+      "rsi14": 29.9,
+      "ma20": 73.962,
+      "ma50": 73.512,
       "atr14": 2.0344,
       "atr_pct": 2.91,
-      "extension_ma20": -5.47,
-      "rs5_spy": -4.23,
-      "rs20_spy": -13.13,
+      "extension_ma20": -5.51,
+      "rs5_spy": -4.27,
+      "rs20_spy": -13.16,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -10870,25 +10571,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -4.23%",
+          "detail": "5日相对SPY -4.27%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.1",
+          "detail": "量比 1.45",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 30.0，偏离MA20 -5.47%",
+          "detail": "RSI 29.9，偏离MA20 -5.51%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -1.3%",
+          "detail": "1日 -1.34%",
           "critical": false
         },
         {
@@ -10901,7 +10602,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -4.3,
+      "score": -3.86,
       "plan": {
         "trigger": 71.9,
         "stop": 68.8484,
@@ -11133,8 +10834,307 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 69.92,
-          "volume": 19657167.0
+          "close": 69.89,
+          "volume": 25786291.0
+        }
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "sector": "互联网",
+      "price": 49.87,
+      "d1": -2.69,
+      "d5": -0.74,
+      "d20": 28.66,
+      "gap": 1.03,
+      "volume": 7788896.0,
+      "volume_ratio": 0.78,
+      "rsi14": 72.7,
+      "ma20": 44.3235,
+      "ma50": 43.7048,
+      "atr14": 2.42,
+      "atr_pct": 4.85,
+      "extension_ma20": 12.51,
+      "rs5_spy": -2.85,
+      "rs20_spy": 27.36,
+      "setup": "等待结构",
+      "decision": "等待触发",
+      "checks": [
+        {
+          "label": "多头趋势",
+          "status": "pass",
+          "detail": "价格 > MA20，MA20 > MA50",
+          "critical": false
+        },
+        {
+          "label": "相对强度",
+          "status": "fail",
+          "detail": "5日相对SPY -2.85%",
+          "critical": false
+        },
+        {
+          "label": "成交参与",
+          "status": "fail",
+          "detail": "量比 0.78",
+          "critical": false
+        },
+        {
+          "label": "未过度延伸",
+          "status": "fail",
+          "detail": "RSI 72.7，偏离MA20 12.51%",
+          "critical": false
+        },
+        {
+          "label": "当日确认",
+          "status": "fail",
+          "detail": "1日 -2.69%",
+          "critical": false
+        },
+        {
+          "label": "市场环境",
+          "status": "pass",
+          "detail": "混合震荡",
+          "critical": true
+        }
+      ],
+      "passed_checks": 2,
+      "total_checks": 6,
+      "trade_ready": false,
+      "score": -4.02,
+      "plan": {
+        "trigger": 51.96,
+        "stop": 48.33,
+        "target1": 59.22,
+        "target2": 62.85,
+        "rr_target1": 2.0,
+        "note": "需盘中价格与成交确认后执行"
+      },
+      "history": [
+        {
+          "time": "2026-07-21T13:30:00+00:00",
+          "close": 52.5,
+          "volume": 5351200.0
+        },
+        {
+          "time": "2026-07-22T13:30:00+00:00",
+          "close": 49.64,
+          "volume": 5892500.0
+        },
+        {
+          "time": "2026-07-23T13:30:00+00:00",
+          "close": 47.55,
+          "volume": 5478800.0
+        },
+        {
+          "time": "2026-07-24T13:30:00+00:00",
+          "close": 47.55,
+          "volume": 4720800.0
+        },
+        {
+          "time": "2026-07-27T13:30:00+00:00",
+          "close": 48.42,
+          "volume": 8413200.0
+        },
+        {
+          "time": "2026-07-28T13:30:00+00:00",
+          "close": 49.5,
+          "volume": 6619400.0
+        },
+        {
+          "time": "2026-07-29T13:30:00+00:00",
+          "close": 50.13,
+          "volume": 6965300.0
+        },
+        {
+          "time": "2026-07-30T13:30:00+00:00",
+          "close": 48.67,
+          "volume": 26434200.0
+        },
+        {
+          "time": "2026-07-31T13:30:00+00:00",
+          "close": 35.6,
+          "volume": 63121200.0
+        },
+        {
+          "time": "2026-08-03T13:30:00+00:00",
+          "close": 36.67,
+          "volume": 25077900.0
+        },
+        {
+          "time": "2026-08-04T13:30:00+00:00",
+          "close": 37.0,
+          "volume": 26983600.0
+        },
+        {
+          "time": "2026-08-05T13:30:00+00:00",
+          "close": 36.19,
+          "volume": 14982100.0
+        },
+        {
+          "time": "2026-08-06T13:30:00+00:00",
+          "close": 36.04,
+          "volume": 8690600.0
+        },
+        {
+          "time": "2026-08-07T13:30:00+00:00",
+          "close": 37.79,
+          "volume": 18477700.0
+        },
+        {
+          "time": "2026-08-10T13:30:00+00:00",
+          "close": 37.05,
+          "volume": 14201900.0
+        },
+        {
+          "time": "2026-08-11T13:30:00+00:00",
+          "close": 36.22,
+          "volume": 24667900.0
+        },
+        {
+          "time": "2026-08-12T13:30:00+00:00",
+          "close": 35.54,
+          "volume": 11282900.0
+        },
+        {
+          "time": "2026-08-13T13:30:00+00:00",
+          "close": 37.95,
+          "volume": 11186300.0
+        },
+        {
+          "time": "2026-08-14T13:30:00+00:00",
+          "close": 38.23,
+          "volume": 9555300.0
+        },
+        {
+          "time": "2026-08-17T13:30:00+00:00",
+          "close": 37.93,
+          "volume": 10833300.0
+        },
+        {
+          "time": "2026-08-18T13:30:00+00:00",
+          "close": 37.67,
+          "volume": 8055700.0
+        },
+        {
+          "time": "2026-08-19T13:30:00+00:00",
+          "close": 38.69,
+          "volume": 12906500.0
+        },
+        {
+          "time": "2026-08-20T13:30:00+00:00",
+          "close": 38.63,
+          "volume": 11458800.0
+        },
+        {
+          "time": "2026-08-21T13:30:00+00:00",
+          "close": 38.37,
+          "volume": 9806900.0
+        },
+        {
+          "time": "2026-08-24T13:30:00+00:00",
+          "close": 38.76,
+          "volume": 8335700.0
+        },
+        {
+          "time": "2026-08-25T13:30:00+00:00",
+          "close": 39.12,
+          "volume": 8208400.0
+        },
+        {
+          "time": "2026-08-26T13:30:00+00:00",
+          "close": 37.56,
+          "volume": 11635300.0
+        },
+        {
+          "time": "2026-08-27T13:30:00+00:00",
+          "close": 38.15,
+          "volume": 11486400.0
+        },
+        {
+          "time": "2026-08-28T13:30:00+00:00",
+          "close": 38.53,
+          "volume": 7736100.0
+        },
+        {
+          "time": "2026-08-31T13:30:00+00:00",
+          "close": 41.29,
+          "volume": 19571200.0
+        },
+        {
+          "time": "2026-09-01T13:30:00+00:00",
+          "close": 40.67,
+          "volume": 9234900.0
+        },
+        {
+          "time": "2026-09-02T13:30:00+00:00",
+          "close": 41.21,
+          "volume": 6545900.0
+        },
+        {
+          "time": "2026-09-03T13:30:00+00:00",
+          "close": 41.51,
+          "volume": 7901200.0
+        },
+        {
+          "time": "2026-09-04T13:30:00+00:00",
+          "close": 43.31,
+          "volume": 9982200.0
+        },
+        {
+          "time": "2026-09-08T13:30:00+00:00",
+          "close": 44.82,
+          "volume": 13935300.0
+        },
+        {
+          "time": "2026-09-09T13:30:00+00:00",
+          "close": 44.52,
+          "volume": 8630300.0
+        },
+        {
+          "time": "2026-09-10T13:30:00+00:00",
+          "close": 44.88,
+          "volume": 6484200.0
+        },
+        {
+          "time": "2026-09-11T13:30:00+00:00",
+          "close": 45.5,
+          "volume": 6349900.0
+        },
+        {
+          "time": "2026-09-14T13:30:00+00:00",
+          "close": 51.29,
+          "volume": 18634200.0
+        },
+        {
+          "time": "2026-09-15T13:30:00+00:00",
+          "close": 50.24,
+          "volume": 8008900.0
+        },
+        {
+          "time": "2026-09-16T13:30:00+00:00",
+          "close": 47.43,
+          "volume": 9083300.0
+        },
+        {
+          "time": "2026-09-17T13:30:00+00:00",
+          "close": 47.5,
+          "volume": 6539200.0
+        },
+        {
+          "time": "2026-09-18T13:30:00+00:00",
+          "close": 47.82,
+          "volume": 13049900.0
+        },
+        {
+          "time": "2026-09-21T13:30:00+00:00",
+          "close": 51.25,
+          "volume": 9532900.0
+        },
+        {
+          "time": "2026-09-22T13:30:00+00:00",
+          "close": 49.87,
+          "volume": 7788896.0
         }
       ]
     },
@@ -11142,21 +11142,21 @@
       "ticker": "GS",
       "name": "Goldman Sachs",
       "sector": "金融",
-      "price": 950.005,
-      "d1": -0.98,
-      "d5": -2.73,
-      "d20": -8.33,
+      "price": 949.49,
+      "d1": -1.03,
+      "d5": -2.78,
+      "d20": -8.38,
       "gap": 0.83,
-      "volume": 1602370.0,
-      "volume_ratio": 0.79,
-      "rsi14": 37.2,
-      "ma20": 1005.1923,
-      "ma50": 1032.5725,
+      "volume": 2033514.0,
+      "volume_ratio": 1.01,
+      "rsi14": 37.1,
+      "ma20": 1005.1665,
+      "ma50": 1032.5622,
       "atr14": 28.2382,
       "atr_pct": 2.97,
-      "extension_ma20": -5.49,
-      "rs5_spy": -4.85,
-      "rs20_spy": -9.64,
+      "extension_ma20": -5.54,
+      "rs5_spy": -4.89,
+      "rs20_spy": -9.68,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -11169,25 +11169,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -4.85%",
+          "detail": "5日相对SPY -4.89%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.79",
+          "detail": "量比 1.01",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 37.2，偏离MA20 -5.49%",
+          "detail": "RSI 37.1，偏离MA20 -5.54%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -0.98%",
+          "detail": "1日 -1.03%",
           "critical": false
         },
         {
@@ -11200,7 +11200,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -5.22,
+      "score": -4.98,
       "plan": {
         "trigger": 966.35,
         "stop": 923.9927,
@@ -11432,8 +11432,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 950.005,
-          "volume": 1602370.0
+          "close": 949.49,
+          "volume": 2033514.0
         }
       ]
     },
@@ -11441,21 +11441,21 @@
       "ticker": "MA",
       "name": "Mastercard",
       "sector": "金融",
-      "price": 557.13,
-      "d1": -1.85,
-      "d5": -2.82,
-      "d20": -7.12,
+      "price": 555.89,
+      "d1": -2.07,
+      "d5": -3.03,
+      "d20": -7.33,
       "gap": 0.62,
-      "volume": 2733433.0,
-      "volume_ratio": 1.03,
-      "rsi14": 30.3,
-      "ma20": 577.624,
-      "ma50": 567.47,
+      "volume": 3777854.0,
+      "volume_ratio": 1.43,
+      "rsi14": 29.7,
+      "ma20": 577.562,
+      "ma50": 567.4452,
       "atr14": 8.7646,
-      "atr_pct": 1.57,
-      "extension_ma20": -3.55,
-      "rs5_spy": -4.94,
-      "rs20_spy": -8.43,
+      "atr_pct": 1.58,
+      "extension_ma20": -3.75,
+      "rs5_spy": -5.14,
+      "rs20_spy": -8.63,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -11468,25 +11468,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -4.94%",
+          "detail": "5日相对SPY -5.14%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 1.03",
+          "status": "pass",
+          "detail": "量比 1.43",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 30.3，偏离MA20 -3.55%",
+          "detail": "RSI 29.7，偏离MA20 -3.75%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -1.85%",
+          "detail": "1日 -2.07%",
           "critical": false
         },
         {
@@ -11496,10 +11496,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 1,
+      "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -5.66,
+      "score": -5.47,
       "plan": {
         "trigger": 571.35,
         "stop": 558.2031,
@@ -11731,8 +11731,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 557.13,
-          "volume": 2733433.0
+          "close": 555.89,
+          "volume": 3777854.0
         }
       ]
     },
@@ -11740,21 +11740,21 @@
       "ticker": "NOW",
       "name": "ServiceNow",
       "sector": "软件",
-      "price": 137.04,
-      "d1": -0.46,
-      "d5": -3.42,
-      "d20": 7.02,
+      "price": 137.0,
+      "d1": -0.49,
+      "d5": -3.45,
+      "d20": 6.99,
       "gap": 3.01,
-      "volume": 11208400.0,
-      "volume_ratio": 0.72,
+      "volume": 12512405.0,
+      "volume_ratio": 0.8,
       "rsi14": 44.2,
-      "ma20": 137.6075,
-      "ma50": 123.7756,
+      "ma20": 137.6055,
+      "ma50": 123.7748,
       "atr14": 6.285,
       "atr_pct": 4.59,
-      "extension_ma20": -0.41,
-      "rs5_spy": -5.54,
-      "rs20_spy": 5.71,
+      "extension_ma20": -0.44,
+      "rs5_spy": -5.56,
+      "rs20_spy": 5.69,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -11767,25 +11767,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -5.54%",
+          "detail": "5日相对SPY -5.56%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.72",
+          "detail": "量比 0.8",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 44.2，偏离MA20 -0.41%",
+          "detail": "RSI 44.2，偏离MA20 -0.44%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -0.46%",
+          "detail": "1日 -0.49%",
           "critical": false
         },
         {
@@ -11798,7 +11798,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -5.71,
+      "score": -5.64,
       "plan": {
         "trigger": 142.1,
         "stop": 132.6725,
@@ -12030,8 +12030,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 137.04,
-          "volume": 11208400.0
+          "close": 137.0,
+          "volume": 12512405.0
         }
       ]
     },
@@ -12039,21 +12039,21 @@
       "ticker": "V",
       "name": "Visa",
       "sector": "金融",
-      "price": 362.135,
-      "d1": -2.11,
-      "d5": -3.59,
-      "d20": -5.3,
+      "price": 362.04,
+      "d1": -2.14,
+      "d5": -3.62,
+      "d20": -5.33,
       "gap": 0.49,
-      "volume": 5203203.0,
-      "volume_ratio": 0.83,
-      "rsi14": 37.7,
-      "ma20": 373.9693,
-      "ma50": 367.5877,
+      "volume": 8765900.0,
+      "volume_ratio": 1.39,
+      "rsi14": 37.6,
+      "ma20": 373.9645,
+      "ma50": 367.5858,
       "atr14": 5.7043,
       "atr_pct": 1.58,
-      "extension_ma20": -3.16,
-      "rs5_spy": -5.71,
-      "rs20_spy": -6.61,
+      "extension_ma20": -3.19,
+      "rs5_spy": -5.73,
+      "rs20_spy": -6.63,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -12066,25 +12066,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -5.71%",
+          "detail": "5日相对SPY -5.73%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 0.83",
+          "status": "pass",
+          "detail": "量比 1.39",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 37.7，偏离MA20 -3.16%",
+          "detail": "RSI 37.6，偏离MA20 -3.19%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -2.11%",
+          "detail": "1日 -2.14%",
           "critical": false
         },
         {
@@ -12094,10 +12094,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 1,
+      "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -7.06,
+      "score": -6.27,
       "plan": {
         "trigger": 372.0,
         "stop": 363.4436,
@@ -12329,8 +12329,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 362.135,
-          "volume": 5203203.0
+          "close": 362.04,
+          "volume": 8765900.0
         }
       ]
     },
@@ -12338,21 +12338,21 @@
       "ticker": "JPM",
       "name": "JPMorgan",
       "sector": "金融",
-      "price": 340.13,
-      "d1": -3.38,
-      "d5": -3.51,
-      "d20": -4.56,
+      "price": 340.0,
+      "d1": -3.42,
+      "d5": -3.54,
+      "d20": -4.6,
       "gap": -0.01,
-      "volume": 8874960.0,
-      "volume_ratio": 1.3,
-      "rsi14": 34.5,
-      "ma20": 353.681,
-      "ma50": 353.6224,
+      "volume": 11403647.0,
+      "volume_ratio": 1.67,
+      "rsi14": 34.4,
+      "ma20": 353.6745,
+      "ma50": 353.6198,
       "atr14": 7.7737,
       "atr_pct": 2.29,
-      "extension_ma20": -3.83,
-      "rs5_spy": -5.63,
-      "rs20_spy": -5.87,
+      "extension_ma20": -3.87,
+      "rs5_spy": -5.65,
+      "rs20_spy": -5.9,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -12365,25 +12365,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -5.63%",
+          "detail": "5日相对SPY -5.65%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.3",
+          "detail": "量比 1.67",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 34.5，偏离MA20 -3.83%",
+          "detail": "RSI 34.4，偏离MA20 -3.87%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -3.38%",
+          "detail": "1日 -3.42%",
           "critical": false
         },
         {
@@ -12396,7 +12396,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -7.27,
+      "score": -6.78,
       "plan": {
         "trigger": 352.1025,
         "stop": 340.442,
@@ -12628,8 +12628,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 340.13,
-          "volume": 8874960.0
+          "close": 340.0,
+          "volume": 11403647.0
         }
       ]
     },
@@ -12642,16 +12642,16 @@
       "d5": -3.87,
       "d20": -14.93,
       "gap": 1.65,
-      "volume": 4664881.0,
-      "volume_ratio": 1.04,
+      "volume": 4960090.0,
+      "volume_ratio": 1.1,
       "rsi14": 19.5,
       "ma20": 175.8952,
       "ma50": 167.6822,
       "atr14": 4.7066,
       "atr_pct": 2.91,
       "extension_ma20": -8.01,
-      "rs5_spy": -5.99,
-      "rs20_spy": -16.24,
+      "rs5_spy": -5.98,
+      "rs20_spy": -16.23,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -12664,13 +12664,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -5.99%",
+          "detail": "5日相对SPY -5.98%",
           "critical": false
         },
         {
           "label": "成交参与",
-          "status": "fail",
-          "detail": "量比 1.04",
+          "status": "pass",
+          "detail": "量比 1.1",
           "critical": false
         },
         {
@@ -12692,10 +12692,10 @@
           "critical": true
         }
       ],
-      "passed_checks": 1,
+      "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -7.78,
+      "score": -7.69,
       "plan": {
         "trigger": 169.6,
         "stop": 162.5401,
@@ -12928,7 +12928,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 161.81,
-          "volume": 4664881.0
+          "volume": 4960090.0
         }
       ]
     },
@@ -12936,21 +12936,21 @@
       "ticker": "XOM",
       "name": "Exxon Mobil",
       "sector": "能源",
-      "price": 158.69,
-      "d1": 0.25,
-      "d5": -6.28,
-      "d20": -3.27,
+      "price": 158.71,
+      "d1": 0.26,
+      "d5": -6.27,
+      "d20": -3.26,
       "gap": -0.49,
-      "volume": 10953417.0,
-      "volume_ratio": 0.74,
+      "volume": 14175021.0,
+      "volume_ratio": 0.95,
       "rsi14": 39.8,
-      "ma20": 162.047,
-      "ma50": 158.457,
+      "ma20": 162.048,
+      "ma50": 158.4574,
       "atr14": 3.9693,
       "atr_pct": 2.5,
-      "extension_ma20": -2.07,
-      "rs5_spy": -8.4,
-      "rs20_spy": -4.58,
+      "extension_ma20": -2.06,
+      "rs5_spy": -8.38,
+      "rs20_spy": -4.56,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -12963,25 +12963,25 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -8.4%",
+          "detail": "5日相对SPY -8.38%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.74",
+          "detail": "量比 0.95",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 39.8，偏离MA20 -2.07%",
+          "detail": "RSI 39.8，偏离MA20 -2.06%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "pass",
-          "detail": "1日 0.25%",
+          "detail": "1日 0.26%",
           "critical": false
         },
         {
@@ -12994,7 +12994,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -8.4,
+      "score": -8.05,
       "plan": {
         "trigger": 159.97,
         "stop": 154.0161,
@@ -13226,8 +13226,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 158.69,
-          "volume": 10953417.0
+          "close": 158.71,
+          "volume": 14175021.0
         }
       ]
     },
@@ -13240,16 +13240,16 @@
       "d5": -5.71,
       "d20": -6.05,
       "gap": 0.92,
-      "volume": 6964349.0,
-      "volume_ratio": 1.18,
+      "volume": 7776656.0,
+      "volume_ratio": 1.32,
       "rsi14": 40.3,
       "ma20": 206.817,
       "ma50": 215.4676,
       "atr14": 5.6471,
       "atr_pct": 2.86,
       "extension_ma20": -4.4,
-      "rs5_spy": -7.83,
-      "rs20_spy": -7.36,
+      "rs5_spy": -7.82,
+      "rs20_spy": -7.35,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -13262,13 +13262,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -7.83%",
+          "detail": "5日相对SPY -7.82%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.18",
+          "detail": "量比 1.32",
           "critical": false
         },
         {
@@ -13293,7 +13293,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -8.65,
+      "score": -8.43,
       "plan": {
         "trigger": 203.3293,
         "stop": 194.8586,
@@ -13526,7 +13526,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 197.72,
-          "volume": 6964349.0
+          "volume": 7776656.0
         }
       ]
     },
@@ -13534,19 +13534,19 @@
       "ticker": "CVX",
       "name": "Chevron",
       "sector": "能源",
-      "price": 202.43,
-      "d1": -0.61,
-      "d5": -7.04,
-      "d20": -0.32,
+      "price": 202.41,
+      "d1": -0.62,
+      "d5": -7.05,
+      "d20": -0.33,
       "gap": -0.88,
-      "volume": 6563716.0,
-      "volume_ratio": 0.67,
-      "rsi14": 37.5,
-      "ma20": 208.4855,
-      "ma50": 199.7168,
+      "volume": 9340485.0,
+      "volume_ratio": 0.95,
+      "rsi14": 37.4,
+      "ma20": 208.4845,
+      "ma50": 199.7164,
       "atr14": 4.6836,
       "atr_pct": 2.31,
-      "extension_ma20": -2.9,
+      "extension_ma20": -2.91,
       "rs5_spy": -9.16,
       "rs20_spy": -1.63,
       "setup": "弱势回避",
@@ -13567,19 +13567,19 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.67",
+          "detail": "量比 0.95",
           "critical": false
         },
         {
           "label": "未过度延伸",
           "status": "fail",
-          "detail": "RSI 37.5，偏离MA20 -2.9%",
+          "detail": "RSI 37.4，偏离MA20 -2.91%",
           "critical": false
         },
         {
           "label": "当日确认",
           "status": "fail",
-          "detail": "1日 -0.61%",
+          "detail": "1日 -0.62%",
           "critical": false
         },
         {
@@ -13592,7 +13592,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -10.06,
+      "score": -9.66,
       "plan": {
         "trigger": 204.44,
         "stop": 197.4146,
@@ -13824,8 +13824,8 @@
         },
         {
           "time": "2026-09-22T13:30:00+00:00",
-          "close": 202.43,
-          "volume": 6563716.0
+          "close": 202.41,
+          "volume": 9340485.0
         }
       ]
     },
@@ -13838,16 +13838,16 @@
       "d5": -7.37,
       "d20": -9.81,
       "gap": 0.54,
-      "volume": 32716346.0,
-      "volume_ratio": 1.04,
+      "volume": 34214890.0,
+      "volume_ratio": 1.09,
       "rsi14": 32.2,
       "ma20": 78.211,
       "ma50": 75.6836,
       "atr14": 2.4643,
       "atr_pct": 3.42,
       "extension_ma20": -7.74,
-      "rs5_spy": -9.49,
-      "rs20_spy": -11.12,
+      "rs5_spy": -9.48,
+      "rs20_spy": -11.11,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -13860,13 +13860,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -9.49%",
+          "detail": "5日相对SPY -9.48%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 1.04",
+          "detail": "量比 1.09",
           "critical": false
         },
         {
@@ -13891,7 +13891,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -10.71,
+      "score": -10.63,
       "plan": {
         "trigger": 73.76,
         "stop": 70.0636,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 72.16,
-          "volume": 32716346.0
+          "volume": 34214890.0
         }
       ]
     },
@@ -14137,16 +14137,16 @@
       "d5": -8.75,
       "d20": 11.59,
       "gap": 2.15,
-      "volume": 9801994.0,
-      "volume_ratio": 0.58,
+      "volume": 11888034.0,
+      "volume_ratio": 0.71,
       "rsi14": 32.9,
       "ma20": 245.7845,
       "ma50": 209.6304,
       "atr14": 9.2721,
       "atr_pct": 3.97,
       "extension_ma20": -5.09,
-      "rs5_spy": -10.87,
-      "rs20_spy": 10.28,
+      "rs5_spy": -10.86,
+      "rs20_spy": 10.29,
       "setup": "弱势回避",
       "decision": "回避",
       "checks": [
@@ -14159,13 +14159,13 @@
         {
           "label": "相对强度",
           "status": "fail",
-          "detail": "5日相对SPY -10.87%",
+          "detail": "5日相对SPY -10.86%",
           "critical": false
         },
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.58",
+          "detail": "量比 0.71",
           "critical": false
         },
         {
@@ -14190,7 +14190,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -12.74,
+      "score": -12.54,
       "plan": {
         "trigger": 242.42,
         "stop": 228.5118,
@@ -14423,7 +14423,7 @@
         {
           "time": "2026-09-22T13:30:00+00:00",
           "close": 233.28,
-          "volume": 9801994.0
+          "volume": 11888034.0
         }
       ]
     }
@@ -14431,53 +14431,614 @@
   "events": [
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "Is Regeneron Stock a Bargain Below $800?",
-      "bias": "中性待确认",
+      "symbol": "SHOP",
+      "title": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
+      "bias": "偏利多",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T19:35:00+00:00",
+      "reason": "标题包含方向词：beat",
+      "time": "2026-09-22T22:53:01+00:00",
       "source": "Motley Fool",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/08e4441e-40f2-3e3c-938e-e2aba62d506a/is-regeneron-stock-a-bargain.html",
+      "url": "https://finance.yahoo.com/m/6c4ced9a-d41b-36aa-8a1e-677dd22751dc/2-beaten-down-stocks-to-buy.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
       "market": "美股",
       "symbol": "NVDA",
-      "title": "Apple Takes Aim at Nvidia’s AI Economics: New Macs Have ‘No Cost per Token,’ Hardware Chief Says",
+      "title": "Nvidia’s Cooling Stock Valuations Are Being Looked At As A Warning Signal",
+      "bias": "偏利空",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：warning",
+      "time": "2026-09-22T22:45:19+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-cooling-stock-valuations-being-224519317.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Elon Musk Says Rivals Still Won’t License Tesla’s FSD, Fund Manager Says They Never Will",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T19:32:50+00:00",
-      "source": "Benzinga Prediction Markets",
+      "time": "2026-09-22T22:31:05+00:00",
+      "source": "Stocktwits",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/256b76d9-a055-3471-893e-36b288958662/apple-takes-aim-at-nvidia%E2%80%99s.html",
+      "url": "https://finance.yahoo.com/m/225fb12b-c430-31ae-9827-c7be339cf62f/elon-musk-says-rivals-still.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla Gains as BBB Rating Meets a $25 Billion AI Bill",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:27:07+00:00",
+      "source": "GuruFocus.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/tesla-gains-bbb-rating-meets-222707384.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Detroit Automakers Turn Back the Clock on the Arsenal of Democracy -- Investors Should Cheer",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:25:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/detroit-automakers-turn-back-clock-222500213.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Micron's Memory Boom Is Facing a New Test",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:24:31+00:00",
+      "source": "GuruFocus.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/microns-memory-boom-facing-test-222431132.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:24:19+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/280f5dd6-365f-3a6a-91c9-2a9551e64657/dow-jones-futures%3A-nasdaq.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Nvidia Backed SB Energy’s $50 Billion Valuation Push. Wall Street Just Hit the Brakes",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:17:36+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-sb-energy-50-221736610.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SMCI",
+      "title": "3 AI Stocks With Revenue Growth Up To 42%",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-22T22:15:27+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-stocks-revenue-growth-221527315.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "RKLB",
+      "title": "Rocket Lab Corporation (RKLB) Stock Moves 2.99%: What You Should Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:15:07+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-stock-221507513.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:15:04+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/9eace8c6-764d-3cf8-8db1-6af1f9e20cce/vgt-holders-bought-%E2%80%98tech%E2%80%99-and.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Alibaba Just Unveiled an AI Chip 3x Faster Than Its Predecessor. Nvidia Has a China Problem to Watch",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:14:10+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-just-unveiled-ai-chip-221410155.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "IREN",
+      "title": "Iren (IREN) Stock Looks Stretched With AI Hopes Already Priced In",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T22:13:58+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-stock-looks-stretched-221358045.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "$223 Billion Back To Shareholders: Inside The MSFT Machine",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:51:24+00:00",
+      "source": "Trefis",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/ca2ac7ae-b57b-3b21-a118-dd1e6531da28/%24223-billion-back-to.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "Meta’s new AI agent just got me $250 in flight credits",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:45:56+00:00",
+      "source": "Yahoo Finance Video",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/video/meta-ai-agent-just-got-214556275.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "3 Monthly Income ETFs to Buy Once That Have Paid You Every Single Month for More Than a Decade",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:45:44+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/8838f2fd-b8ba-3dc9-bf9c-4f5478e58c8b/3-monthly-income-etfs-to-buy.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SMCI",
+      "title": "Super Micro Computer (SMCI) Stock Moves 1.07%: What You Should Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:45:07+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-stock-214507281.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MARA",
+      "title": "Marathon Digital Holdings, Inc. (MARA) Stock Moves 2.64%: What You Should Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:45:05+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marathon-digital-holdings-inc-mara-214505160.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AMD",
+      "title": "Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:45:02+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-stock-214502827.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AAPL",
+      "title": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：record",
+      "time": "2026-09-22T21:26:09+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/e59fc4ec-18c2-366a-ae39-5881feb805de/nasdaq-jumps-to-close-at.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Coinbase's IPO move sends stock to four month high",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:13:31+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coinbases-ipo-move-sends-stock-211331084.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "RKLB",
+      "title": "Why Rocket Lab Is Up Today",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T21:11:19+00:00",
+      "source": "GuruFocus.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-today-211119524.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Nasdaq sets record high, oil dips on improved crude flows",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：record",
+      "time": "2026-09-22T21:08:43+00:00",
+      "source": "Reuters",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tech-rally-boosts-asian-stocks-021102067.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MSTR",
+      "title": "Bitcoin ETFs Just Pulled In $1 Billion in a Day as Investors Break Even",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:59:56+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/05d52869-cfdf-3daa-8dcf-2097e9686528/bitcoin-etfs-just-pulled-in.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Micron vs. SanDisk: Comparing Two Red-Hot AI Memory Stocks",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:57:00+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-comparing-two-205700744.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
       "market": "美股",
       "symbol": "SHOP",
-      "title": "Stock Market Today: Dow Skids As Trump Threatens Iran; This Medical Play Hits A Buy Zone (Live Coverage)",
+      "title": "Stocks to Watch Recap: Meta, Schwab, Shopify, Apple",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T19:25:29+00:00",
+      "time": "2026-09-22T20:54:34+00:00",
+      "source": "The Wall Street Journal",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/c5e89923-cb71-3b76-9c36-6ab7f607a3ee/stocks-to-watch-recap%3A-meta%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MRVL",
+      "title": "AT&S and Marvell Technology Expand Collaboration to Support Next-generation AI Infrastructure",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:50:41+00:00",
+      "source": "NewMediaWire",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-expand-collaboration-support-205041748.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AMD",
+      "title": "AI Stocks Can’t Carry the Entire Market Forever",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:44:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/acefb7db-d360-3bf5-85cc-2189b339d083/ai-stocks-can%E2%80%99t-carry-the.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SHOP",
+      "title": "Stock Market Today: Dow Skids But Apple Eyes A Buy Point; Filing Says Trump Makes These Trades",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:40:00+00:00",
       "source": "Investor's Business Daily",
       "credibility": "中高",
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0143595d-3423-3fca-8750-9ab0a98fa022/stock-market-today%3A-dow-skids.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SHOP",
+      "title": "US Equity Markets Mixed After Data Shows Cooling Trend, Crude Oil Price Drops",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:35:13+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-data-203513322.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SHOP",
+      "title": "Sandisk, Lennar, Viking Therapeutics, Shopify, GameStop, and More Stocks That Explain Today’s Market",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:34:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/18d3b8f2-8dd8-346a-8f40-e32a180cc1b3/sandisk%2C-lennar%2C-viking.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "The Robotaxi payday Tesla promised owners isn't coming",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:33:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/76585738-f7f7-3a95-9f0d-c5b6897811f2/the-robotaxi-payday-tesla.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Micron, IBD Stock Of The Day, Surges Past Early Buy Point With Earnings Ahead",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题包含方向词：surge",
+      "time": "2026-09-22T20:21:33+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/248555df-b0ac-392d-a493-6f95b1e5c807/micron%2C-ibd-stock-of-the-day%2C.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "AMD",
+      "title": "AMD Stock Has Blown Past Nvidia This Year. Is It Still the Better Buy?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:20:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a21a3171-64f7-309c-84ab-c75c833015d1/amd-stock-has-blown-past.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T20:01:03+00:00",
+      "source": "decrypt",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/inside-coinbase-250-billion-playbook-200103319.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SHOP",
+      "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-22T19:50:26+00:00",
+      "source": "Yahoo Finance Video",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/video/metas-muse-ai-teams-up-with-shopify-lifting-its-stock-195026601.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14533,23 +15094,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Rising Memory Costs Dampen Consumer PC Demand, UBS Says",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T19:07:51+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rising-memory-costs-dampen-consumer-190751554.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "AMD",
       "title": "Intel Is Up 25% in 5 Days. The $145 Price Target Just Moved Too",
       "bias": "中性待确认",
@@ -14563,57 +15107,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0ef5e7f0-9ea2-3b51-a889-a72adb6d38d0/intel-is-up-25%25-in-5-days..html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Before You Invest a Dollar, Figure Out How Much You're Actually Allowed to Invest",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T19:01:01+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/54f7dcb8-1533-3154-b287-508b62f4c348/before-you-invest-a-dollar%2C.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "What Are You Really Paying For SanDisk's AI Flash Boom?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:58:18+00:00",
-      "source": "Trefis",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/05f2b536-db92-3d04-81e5-b8b3fce620b7/what-are-you-really-paying.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Shopify Just Gave Meta's AI Agent a Major Boost",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:56:23+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/shopify-just-gave-metas-ai-185623345.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14652,57 +15145,6 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "Where Will IonQ Stock Be in 5 Years?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:50:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/5f60d0f8-c422-3aa9-97a1-536cbfd26c32/where-will-ionq-stock-be-in-5.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Apple’s New CEO Is Already Being Pressured to Drop the Chinese Chip Deal Tim Cook Fought to Keep",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:48:49+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/91bad668-50ac-3b69-bd7f-204fb4305fd6/apple%E2%80%99s-new-ceo-is-already.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AMD",
-      "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：record",
-      "time": "2026-09-22T18:46:03+00:00",
-      "source": "decrypt",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/41d6df7b-bcf9-3a43-bbe4-80d0db156ead/bitcoin-breaks-out-as-nasdaq.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "ARM",
       "title": "Arm Gains 1.5% as Agentic AI Multiplies CPU Cores",
       "bias": "中性待确认",
@@ -14720,23 +15162,6 @@
     },
     {
       "market": "美股",
-      "symbol": "AAPL",
-      "title": "Netflix Stock Downgraded As YouTube Swipes Viewers",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题包含方向词：downgrade, downgraded",
-      "time": "2026-09-22T18:39:11+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/933c0583-4af0-3b14-b128-6ad68edbb6dd/netflix-stock-downgraded-as.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "COIN",
       "title": "Coinbase Rolls Out Fixed-Rate Bitcoin Loans via Morpho Midnight",
       "bias": "中性待确认",
@@ -14749,24 +15174,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/07442b5d-e1dd-337b-a955-aea51872fafe/coinbase-rolls-out-fixed-rate.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AMD",
-      "title": "Here's How AMD Joined the Rule Breakers $1 Trillion Club",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:36:01+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/2d5fa95e-f0c4-3106-b5f0-a8e11974f2e1/here%27s-how-amd-joined-the.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-rolls-fixed-rate-bitcoin-183614606.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14783,7 +15191,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/af735cd4-11bd-3d2b-8b0e-5315c5aff6aa/this-under-the-radar-chip.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/under-radar-chip-company-could-183028114.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14801,40 +15209,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-182946944.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AAPL",
-      "title": "Invest Like Buffett: Lessons From the Oracle of Omaha",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:29:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/invest-buffett-lessons-oracle-omaha-182900634.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "Nasdaq hits intraday record high, AI stocks rally",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：record",
-      "time": "2026-09-22T18:27:37+00:00",
-      "source": "Reuters",
-      "credibility": "高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/articles/wall-st-futures-pause-ai-101907090.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14873,23 +15247,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MU",
-      "title": "AMD Stock Just Entered Rarefied Territory",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T18:04:16+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-just-entered-rarefied-180416400.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "RKLB",
       "title": "Wall Street Thinks Rocket Lab Is a Buy. Here's Why I'm Not So Sure.",
       "bias": "中性待确认",
@@ -14903,57 +15260,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/68e17ff1-696f-319b-8c5f-f6a0105e2278/wall-street-thinks-rocket-lab.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "Stifel Has Message For Micron Stock Investors Before Earnings",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:41:48+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-micron-stock-investors-174148596.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "AMD",
-      "title": "Should investors play AI bottlenecks over social media stocks?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:39:22+00:00",
-      "source": "Yahoo Finance Video",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/video/investors-play-ai-bottlenecks-over-173922161.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Sector Update: Consumer Stocks Advance Tuesday Afternoon",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:36:19+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-tuesday-173619109.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14987,24 +15293,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/e8862cf0-4686-365d-b0fa-414d886adbd6/is-nvidia-funding-its-own.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Why Shopify Stock Rocketed Higher Today",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:25:29+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/c77c8581-0cf4-38ce-8514-d57a0a2cffba/why-shopify-stock-rocketed.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-funding-own-stock-rally-172912654.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15043,23 +15332,6 @@
     },
     {
       "market": "美股",
-      "symbol": "SHOP",
-      "title": "Sandisk, Lennar, Viking Therapeutics, Shopify, GameStop, and More Stocks That Explain Today’s Market",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:17:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/18d3b8f2-8dd8-346a-8f40-e32a180cc1b3/sandisk%2C-lennar%2C-viking.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MSTR",
       "title": "AI 'Could Use Satoshi Nakamoto Right About Now', Says MSTR CEO Phong Le",
       "bias": "中性待确认",
@@ -15077,40 +15349,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla (TSLA) Heads To Civil Rights Trial After Record 580 Megawatt Battery Dispatch",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：record",
-      "time": "2026-09-22T17:13:09+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-heads-civil-rights-171309114.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Shopify (SHOP) Brings Shop Pay Checkout To AI Shopping Agents",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T17:12:58+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-brings-shop-pay-171258534.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "COIN",
       "title": "Elon Musk's X adds Bitcoin trading links as crypto push expands",
       "bias": "中性待确认",
@@ -15123,7 +15361,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f430495b-778e-371b-a239-90786c706dfe/elon-musk%27s-x-adds-bitcoin.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/elon-musks-x-adds-bitcoin-170838270.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15162,23 +15400,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "CME Group to Launch Bitcoin Cash and Uniswap Futures",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：launch",
-      "time": "2026-09-22T16:52:00+00:00",
-      "source": "CryptoProwl",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/99c6168b-fb69-3b69-ae0e-72620c7d217f/cme-group-to-launch-bitcoin.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "COIN",
       "title": "Coinbase to Allow U.S. Retail Investors Buy IPO Shares",
       "bias": "中性待确认",
@@ -15191,7 +15412,7 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/a9f0d1eb-e41a-39d2-926d-b121e9428d21/coinbase-to-allow-u.s.-retail.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-allow-u-retail-investors-165100177.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15242,46 +15463,12 @@
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/682ec492-4731-32a9-9e65-942f30876693/price-prediction%3A-marvell%2C.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/price-prediction-marvell-amd-broadcom-160009907.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
       "market": "美股",
-      "symbol": "MRVL",
-      "title": "Financial winter ahead? Stocks to buy and trim now",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T15:57:02+00:00",
-      "source": " TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/bb174c2f-fddb-3a56-9998-d521ad3b4c5c/financial-winter-ahead%3F.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "COIN",
-      "title": "Bitcoin News: X Launches Cashtag Partner Program",
-      "bias": "偏利多",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "产品/审批",
-      "reason": "标题包含方向词：launch",
-      "time": "2026-09-22T15:52:39+00:00",
-      "source": "Cryptonews",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/59abd38d-ce03-3be3-ad95-8dd75578f4be/bitcoin-news%3A-x-launches.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MSTR",
+      "symbol": "HOOD",
       "title": "Bitcoin and Crypto Stocks Have Been on a Tear. Here’s Why.",
       "bias": "中性待确认",
       "impact": "中",
@@ -15294,23 +15481,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/7ddc93a6-36f2-366f-96ca-dc3cb46c97ea/bitcoin-and-crypto-stocks.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MRVL",
-      "title": "Lumentum to Demonstrate DWDM ELSFP at ECOC 2026: What's Ahead?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T15:37:00+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/lumentum-demonstrate-dwdm-elsfp-ecoc-153700274.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15362,23 +15532,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/0e57f4a1-b518-3498-adf5-70c082098973/sofi-rises-5%25-after-getting.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RKLB",
-      "title": "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T13:08:32+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130832359.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15447,23 +15600,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/arm-just-got-major-vote-123419524.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RKLB",
-      "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Rocket Lab, Alphabet to Advance",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-22T10:57:19+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-105719443.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15651,142 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/technology/ai/articles/super-micro-computer-smci-12-221802270.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RIOT",
-      "title": "Riot Platforms, Inc. (RIOT) Outperforms Broader Market: What You Need to Know",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "评级变化",
-      "reason": "标题包含方向词：outperform",
-      "time": "2026-09-21T21:50:04+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-inc-riot-outperforms-215004099.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSM",
-      "title": "3 Chip Stocks Set to Win TSMC’s Packaging Boom",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T21:45:35+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0db27be1-91d8-32ec-8798-540179e74c3e/3-chip-stocks-set-to-win.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "ASML",
-      "title": "ASML (ASML) Surpasses Market Returns: Some Facts Worth Knowing",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T21:45:05+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-asml-surpasses-market-returns-214505850.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SMCI",
-      "title": "Stocks to Watch Recap: Paramount, Intel, Strategy, Critical Metals",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T21:14:49+00:00",
-      "source": "The Wall Street Journal",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/dd227320-73bc-33ca-ab26-64adeab65dfa/stocks-to-watch-recap%3A.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SMCI",
-      "title": "AMD, Intel, Meta, Warner Bros., Moderna, Grail, Strategy, and More Stocks That Explain Today’s Market",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T20:40:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/6c151bf6-d6e0-326a-905a-75334358e038/amd%2C-intel%2C-meta%2C-warner.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "XLE Is 91% Oil and Gas. Investors Buying “Energy” May Own Less Than They Think",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T19:55:01+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/4c6996d9-47c1-3ded-84b7-f7c2db70643d/xle-is-91%25-oil-and-gas..html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Crypto-linked stocks surge as bitcoin breaks through May highs",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：surge",
-      "time": "2026-09-21T16:51:00+00:00",
-      "source": "Proactive",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/f87a9de9-e7cc-332e-b591-3a52a9e14f09/crypto-linked-stocks-surge-as.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MARA",
-      "title": "Cathie Wood Dumps $60 Million in Crypto Stocks Days Before SEC’s Game-Changing Exemption",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-21T16:50:48+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/88c28e7a-1afb-3ead-8282-b15e8c7c89fd/cathie-wood-dumps-%2460-million.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
