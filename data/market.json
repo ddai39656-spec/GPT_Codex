@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-24T20:43:39.721286+00:00",
+  "updated_at": "2026-09-24T23:32:37.084507+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -15,7 +15,7 @@
     {
       "name": "Yahoo News",
       "status": "ok",
-      "detail": "101条标题"
+      "detail": "103条标题"
     },
     {
       "name": "SEC EDGAR",
@@ -71,7 +71,7 @@
     "strong": 0,
     "weak": 15,
     "events": 80,
-    "high_impact_events": 8,
+    "high_impact_events": 9,
     "failed_symbols": []
   },
   "us": [
@@ -84,7 +84,7 @@
       "d5": 22.2,
       "d20": 31.19,
       "gap": -0.74,
-      "volume": 16614443.0,
+      "volume": 16738047.0,
       "volume_ratio": 0.64,
       "rsi14": 59.9,
       "ma20": 140.031,
@@ -370,7 +370,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 161.61,
-          "volume": 16614443.0
+          "volume": 16738047.0
         }
       ]
     },
@@ -382,8 +382,8 @@
       "d1": 0.55,
       "d5": 14.51,
       "d20": 9.59,
-      "gap": -0.69,
-      "volume": 7317169.0,
+      "gap": -0.7,
+      "volume": 7339165.0,
       "volume_ratio": 0.72,
       "rsi14": 53.0,
       "ma20": 184.1775,
@@ -669,7 +669,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 199.21,
-          "volume": 7317169.0
+          "volume": 7339165.0
         }
       ]
     },
@@ -681,8 +681,8 @@
       "d1": 1.98,
       "d5": 12.88,
       "d20": -3.41,
-      "gap": -1.25,
-      "volume": 9305958.0,
+      "gap": -1.05,
+      "volume": 9315340.0,
       "volume_ratio": 0.91,
       "rsi14": 49.4,
       "ma20": 138.3755,
@@ -968,7 +968,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 145.16,
-          "volume": 9305958.0
+          "volume": 9315340.0
         }
       ]
     },
@@ -981,8 +981,8 @@
       "d5": 13.96,
       "d20": 34.97,
       "gap": 0.03,
-      "volume": 34507603.0,
-      "volume_ratio": 1.55,
+      "volume": 34646511.0,
+      "volume_ratio": 1.56,
       "rsi14": 85.6,
       "ma20": 651.8315,
       "ma50": 614.004,
@@ -1009,7 +1009,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.55",
+          "detail": "量比 1.56",
           "critical": false
         },
         {
@@ -1034,7 +1034,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 16.79,
+      "score": 16.8,
       "plan": {
         "trigger": 779.8192,
         "stop": 737.4664,
@@ -1267,7 +1267,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 777.59,
-          "volume": 34507603.0
+          "volume": 34646511.0
         }
       ]
     },
@@ -1279,9 +1279,9 @@
       "d1": 2.38,
       "d5": 15.44,
       "d20": 30.84,
-      "gap": -2.33,
-      "volume": 25072938.0,
-      "volume_ratio": 1.19,
+      "gap": -2.25,
+      "volume": 25202032.0,
+      "volume_ratio": 1.2,
       "rsi14": 81.8,
       "ma20": 520.406,
       "ma50": 502.1192,
@@ -1308,7 +1308,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.19",
+          "detail": "量比 1.2",
           "critical": false
         },
         {
@@ -1333,7 +1333,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 15.27,
+      "score": 15.29,
       "plan": {
         "trigger": 630.79,
         "stop": 590.4989,
@@ -1566,7 +1566,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 629.26,
-          "volume": 25072938.0
+          "volume": 25202032.0
         }
       ]
     },
@@ -1579,8 +1579,8 @@
       "d5": 10.54,
       "d20": 15.15,
       "gap": -2.06,
-      "volume": 21812855.0,
-      "volume_ratio": 0.86,
+      "volume": 21938990.0,
+      "volume_ratio": 0.87,
       "rsi14": 64.8,
       "ma20": 986.798,
       "ma50": 937.0336,
@@ -1607,7 +1607,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.86",
+          "detail": "量比 0.87",
           "critical": false
         },
         {
@@ -1632,7 +1632,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 14.74,
+      "score": 14.75,
       "plan": {
         "trigger": 1081.04,
         "stop": 1011.6242,
@@ -1865,7 +1865,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 1080.53,
-          "volume": 21812855.0
+          "volume": 21938990.0
         }
       ]
     },
@@ -1878,7 +1878,7 @@
       "d5": 9.28,
       "d20": 8.5,
       "gap": -1.35,
-      "volume": 22557318.0,
+      "volume": 22612777.0,
       "volume_ratio": 0.81,
       "rsi14": 61.2,
       "ma20": 178.2155,
@@ -2164,7 +2164,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 192.59,
-          "volume": 22557318.0
+          "volume": 22612777.0
         }
       ]
     },
@@ -2177,7 +2177,7 @@
       "d5": 10.03,
       "d20": 11.31,
       "gap": -2.61,
-      "volume": 14608141.0,
+      "volume": 14733345.0,
       "volume_ratio": 0.64,
       "rsi14": 45.9,
       "ma20": 114.229,
@@ -2463,7 +2463,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 120.82,
-          "volume": 14608141.0
+          "volume": 14733345.0
         }
       ]
     },
@@ -2476,7 +2476,7 @@
       "d5": 10.53,
       "d20": 29.27,
       "gap": -0.72,
-      "volume": 3032920.0,
+      "volume": 3036387.0,
       "volume_ratio": 0.95,
       "rsi14": 79.8,
       "ma20": 311.9265,
@@ -2762,7 +2762,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 358.82,
-          "volume": 3032920.0
+          "volume": 3036387.0
         }
       ]
     },
@@ -2774,9 +2774,9 @@
       "d1": 2.16,
       "d5": 11.32,
       "d20": 15.22,
-      "gap": -0.75,
-      "volume": 3163212.0,
-      "volume_ratio": 0.86,
+      "gap": -0.63,
+      "volume": 3246574.0,
+      "volume_ratio": 0.88,
       "rsi14": 81.0,
       "ma20": 229.715,
       "ma50": 242.9266,
@@ -2803,7 +2803,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.86",
+          "detail": "量比 0.88",
           "critical": false
         },
         {
@@ -2828,7 +2828,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 12.31,
+      "score": 12.34,
       "plan": {
         "trigger": 258.39,
         "stop": 242.067,
@@ -3061,7 +3061,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 256.92,
-          "volume": 3163212.0
+          "volume": 3246574.0
         }
       ]
     },
@@ -3073,8 +3073,8 @@
       "d1": -3.22,
       "d5": 11.0,
       "d20": 15.15,
-      "gap": -2.1,
-      "volume": 39838112.0,
+      "gap": -2.04,
+      "volume": 39876404.0,
       "volume_ratio": 0.84,
       "rsi14": 60.7,
       "ma20": 11.796,
@@ -3360,7 +3360,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 12.92,
-          "volume": 39838112.0
+          "volume": 39876404.0
         }
       ]
     },
@@ -3373,8 +3373,8 @@
       "d5": 15.64,
       "d20": 22.02,
       "gap": -4.01,
-      "volume": 9433302.0,
-      "volume_ratio": 1.92,
+      "volume": 9485249.0,
+      "volume_ratio": 1.93,
       "rsi14": 66.9,
       "ma20": 265.2795,
       "ma50": 263.3498,
@@ -3401,7 +3401,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.92",
+          "detail": "量比 1.93",
           "critical": false
         },
         {
@@ -3426,7 +3426,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 11.65,
+      "score": 11.67,
       "plan": {
         "trigger": 326.0,
         "stop": 297.4799,
@@ -3659,7 +3659,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 306.34,
-          "volume": 9433302.0
+          "volume": 9485249.0
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       "d5": 8.54,
       "d20": 11.23,
       "gap": -0.76,
-      "volume": 24896036.0,
+      "volume": 25020442.0,
       "volume_ratio": 1.31,
       "rsi14": 67.3,
       "ma20": 65.569,
@@ -3958,7 +3958,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 73.61,
-          "volume": 24896036.0
+          "volume": 25020442.0
         }
       ]
     },
@@ -3971,8 +3971,8 @@
       "d5": 4.86,
       "d20": 8.01,
       "gap": -1.07,
-      "volume": 7488296.0,
-      "volume_ratio": 0.75,
+      "volume": 7699321.0,
+      "volume_ratio": 0.77,
       "rsi14": 66.1,
       "ma20": 429.023,
       "ma50": 419.3598,
@@ -3999,7 +3999,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.75",
+          "detail": "量比 0.77",
           "critical": false
         },
         {
@@ -4024,7 +4024,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 9.12,
+      "score": 9.15,
       "plan": {
         "trigger": 452.54,
         "stop": 436.5275,
@@ -4257,7 +4257,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 451.15,
-          "volume": 7488296.0
+          "volume": 7699321.0
         }
       ]
     },
@@ -4270,8 +4270,8 @@
       "d5": 7.56,
       "d20": 5.65,
       "gap": -2.64,
-      "volume": 13274270.0,
-      "volume_ratio": 0.61,
+      "volume": 13351419.0,
+      "volume_ratio": 0.62,
       "rsi14": 73.3,
       "ma20": 231.8645,
       "ma50": 219.0968,
@@ -4298,7 +4298,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.61",
+          "detail": "量比 0.62",
           "critical": false
         },
         {
@@ -4323,7 +4323,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 8.38,
+      "score": 8.4,
       "plan": {
         "trigger": 261.98,
         "stop": 242.4746,
@@ -4556,7 +4556,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 258.95,
-          "volume": 13274270.0
+          "volume": 13351419.0
         }
       ]
     },
@@ -4569,7 +4569,7 @@
       "d5": 6.14,
       "d20": 16.6,
       "gap": -2.53,
-      "volume": 30192685.0,
+      "volume": 30279081.0,
       "volume_ratio": 0.74,
       "rsi14": 61.0,
       "ma20": 43.1063,
@@ -4855,7 +4855,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 46.15,
-          "volume": 30192685.0
+          "volume": 30279081.0
         }
       ]
     },
@@ -4867,8 +4867,8 @@
       "d1": -1.27,
       "d5": 7.51,
       "d20": -1.24,
-      "gap": -2.05,
-      "volume": 1259924.0,
+      "gap": -2.02,
+      "volume": 1260863.0,
       "volume_ratio": 0.99,
       "rsi14": 53.6,
       "ma20": 1685.915,
@@ -5154,7 +5154,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 1722.5,
-          "volume": 1259924.0
+          "volume": 1260863.0
         }
       ]
     },
@@ -5167,8 +5167,8 @@
       "d5": 2.8,
       "d20": 30.01,
       "gap": -0.02,
-      "volume": 18965189.0,
-      "volume_ratio": 1.81,
+      "volume": 20813683.0,
+      "volume_ratio": 1.99,
       "rsi14": 67.9,
       "ma20": 45.3805,
       "ma50": 43.4304,
@@ -5195,7 +5195,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.81",
+          "detail": "量比 1.99",
           "critical": false
         },
         {
@@ -5220,7 +5220,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 7.25,
+      "score": 7.52,
       "plan": {
         "trigger": 50.23,
         "stop": 46.5056,
@@ -5453,7 +5453,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 48.83,
-          "volume": 18965189.0
+          "volume": 20813683.0
         }
       ]
     },
@@ -5466,8 +5466,8 @@
       "d5": 7.31,
       "d20": 13.93,
       "gap": -2.39,
-      "volume": 18824875.0,
-      "volume_ratio": 1.2,
+      "volume": 21837550.0,
+      "volume_ratio": 1.4,
       "rsi14": 60.3,
       "ma20": 21.4445,
       "ma50": 20.9263,
@@ -5494,7 +5494,7 @@
         {
           "label": "成交参与",
           "status": "pass",
-          "detail": "量比 1.2",
+          "detail": "量比 1.4",
           "critical": false
         },
         {
@@ -5519,7 +5519,7 @@
       "passed_checks": 4,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 6.97,
+      "score": 7.27,
       "plan": {
         "trigger": 24.915,
         "stop": 22.8607,
@@ -5752,7 +5752,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 23.48,
-          "volume": 18824875.0
+          "volume": 21837550.0
         }
       ]
     },
@@ -5765,7 +5765,7 @@
       "d5": 3.87,
       "d20": -4.2,
       "gap": 0.49,
-      "volume": 2404412.0,
+      "volume": 2408724.0,
       "volume_ratio": 1.0,
       "rsi14": 57.6,
       "ma20": 1151.403,
@@ -6051,7 +6051,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 1181.89,
-          "volume": 2404412.0
+          "volume": 2408724.0
         }
       ]
     },
@@ -6063,9 +6063,9 @@
       "d1": 0.17,
       "d5": 2.87,
       "d20": 11.02,
-      "gap": -2.41,
-      "volume": 33691468.0,
-      "volume_ratio": 0.9,
+      "gap": -2.43,
+      "volume": 34371470.0,
+      "volume_ratio": 0.92,
       "rsi14": 58.7,
       "ma20": 38.751,
       "ma50": 34.6604,
@@ -6092,7 +6092,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.9",
+          "detail": "量比 0.92",
           "critical": false
         },
         {
@@ -6117,7 +6117,7 @@
       "passed_checks": 5,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 6.37,
+      "score": 6.4,
       "plan": {
         "trigger": 42.28,
         "stop": 38.709,
@@ -6350,7 +6350,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 41.51,
-          "volume": 33691468.0
+          "volume": 34371470.0
         }
       ]
     },
@@ -6363,7 +6363,7 @@
       "d5": 7.59,
       "d20": 40.07,
       "gap": -0.27,
-      "volume": 8341410.0,
+      "volume": 8367253.0,
       "volume_ratio": 0.63,
       "rsi14": 78.5,
       "ma20": 226.0305,
@@ -6649,7 +6649,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 259.67,
-          "volume": 8341410.0
+          "volume": 8367253.0
         }
       ]
     },
@@ -6662,7 +6662,7 @@
       "d5": 3.8,
       "d20": 14.72,
       "gap": -0.22,
-      "volume": 3955613.0,
+      "volume": 3965336.0,
       "volume_ratio": 0.56,
       "rsi14": 77.5,
       "ma20": 359.5585,
@@ -6948,7 +6948,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 389.92,
-          "volume": 3955613.0
+          "volume": 3965336.0
         }
       ]
     },
@@ -6961,7 +6961,7 @@
       "d5": 3.21,
       "d20": 9.29,
       "gap": -0.73,
-      "volume": 25844378.0,
+      "volume": 25925858.0,
       "volume_ratio": 0.66,
       "rsi14": 51.0,
       "ma20": 364.8195,
@@ -7247,7 +7247,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 377.94,
-          "volume": 25844378.0
+          "volume": 25925858.0
         }
       ]
     },
@@ -7260,7 +7260,7 @@
       "d5": 2.39,
       "d20": 7.12,
       "gap": -1.51,
-      "volume": 75752682.0,
+      "volume": 76420503.0,
       "volume_ratio": 0.58,
       "rsi14": 45.6,
       "ma20": 221.9,
@@ -7546,7 +7546,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 224.58,
-          "volume": 75752682.0
+          "volume": 76420503.0
         }
       ]
     },
@@ -7559,7 +7559,7 @@
       "d5": 2.94,
       "d20": 18.65,
       "gap": -0.33,
-      "volume": 9042129.0,
+      "volume": 9058984.0,
       "volume_ratio": 0.62,
       "rsi14": 69.7,
       "ma20": 179.2945,
@@ -7845,7 +7845,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 194.26,
-          "volume": 9042129.0
+          "volume": 9058984.0
         }
       ]
     },
@@ -7858,7 +7858,7 @@
       "d5": 0.9,
       "d20": 5.36,
       "gap": -0.59,
-      "volume": 2790344.0,
+      "volume": 2792208.0,
       "volume_ratio": 0.5,
       "rsi14": 61.3,
       "ma20": 330.713,
@@ -8144,7 +8144,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 334.0,
-          "volume": 2790344.0
+          "volume": 2792208.0
         }
       ]
     },
@@ -8157,7 +8157,7 @@
       "d5": 2.88,
       "d20": -0.74,
       "gap": -1.62,
-      "volume": 2115188.0,
+      "volume": 2116400.0,
       "volume_ratio": 0.89,
       "rsi14": 54.6,
       "ma20": 803.7685,
@@ -8443,7 +8443,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 805.25,
-          "volume": 2115188.0
+          "volume": 2116400.0
         }
       ]
     },
@@ -8456,7 +8456,7 @@
       "d5": 0.42,
       "d20": -10.83,
       "gap": -0.36,
-      "volume": 49554801.0,
+      "volume": 49735786.0,
       "volume_ratio": 1.13,
       "rsi14": 28.4,
       "ma20": 17.467,
@@ -8742,7 +8742,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 16.8,
-          "volume": 49554801.0
+          "volume": 49735786.0
         }
       ]
     },
@@ -8754,8 +8754,8 @@
       "d1": -0.33,
       "d5": -0.32,
       "d20": 7.17,
-      "gap": -0.09,
-      "volume": 24228667.0,
+      "gap": -0.21,
+      "volume": 24364559.0,
       "volume_ratio": 0.56,
       "rsi14": 58.3,
       "ma20": 328.0715,
@@ -9041,7 +9041,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 335.92,
-          "volume": 24228667.0
+          "volume": 24364559.0
         }
       ]
     },
@@ -9054,8 +9054,8 @@
       "d5": -0.07,
       "d20": -5.44,
       "gap": 0.17,
-      "volume": 4610029.0,
-      "volume_ratio": 0.93,
+      "volume": 4641711.0,
+      "volume_ratio": 0.94,
       "rsi14": 27.9,
       "ma20": 387.222,
       "ma50": 401.226,
@@ -9082,7 +9082,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.93",
+          "detail": "量比 0.94",
           "critical": false
         },
         {
@@ -9107,7 +9107,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": 0.69,
+      "score": 0.71,
       "plan": {
         "trigger": 375.28,
         "stop": 359.8097,
@@ -9340,7 +9340,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 375.01,
-          "volume": 4610029.0
+          "volume": 4641711.0
         }
       ]
     },
@@ -9353,7 +9353,7 @@
       "d5": -0.29,
       "d20": -5.55,
       "gap": 0.19,
-      "volume": 2149945.0,
+      "volume": 2150123.0,
       "volume_ratio": 0.81,
       "rsi14": 30.8,
       "ma20": 576.099,
@@ -9639,7 +9639,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 566.08,
-          "volume": 2149945.0
+          "volume": 2150123.0
         }
       ]
     },
@@ -9652,7 +9652,7 @@
       "d5": -0.8,
       "d20": -4.21,
       "gap": 0.21,
-      "volume": 4406216.0,
+      "volume": 4414963.0,
       "volume_ratio": 0.72,
       "rsi14": 38.2,
       "ma20": 373.1305,
@@ -9938,7 +9938,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 367.98,
-          "volume": 4406216.0
+          "volume": 4414963.0
         }
       ]
     },
@@ -9951,7 +9951,7 @@
       "d5": 0.88,
       "d20": -1.47,
       "gap": -1.63,
-      "volume": 20822871.0,
+      "volume": 20865350.0,
       "volume_ratio": 0.76,
       "rsi14": 45.9,
       "ma20": 358.9685,
@@ -10237,7 +10237,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 350.36,
-          "volume": 20822871.0
+          "volume": 20865350.0
         }
       ]
     },
@@ -10250,7 +10250,7 @@
       "d5": -0.1,
       "d20": -7.21,
       "gap": -0.66,
-      "volume": 9535493.0,
+      "volume": 9551165.0,
       "volume_ratio": 1.54,
       "rsi14": 33.4,
       "ma20": 205.495,
@@ -10536,7 +10536,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 196.8,
-          "volume": 9535493.0
+          "volume": 9551165.0
         }
       ]
     },
@@ -10549,8 +10549,8 @@
       "d5": -0.72,
       "d20": 0.93,
       "gap": 1.13,
-      "volume": 12263125.0,
-      "volume_ratio": 0.82,
+      "volume": 12406039.0,
+      "volume_ratio": 0.83,
       "rsi14": 46.8,
       "ma20": 162.249,
       "ma50": 158.8488,
@@ -10577,7 +10577,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.82",
+          "detail": "量比 0.83",
           "critical": false
         },
         {
@@ -10602,7 +10602,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -0.57,
+      "score": -0.55,
       "plan": {
         "trigger": 164.9099,
         "stop": 158.8328,
@@ -10835,7 +10835,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 162.14,
-          "volume": 12263125.0
+          "volume": 12406039.0
         }
       ]
     },
@@ -10847,9 +10847,9 @@
       "d1": -0.53,
       "d5": 0.04,
       "d20": 0.31,
-      "gap": -1.1,
-      "volume": 16459047.0,
-      "volume_ratio": 0.76,
+      "gap": -1.04,
+      "volume": 16611248.0,
+      "volume_ratio": 0.77,
       "rsi14": 41.9,
       "ma20": 499.485,
       "ma50": 473.5102,
@@ -10876,7 +10876,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.76",
+          "detail": "量比 0.77",
           "critical": false
         },
         {
@@ -10901,7 +10901,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -0.66,
+      "score": -0.64,
       "plan": {
         "trigger": 498.88,
         "stop": 483.5875,
@@ -11134,7 +11134,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 497.93,
-          "volume": 16459047.0
+          "volume": 16611248.0
         }
       ]
     },
@@ -11147,8 +11147,8 @@
       "d5": -1.43,
       "d20": 0.11,
       "gap": -0.47,
-      "volume": 23386493.0,
-      "volume_ratio": 0.87,
+      "volume": 23558214.0,
+      "volume_ratio": 0.88,
       "rsi14": 49.9,
       "ma20": 342.0105,
       "ma50": 344.5012,
@@ -11175,7 +11175,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.87",
+          "detail": "量比 0.88",
           "critical": false
         },
         {
@@ -11200,7 +11200,7 @@
       "passed_checks": 3,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -0.69,
+      "score": -0.67,
       "plan": {
         "trigger": 343.09,
         "stop": 329.4754,
@@ -11433,7 +11433,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 342.36,
-          "volume": 23386493.0
+          "volume": 23558214.0
         }
       ]
     },
@@ -11445,8 +11445,8 @@
       "d1": 0.04,
       "d5": -0.72,
       "d20": -4.19,
-      "gap": -1.3,
-      "volume": 32625365.0,
+      "gap": -1.32,
+      "volume": 32701576.0,
       "volume_ratio": 0.94,
       "rsi14": 39.3,
       "ma20": 254.6355,
@@ -11732,7 +11732,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 249.38,
-          "volume": 32625365.0
+          "volume": 32701576.0
         }
       ]
     },
@@ -11745,7 +11745,7 @@
       "d5": -1.57,
       "d20": -12.81,
       "gap": -0.57,
-      "volume": 2333826.0,
+      "volume": 2338748.0,
       "volume_ratio": 1.15,
       "rsi14": 32.4,
       "ma20": 997.7305,
@@ -12031,7 +12031,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 923.29,
-          "volume": 2333826.0
+          "volume": 2338748.0
         }
       ]
     },
@@ -12044,8 +12044,8 @@
       "d5": -0.5,
       "d20": 9.52,
       "gap": -0.63,
-      "volume": 7930136.0,
-      "volume_ratio": 0.5,
+      "volume": 7954430.0,
+      "volume_ratio": 0.51,
       "rsi14": 40.8,
       "ma20": 138.8935,
       "ma50": 125.1544,
@@ -12072,7 +12072,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.5",
+          "detail": "量比 0.51",
           "critical": false
         },
         {
@@ -12097,7 +12097,7 @@
       "passed_checks": 1,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -2.95,
+      "score": -2.93,
       "plan": {
         "trigger": 141.0422,
         "stop": 132.4566,
@@ -12330,7 +12330,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 137.78,
-          "volume": 7930136.0
+          "volume": 7954430.0
         }
       ]
     },
@@ -12343,8 +12343,8 @@
       "d5": -2.78,
       "d20": 2.88,
       "gap": 0.84,
-      "volume": 9251167.0,
-      "volume_ratio": 0.93,
+      "volume": 9334959.0,
+      "volume_ratio": 0.94,
       "rsi14": 41.1,
       "ma20": 208.9275,
       "ma50": 200.2562,
@@ -12371,7 +12371,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.93",
+          "detail": "量比 0.94",
           "critical": false
         },
         {
@@ -12396,7 +12396,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -3.17,
+      "score": -3.15,
       "plan": {
         "trigger": 208.1,
         "stop": 201.1014,
@@ -12629,7 +12629,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 205.65,
-          "volume": 9251167.0
+          "volume": 9334959.0
         }
       ]
     },
@@ -12642,7 +12642,7 @@
       "d5": -2.33,
       "d20": -11.81,
       "gap": 0.04,
-      "volume": 14354597.0,
+      "volume": 14421686.0,
       "volume_ratio": 0.77,
       "rsi14": 22.6,
       "ma20": 72.952,
@@ -12928,7 +12928,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 69.22,
-          "volume": 14354597.0
+          "volume": 14421686.0
         }
       ]
     },
@@ -12941,7 +12941,7 @@
       "d5": -3.08,
       "d20": -5.03,
       "gap": 0.17,
-      "volume": 6901279.0,
+      "volume": 6931795.0,
       "volume_ratio": 0.94,
       "rsi14": 23.5,
       "ma20": 351.8195,
@@ -13227,7 +13227,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 338.56,
-          "volume": 6901279.0
+          "volume": 6931795.0
         }
       ]
     },
@@ -13240,7 +13240,7 @@
       "d5": -4.77,
       "d20": -11.96,
       "gap": 0.36,
-      "volume": 28040664.0,
+      "volume": 28121254.0,
       "volume_ratio": 0.87,
       "rsi14": 26.6,
       "ma20": 77.1805,
@@ -13526,7 +13526,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 71.72,
-          "volume": 28040664.0
+          "volume": 28121254.0
         }
       ]
     },
@@ -13539,8 +13539,8 @@
       "d5": -4.92,
       "d20": 15.82,
       "gap": 1.29,
-      "volume": 9411901.0,
-      "volume_ratio": 0.55,
+      "volume": 9447985.0,
+      "volume_ratio": 0.56,
       "rsi14": 36.7,
       "ma20": 247.626,
       "ma50": 211.1296,
@@ -13567,7 +13567,7 @@
         {
           "label": "成交参与",
           "status": "fail",
-          "detail": "量比 0.55",
+          "detail": "量比 0.56",
           "critical": false
         },
         {
@@ -13592,7 +13592,7 @@
       "passed_checks": 2,
       "total_checks": 6,
       "trade_ready": false,
-      "score": -6.04,
+      "score": -6.02,
       "plan": {
         "trigger": 242.01,
         "stop": 229.3521,
@@ -13825,7 +13825,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 238.22,
-          "volume": 9411901.0
+          "volume": 9447985.0
         }
       ]
     },
@@ -13838,7 +13838,7 @@
       "d5": -9.62,
       "d20": -20.53,
       "gap": 0.75,
-      "volume": 8589351.0,
+      "volume": 8592772.0,
       "volume_ratio": 1.75,
       "rsi14": 16.3,
       "ma20": 173.3282,
@@ -14124,7 +14124,7 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 151.39,
-          "volume": 8589351.0
+          "volume": 8592772.0
         }
       ]
     },
@@ -14137,7 +14137,7 @@
       "d5": -7.34,
       "d20": -6.27,
       "gap": -5.01,
-      "volume": 56188977.0,
+      "volume": 56326792.0,
       "volume_ratio": 1.77,
       "rsi14": 36.8,
       "ma20": 149.3765,
@@ -14423,12 +14423,573 @@
         {
           "time": "2026-09-24T13:30:00+00:00",
           "close": 139.54,
-          "volume": 56188977.0
+          "volume": 56326792.0
         }
       ]
     }
   ],
   "events": [
+    {
+      "market": "美股",
+      "symbol": "RKLB",
+      "title": "Cathie Wood buys $25 million in tumbling tech stock",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T23:17:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-25-million-231700276.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "META Stock Is Set For Its Best Month In Over 13 Years — It’s Inches Away From $2 Trillion Market Cap",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T23:16:20+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-set-best-month-231620061.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "DDOG",
+      "title": "Dow Jones Futures: Market Rally Resilient As Yields, Oil Prices Keep Rising; Tesla Event On Deck",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T23:16:20+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/f20152d5-c38c-3d1c-80ad-574b31be1248/dow-jones-futures%3A-market.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：surge",
+      "time": "2026-09-24T23:11:56+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/arm-holdings-arm-stock-gains-231156551.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla set to formally roll out Semi electric trucks at Nevada event",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T23:08:54+00:00",
+      "source": "Reuters",
+      "credibility": "高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/news/tesla-set-formally-roll-semi-230854250.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Anthony Scaramucci's son bets $350 million on a 'programmable future'",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T22:57:24+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/anthony-scaramuccis-son-bets-350-225724521.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "Anthropic proposes supervoting shares to give co-founders majority control -report",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T22:41:38+00:00",
+      "source": "Investing.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-proposes-supervoting-shares-co-224138524.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Netflix's Revenue Growth Has Slowed for 2 Straight Quarters. Should You Buy the Stock Anyway?",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-24T22:41:01+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netflixs-revenue-growth-slowed-2-224101217.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Should You Buy SoFi Stock Before Oct. 27?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T22:25:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sofi-stock-oct-27-222500137.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NET",
+      "title": "What Does Cloudflare (NET) New AI Crawler Control Mean For Website Owners?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T22:15:39+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/does-cloudflare-net-ai-crawler-221539969.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "RKLB",
+      "title": "IRDM Shareholders Approve Acquisition By RKLB In $54-A-Share Deal — Iridium-Rocket Lab Merger Expected To Close By Mid-2027",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "并购/合作",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T22:12:11+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/irdm-shareholders-approve-acquisition-rklb-221211560.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "Could Palantir (PLTR)’s Partnership with Nebius Group (NBIS) Accelerate its AI Growth?",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "并购/合作",
+      "reason": "标题包含方向词：growth, partnership",
+      "time": "2026-09-24T22:03:17+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/could-palantir-pltr-partnership-nebius-220317492.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "I've Covered Stocks for 10 Years. This Is the Single Best Way a New Investor Should Start.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:50:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ive-covered-stocks-10-years-215000337.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Forget Betting on Micron Alone: The $26B Memory ETF Owns MU, SK Hynix, and Samsung at a September Discount",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:31:56+00:00",
+      "source": "24/7 Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-betting-micron-alone-26b-213156936.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "COIN",
+      "title": "Coinbase CEO Brian Armstrong Pushes Back on AI ‘Doomers’: ‘Slowing Progress Doesn’t Keep Us Safer’",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:30:50+00:00",
+      "source": "Benzinga",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coinbase-ceo-brian-armstrong-pushes-213050758.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Western Digital, FormFactor, Penguin Solutions, Himax, and Power Integrations Shares Are Falling, What You Need To Know",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:28:58+00:00",
+      "source": "StockStory",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-formfactor-penguin-solutions-212858821.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NVDA",
+      "title": "Why Everpure Stock Popped Today",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:27:37+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-everpure-stock-popped-today-212737151.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "3 Reasons Why Micron and Sandisk Investors Can Ignore What History Says Will Happen",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:27:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-micron-sandisk-212700677.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla's Roadster Reveal Is Oct. 1. The Real Story Is Optimus.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:20:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/teslas-roadster-reveal-oct-1-212000481.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "Does Palantir (PLTR) Have a Moat Strong Enough to Protect Its AI Dominance?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:18:58+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/does-palantir-pltr-moat-strong-211858600.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "META Stock Hits One-Year High — Meta Launches Tool To Let Users Build Games Through AI",
+      "bias": "偏利多",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "产品/审批",
+      "reason": "标题包含方向词：launch",
+      "time": "2026-09-24T21:18:53+00:00",
+      "source": "Stocktwits",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-stock-hits-one-high-211853967.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Is Meta (META) Quietly Rewriting Its Hardware Strategy Through Muse-Powered Ray-Ban AI Glasses?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:17:30+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-quietly-rewriting-hardware-211730434.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "5-star analyst resets Micron stock price target by 8%",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "评级变化",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:17:00+00:00",
+      "source": "TheStreet",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-resets-micron-211700304.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MU",
+      "title": "Micron (MU) Stock Looks Cheap. But Is AI Growth Already Priced In?",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-24T21:16:34+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-looks-cheap-211634616.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSM",
+      "title": "Is Taiwan Semiconductor (TSM) Stock a Better Bet than ASML Holding (ASML) as Advanced Chipmaking Accelerates?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T21:05:04+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/taiwan-semiconductor-tsm-stock-better-210504814.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Is Meta’s (META) Stock Still Cheap After Its AI-Fueled Rally?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:57:14+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-meta-stock-still-cheap-205714667.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSLA",
+      "title": "Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-24T20:56:35+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/vertiv-holdings-vrt-1-45-205635781.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "RKLB",
+      "title": "Iridium Stockholders Approve Acquisition by Rocket Lab",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–10个交易日",
+      "event_type": "并购/合作",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:56:01+00:00",
+      "source": "MT Newswires",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-stockholders-approve-acquisition-rocket-205601567.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "META",
+      "title": "Videogame Stocks Fall After Meta Announces AI Game Tool. Don’t Be Spooked Yet.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:52:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/b2b8a0bf-7f19-3232-87e3-993c8d80dbf0/videogame-stocks-fall-after.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "NET",
+      "title": "Why the Market Dipped But Cloudflare (NET) Gained Today",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:50:04+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-cloudflare-net-205004331.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "TSM",
+      "title": "TSMC (TSM) Advances While Market Declines: Some Information for Investors",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:45:06+00:00",
+      "source": "Zacks",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-advances-while-market-204506873.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "SHOP",
+      "title": "Shopify Opens Its Doors to Muse, Here’s Why Amazon Won’t",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:43:47+00:00",
+      "source": "Insider Monkey",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/ai/articles/shopify-opens-doors-muse-why-204347730.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "ARM",
+      "title": "Chip Stocks Retreat. Qualcomm Secures Apple Licensing Deal.",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-09-24T20:42:17+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/8ea0b1f5-46a4-34c2-85d6-4408049c70de/chip-stocks-retreat.-qualcomm.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
     {
       "market": "美股",
       "symbol": "HOOD",
@@ -14449,35 +15010,35 @@
     {
       "market": "美股",
       "symbol": "MU",
-      "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+      "title": "Stock Market Today: Dow Slides As Treasury Yields Surge; Nvidia Slips While Micron Rises",
+      "bias": "偏利多",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题包含方向词：surge",
+      "time": "2026-09-24T20:34:16+00:00",
+      "source": "Investor's Business Daily",
+      "credibility": "中高",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/a54a90ad-a14d-3ff8-9f09-e455a0eca8cf/stock-market-today%3A-dow.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "HOOD",
+      "title": "Brokerage Firm Public Debuts AI Agents for Prediction Market Trading",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:31:09+00:00",
-      "source": "Insider Monkey",
+      "time": "2026-09-24T20:31:00+00:00",
+      "source": "Barrons.com",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-ai-memory-203109541.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RKLB",
-      "title": "Iridium Stockholders Approve Acquisition by Rocket Lab",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "并购/合作",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:30:00+00:00",
-      "source": "GlobeNewswire",
-      "credibility": "高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-stockholders-approve-acquisition-rocket-203000575.html",
+      "url": "https://finance.yahoo.com/m/4d926321-c681-31ff-8f58-889cc59441b6/brokerage-firm-public-debuts.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14499,23 +15060,6 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "AI Boom Adds More Customers But Spending Remains Highly Concentrated: What It Means for Nvidia, CoreWeave",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:25:58+00:00",
-      "source": "Benzinga Prediction Markets",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-boom-adds-more-customers-202558180.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "COIN",
       "title": "100 Coinbase users lose millions to fake support calls",
       "bias": "中性待确认",
@@ -14529,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/100-coinbase-users-lose-millions-202304721.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Soaring Defense Spending Means Great News for These 2 Stocks",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：soar",
-      "time": "2026-09-24T20:23:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/soaring-defense-spending-means-great-202300169.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14567,23 +15094,6 @@
     },
     {
       "market": "美股",
-      "symbol": "NVDA",
-      "title": "3 Stocks Tied To Apple And Nvidia Supply Chain Demand",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:18:26+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-tied-apple-nvidia-201826012.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSM",
       "title": "Why Did Cadence Design Systems (CDNS) Stock Climb Today?",
       "bias": "中性待确认",
@@ -14597,74 +15107,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-cadence-design-systems-201823533.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Nvidia CEO Sends Stark Warning to AI Industry",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：warning",
-      "time": "2026-09-24T20:18:15+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-sends-stark-warning-201815191.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "Amazon Opens Seller Data to Claude Days After Blocking Meta’s Muse",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:12:12+00:00",
-      "source": "Benzinga Prediction Markets",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-opens-seller-data-claude-201212143.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NVDA",
-      "title": "Why Kinross Gold Stock Is Crashing Today",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:09:13+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kinross-gold-stock-crashing-200913504.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "META",
-      "title": "Franklin Templeton CEO drops 7-word verdict for AI stock investors",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T20:07:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-templeton-ceo-drops-7-200700082.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14737,36 +15179,19 @@
     },
     {
       "market": "美股",
-      "symbol": "META",
-      "title": "Sector Update: Tech",
+      "symbol": "TSLA",
+      "title": "Top Stock Reports for Tesla, Bank of America & Coca-Cola",
       "bias": "中性待确认",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
       "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T19:37:06+00:00",
-      "source": "MT Newswires",
+      "time": "2026-09-24T19:55:00+00:00",
+      "source": "Zacks",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-193706593.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSM",
-      "title": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T19:18:25+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/asml-drops-1-8-400-191825215.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-tesla-bank-195500282.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14805,57 +15230,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Is Tesla (TSLA) Priced For Too Much Sales Growth After Recent Expansion Bets?",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：growth",
-      "time": "2026-09-24T19:11:20+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-priced-too-much-191120947.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Elon Musk Has Left the Door Open to a Tesla-SpaceX Merger. Here's What Shareholders of Both Stocks Should Do.",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "并购/合作",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T19:05:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-left-door-open-190500729.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "Micron Just Rallied 17% in a Month: Take Profits, or Buy More?",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：profit",
-      "time": "2026-09-24T18:57:16+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-just-rallied-17-month-185716965.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "IREN",
       "title": "Applied Digital vs. IREN: Which Technology Stock Is a Better Buy in 2026?",
       "bias": "中性待确认",
@@ -14869,23 +15243,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-vs-iren-technology-182220452.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "Why Everpure Is Today’s Best Stock in the S&P 500",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T18:22:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/3438ee18-6764-33ef-9f68-4f64bde95131/why-everpure-is-today%E2%80%99s-best.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14907,40 +15264,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "UBS Has a Stark Message for Tesla Stock Ahead of Oct. 2",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T18:10:04+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-stark-message-tesla-stock-181004317.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MU",
-      "title": "Will Sandisk or Micron Perform a Stock Split Next Year?",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T18:09:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-micron-perform-stock-split-180900133.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "AMD",
       "title": "Nebius Stock Soars 8% as BNP Paribas Delivers Massive Price Target Hike",
       "bias": "偏利多",
@@ -14958,23 +15281,6 @@
     },
     {
       "market": "美股",
-      "symbol": "PLTR",
-      "title": "Michael Burry keeps pointing at unloved stocks for a reason",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T18:03:00+00:00",
-      "source": "TheStreet",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-keeps-pointing-unloved-180300870.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MRVL",
       "title": "Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now",
       "bias": "中性待确认",
@@ -14988,23 +15294,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-vs-nvidia-one-ai-180000492.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla's Q3 Sales Report Comes Out Oct. 2. Here Are 2 Surprises It Might Reveal.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T17:56:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-q3-sales-report-comes-175600296.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15043,74 +15332,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSM",
-      "title": "TSMC Slips 1% as Packaging Moves Toward Supplier Validation",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T17:33:46+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/articles/tsmc-slips-1-packaging-moves-173346756.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T17:30:15+00:00",
-      "source": "Benzinga",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-charlie-munger-99-said-173015712.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Ford Set To Lose Ground To Hyundai In Q3 Sales, Says Cox Automotive — ‘Detroit 3’ Market Share Seen Hitting Record Low",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：record",
-      "time": "2026-09-24T17:16:18+00:00",
-      "source": "Stocktwits",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-set-lose-ground-hyundai-171618493.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "Inside the $600 Billion Sovereign AI Gold Rush -- and Why Palantir Is Positioned to Win",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T17:08:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/inside-600-billion-sovereign-ai-170800037.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "IREN",
       "title": "Bad News Keeps Piling Up For Blue Owl, As Oracle Sends Force Majeure Letter To Lender. Stock Already Down Over 45% In The Last Year",
       "bias": "中性待确认",
@@ -15124,23 +15345,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bad-news-keeps-piling-blue-162527384.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "You Can't permission your way out of Surveillance at Scale",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：miss",
-      "time": "2026-09-24T16:22:00+00:00",
-      "source": "PR Newswire",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cant-permission-way-surveillance-scale-162200452.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15162,7 +15366,7 @@
     },
     {
       "market": "美股",
-      "symbol": "COIN",
+      "symbol": "MSTR",
       "title": "MSTR Stock Has Become One of the Market’s Most Unusual Bets",
       "bias": "中性待确认",
       "impact": "中",
@@ -15179,36 +15383,19 @@
     },
     {
       "market": "美股",
-      "symbol": "ARM",
-      "title": "Bank of America Just Told Investors to Sell UPS, and the Reason Has Nothing to Do With Package Volume",
-      "bias": "中性待确认",
+      "symbol": "MRVL",
+      "title": "Data Centers Will Continue to Drive Robust Growth for Marvell Stock",
+      "bias": "偏利多",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T15:49:30+00:00",
-      "source": "24/7 Wall St.",
+      "reason": "标题包含方向词：growth",
+      "time": "2026-09-24T15:41:56+00:00",
+      "source": "Barchart",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-just-told-investors-154930863.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "ARM",
-      "title": "Chip Stocks Retreat. Qualcomm Secures Apple Licensing Deal.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T15:47:59+00:00",
-      "source": "Investor's Business Daily",
-      "credibility": "中高",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/8ea0b1f5-46a4-34c2-85d6-4408049c70de/chip-stocks-retreat.-qualcomm.html",
+      "url": "https://finance.yahoo.com/technology/articles/data-centers-continue-drive-robust-154156827.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15226,23 +15413,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/webull-drops-6-selling-outlasts-153930839.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSM",
-      "title": "Trump, XI, and the Future of the AI Trade",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T15:37:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/44ba6b60-ebe8-38d5-a0e3-d90907649e8b/trump%2C-xi%2C-and-the-future-of.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15400,40 +15570,6 @@
     },
     {
       "market": "美股",
-      "symbol": "ARM",
-      "title": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T13:30:50+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-arm-top-pick-83-133050502.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RKLB",
-      "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T13:20:22+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bought-spacex-stock-weeks-132022132.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "MARA",
       "title": "MARA Holdings CEO Frederick Thiel Sells 27,505 Shares",
       "bias": "中性待确认",
@@ -15447,23 +15583,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/mara-holdings-ceo-frederick-thiel-131901557.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "RKLB",
-      "title": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T13:13:26+00:00",
-      "source": "24/7 Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-cathie-wood-trimming-world-131326676.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15587,23 +15706,6 @@
     },
     {
       "market": "美股",
-      "symbol": "RKLB",
-      "title": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T12:05:51+00:00",
-      "source": "GuruFocus.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-made-another-120551447.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "DDOG",
       "title": "Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers.",
       "bias": "中性待确认",
@@ -15685,108 +15787,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/afd4ed28-74ac-3a2f-9b1e-cd36aefdb79e/in-the-age-of-ai%2C-cash-is.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "HOOD",
-      "title": "2 Unpopular Stocks That Deserve a Second Chance and 1 We Avoid",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T08:16:54+00:00",
-      "source": "StockStory",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-unpopular-stocks-deserve-second-081654924.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Meta Platforms Unveils Muse AI Agent, Expands Smart Glasses and VR Push",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T03:02:05+00:00",
-      "source": "MarketBeat",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-unveils-muse-ai-030205273.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "SHOP",
-      "title": "Amazon Blocked Meta's AI Shopping Agent. Shopify Welcomed It -- and Gets Paid on Every Checkout.",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-24T01:58:01+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-blocked-metas-ai-shopping-015801965.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "DDOG",
-      "title": "Datadog (DDOG) Gains As Market Dips: What You Should Know",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-23T21:45:02+00:00",
-      "source": "Zacks",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-gains-market-dips-214502312.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "NET",
-      "title": "Cloudflare Insider Sold Shares Worth $1,765,751, According to a Recent SEC Filing",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–10个交易日",
-      "event_type": "监管/调查",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-23T21:18:01+00:00",
-      "source": "MT Newswires",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-insider-sold-shares-worth-211801414.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "MRVL",
-      "title": "Marvell and 2 More Stocks to Play the AI Data-Center Boom",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-09-23T20:16:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/0dd411af-0709-3d31-b861-4a0de218822f/marvell-and-2-more-stocks-to.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     }
   ],
