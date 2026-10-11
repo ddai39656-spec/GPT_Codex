@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T01:47:09.827260+00:00",
+  "updated_at": "2026-10-11T07:52:52.230948+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,40 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "TSLA",
+      "title": "Tesla Renames Full Self-Driving Package to Assisted Driving Across Europe",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-10-11T05:11:43+00:00",
+      "source": "TIKR",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-renames-full-self-driving-051143113.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "PLTR",
+      "title": "Top Quality Stocks For October 2026",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-10-11T05:10:51+00:00",
+      "source": "Simply Wall St.",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-quality-stocks-october-2026-051051116.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AMZN",
       "title": "Can CoreWeave Unseat Amazon Web Services as the Top Cloud Provider?",
       "bias": "中性待确认",
@@ -14941,23 +14975,6 @@
     },
     {
       "market": "美股",
-      "symbol": "TSLA",
-      "title": "Cathie Wood Just Cut Her SpaceX Position. Is It Time to Sell?",
-      "bias": "偏利空",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：cut",
-      "time": "2026-10-10T15:53:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-cut-her-155300189.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "AAPL",
       "title": "Like Meta's Muse AI Agents? 4 AI Semiconductor Stocks Set to Benefit From the Rise of AI Agents.",
       "bias": "中性待确认",
@@ -15162,7 +15179,7 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
+      "symbol": "V",
       "title": "The Nordic Formula for Prospering in a Dangerous, Fragmented World",
       "bias": "中性待确认",
       "impact": "中",
@@ -15260,23 +15277,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-global-coin-brings-crypto-111826997.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "PLTR",
-      "title": "Microsoft Plus 2 Elite Defensive Stocks",
-      "bias": "中性待确认",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-10-10T10:12:09+00:00",
-      "source": "Simply Wall St.",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-plus-2-elite-defensive-101209605.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
