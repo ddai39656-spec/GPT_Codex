@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-10T22:52:32.533713+00:00",
+  "updated_at": "2026-10-11T01:47:09.827260+00:00",
   "freshness": {
     "expected_minutes": 20,
     "status": "fresh",
@@ -14431,6 +14431,23 @@
   "events": [
     {
       "market": "美股",
+      "symbol": "AMZN",
+      "title": "Can CoreWeave Unseat Amazon Web Services as the Top Cloud Provider?",
+      "bias": "中性待确认",
+      "impact": "中",
+      "horizon": "1–3个交易日",
+      "event_type": "一般新闻",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-10-10T23:30:00+00:00",
+      "source": "Motley Fool",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/technology/articles/coreweave-unseat-amazon-services-top-233000071.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
       "symbol": "AAPL",
       "title": "Is AT&T (T) Ready for a Starlink World After Its Latest Fiber and iPhone Duo Moves?",
       "bias": "中性待确认",
@@ -14584,23 +14601,6 @@
     },
     {
       "market": "美股",
-      "symbol": "MA",
-      "title": "How to Monetize Mastercard’s Weakness Before It Reports Earnings",
-      "bias": "中性待确认",
-      "impact": "高",
-      "horizon": "1–5个交易日",
-      "event_type": "财报/指引",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-10-10T18:47:00+00:00",
-      "source": "Barrons.com",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/m/92c684bb-7b70-389a-a6da-44ffa1f725e5/how-to-monetize-mastercard%E2%80%99s.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
       "symbol": "TSLA",
       "title": "Tesla rival appears to have a demand problem",
       "bias": "中性待确认",
@@ -14614,6 +14614,23 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-rival-appears-demand-problem-184700961.html",
+      "analysis_limit": "基于标题分类，打开原文后再确认"
+    },
+    {
+      "market": "美股",
+      "symbol": "MA",
+      "title": "How to Monetize Mastercard’s Weakness Before It Reports Earnings",
+      "bias": "中性待确认",
+      "impact": "高",
+      "horizon": "1–5个交易日",
+      "event_type": "财报/指引",
+      "reason": "标题方向不明确，必须结合正文和价格反应",
+      "time": "2026-10-10T18:47:00+00:00",
+      "source": "Barrons.com",
+      "credibility": "中",
+      "novelty": "新近",
+      "priced_in": "待价格验证",
+      "url": "https://finance.yahoo.com/m/92c684bb-7b70-389a-a6da-44ffa1f725e5/how-to-monetize-mastercard%E2%80%99s.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -14771,19 +14788,19 @@
     },
     {
       "market": "美股",
-      "symbol": "AMZN",
-      "title": "Amazon.com (AMZN) Patched Critical AWS Bedrock AgentCore Security Flaws",
-      "bias": "中性待确认",
+      "symbol": "TSLA",
+      "title": "SpaceX’s Terafab Probably Won’t Deliver Very High Profits, Despite Taiwan Semiconductor’s Limited Role",
+      "bias": "偏利多",
       "impact": "中",
       "horizon": "1–3个交易日",
       "event_type": "一般新闻",
-      "reason": "标题方向不明确，必须结合正文和价格反应",
-      "time": "2026-10-10T17:12:50+00:00",
-      "source": "Simply Wall St.",
+      "reason": "标题包含方向词：profit",
+      "time": "2026-10-10T17:19:23+00:00",
+      "source": "Barchart",
       "credibility": "中",
       "novelty": "新近",
       "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-patched-critical-171250657.html",
+      "url": "https://finance.yahoo.com/technology/articles/spacex-terafab-probably-won-t-171923122.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
@@ -15056,23 +15073,6 @@
       "novelty": "新近",
       "priced_in": "待价格验证",
       "url": "https://finance.yahoo.com/m/14772ad4-6d0f-356a-88f1-942838969885/ge-vernova%2C-snowflake-lead-5.html",
-      "analysis_limit": "基于标题分类，打开原文后再确认"
-    },
-    {
-      "market": "美股",
-      "symbol": "TSLA",
-      "title": "Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out.",
-      "bias": "偏利多",
-      "impact": "中",
-      "horizon": "1–3个交易日",
-      "event_type": "一般新闻",
-      "reason": "标题包含方向词：beat",
-      "time": "2026-10-10T15:21:00+00:00",
-      "source": "Motley Fool",
-      "credibility": "中",
-      "novelty": "新近",
-      "priced_in": "待价格验证",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-beat-delivery-estimates-25-152100221.html",
       "analysis_limit": "基于标题分类，打开原文后再确认"
     },
     {
